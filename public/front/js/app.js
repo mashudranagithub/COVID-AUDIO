@@ -18,6 +18,7 @@ recordButton.addEventListener("click", startRecording);
 stopButton.addEventListener("click", stopRecording);
 pauseButton.addEventListener("click", pauseRecording);
 
+
 function startRecording() {
 	// console.log("recordButton clicked");
 
@@ -71,6 +72,12 @@ function startRecording() {
 		rec.record()
 
 		// console.log("Recording started");
+
+		
+		setTimeout(stopRecording, 5000);
+
+		
+
 
 	}).catch(function(err) {
 	  	//enable the record button if getUserMedia() fails

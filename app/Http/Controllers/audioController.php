@@ -15,7 +15,7 @@ class audioController extends Controller
     public function index()
     {
         $audios = audio::all();
-        return view('audio-list', compact(
+        return view('demo.audio-list', compact(
             'audios'
         ));
     }
