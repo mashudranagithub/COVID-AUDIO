@@ -1,0 +1,342 @@
+/*******************************
+1. Common CSS Start Here
+*******************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+button.btn.btn-register {
+    background: #405AD5;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    margin-top: 25px;
+    border-radius: 0;
+}
+
+
+#Header {
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section#Registration {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F2FB;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    left: -300px;
+    top: -260px;
+    height: 375px;
+    width: 1200px;
+    background: url(../images/registration/logo-path.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.logo a img {
+    max-width: 95%;
+}
+
+section#Registration .container {
+    padding-top: 150px;
+}
+
+.registration-form {
+    max-width: 90%;
+}
+
+.registration-form h2 {
+    font-size: 34px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.registration-form form {
+    max-width: 85%;
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+    box-shadow: none;
+}
+
+button.btn.btn-register img {
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+button.btn.btn-register:hover {
+    background: red;
+}
+
+
+
+
+/*Record page*/
+
+header#Record_header {
+    min-height: 130px;
+    background: #fff;
+}
+
+.warning p {
+    font-size: 20px;
+    color: #405AD5;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.warning img {
+    max-width: 50px;
+    margin-left: 25px;
+}
+
+.warning p {
+    font-size: 18px;
+    color: #405AD5;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+section#Intro {
+    padding: 50px 0;
+    background: #f8f8f8;
+}
+
+section#Intro p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+header#Record_header .logo::after {
+    background: none;
+}
+
+
+
+#How_record {
+    background: #f8f8f8;
+}
+
+section#How_record .container {
+    background: #6C7FD8;
+    max-width: 1110px;
+    padding: 30px 20px;
+    color: #fff;
+}
+
+section#How_record h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+section#How_record p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+section#Question {
+    padding: 80px 0 20px;
+}
+
+section#Question .section-heading h2 {
+    color: #1E1D22;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.question-block {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.block-heading {
+    background: #6c7fd8;
+    padding: 15px 20px;
+}
+
+.block-heading h3 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+ol.questions {
+    background: #f8f8f8;
+}
+
+ol.questions li {
+    padding-left: 10px;
+    display: list-item;
+    background: #f8f8f8;
+    margin: 2px 0 0 35px;
+    position: relative;
+    line-height: 65px;
+}
+
+ol.questions li::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -35px;
+    border: 2px solid #fff;
+    width: 82vw;
+}
+
+
+
+
+
+.buttons .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #BCBCBC;
+    margin-left: 3px;
+    width: 80px;
+    border-radius: 0;
+    border: none;
+    padding: 8px 0;
+    outline:none;
+    box-shadow: none;
+}
+
+.buttons .btn img {
+    max-height: 15px;
+}
+
+.buttons .btn span {
+    color: #fff;
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+button.btn.btn-record:hover {
+    background: #C58C06;
+}
+
+button.btn.btn-record:hover {
+    background: #C58C06;
+}
+
+button.btn.btn-play:hover {
+    background: #105DA9;
+}
+
+button.btn.btn-upload:hover {
+    background: #02A839;
+}
+
+button.btn.btn-delete:hover {
+    background: #F21717;
+}
+
+
+section#Agree {
+    background: #E88F0C;
+    min-height: 120px;
+}
+
+section#Agree p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: 20px;
+}
+
+section#Agree input[type="checkbox"] {
+    border: none;
+    background: none;
+}
+
+
+
+section#Submit {
+    background: #6C7FD8;
+    min-height: 180px;
+}
+
+section#Submit button.btn.btn-submit {
+    padding: 5px 30px;
+    border: 1px solid #fff;
+    border-radius: 0;
+    font-size: 18px;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section#Submit button.btn.btn-submit:hover {
+    background: #015798;
+    border: 1px solid #015798;
+}
+
+/*************************************************************
+**************************************************************
+                    RESPONSIVE STYLES
+**************************************************************
+*************************************************************/
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media (min-width: 1921px){
+
+}
+
+@media (min-width: 1367px){
+
+}

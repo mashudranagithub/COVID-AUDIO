@@ -1494,6 +1494,12 @@
 				</div>
 			</div>
 
+			<div class="row">
+				<div class="col-md-12">
+					<a href="{{ route('vUserCreatePage') }}" class="btn btn-jpg">Voice</a>
+				</div>
+			</div>
+
 		</div>
 	</section><!-- Advocacy End Here -->
 
