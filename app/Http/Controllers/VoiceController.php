@@ -56,44 +56,23 @@ class VoiceController extends Controller
      */
     public function store(Request $request)
     {
-
-
-if(isset($_FILES)){
-
-
-    foreach($_FILES as $file){
-
-    $session_phone = Session::get('s_phone');
-
-    $data = new Voice;
-
-        $size = $file['size']; 
-        $input = $file['tmp_name'];
-        $output = "data/". $session_phone . '_' . $file['name'];
-        
-        $without_extension = substr($file['name'], 0, strrpos($file['name'], "."));
-
-        $f = explode('id_', $without_extension);
-
-        $data->vuser_phone = $session_phone;
-        $data->qusetion_id = $f[1];
-        $data->answer = $output;
-
-        $data->save();
-        
-        move_uploaded_file($input, $output);
-    }
-    return redirect()->route('vUserCreatePage')->with('msg','Voice Record saved Successfully');
-}
-
-        // $vuser->save();
-
-
-
-        // return redirect()->route('record')->with('msg','Voice Record saved Successfully');
-
-
-
+        if(isset($_FILES)){
+            foreach($_FILES as $file){
+            $session_phone = Session::get('s_phone');
+            $data = new Voice;
+                $size = $file['size']; 
+                $input = $file['tmp_name'];
+                $output = "data/". $session_phone . '_' . $file['name'];
+                $without_extension = substr($file['name'], 0, strrpos($file['name'], "."));
+                $f = explode('id_', $without_extension);
+                $data->vuser_phone = $session_phone;
+                $data->qusetion_id = $f[1];
+                $data->answer = $output;
+                $data->save();
+                move_uploaded_file($input, $output);
+            }
+            return redirect()->route('vUserCreatePage')->with('msg', 'Voice Record saved Successfully');
+        }
     }
 
     /**

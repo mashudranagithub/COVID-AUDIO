@@ -323,6 +323,22 @@ section#Submit button.btn.btn-submit:hover {
     border: 1px solid #015798;
 }
 
+section#Our-donors {
+    padding: 50px 0;
+}
+
+section#Our-donors h3 {
+    color: #405ad5;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+section#Our-donors .donor-logo img {
+    max-height: 120px;
+}
+
 /*************************************************************
 **************************************************************
                     RESPONSIVE STYLES

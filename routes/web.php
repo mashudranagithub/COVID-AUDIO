@@ -13,16 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/demo', function () {
-//     return view('demo.index');
-// })->name('index');
-
-Route::get('/', function(){
-	return view('covid.index');
-});
-
-// Route::post('upload', 'audioController@store')->name('audioSave');
-// Route::get('audio-list', 'audioController@index')->name('audioList');
+Route::get('/', 'FrontController@index')->name('homePage');
+Route::get('/awareness', 'FrontController@awareness')->name('awarenessPage');
+Route::get('/advocacy', 'FrontController@advocacy')->name('advocacyPage');
+Route::get('/webinars', 'FrontController@webinars')->name('webinarsPage');
 
 
 Route::get('/v', 'VuserController@create')->name('vUserCreatePage');
@@ -46,6 +40,11 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::get('/question/edit/{id}', 'QuestionController@edit')->name('questionEdit');
 	Route::put('/question/update/{id}', 'QuestionController@update')->name('questionUpdate');
 	Route::delete('/question/delete/{id}', 'QuestionController@destroy')->name('questionDelete');
+
+
+	Route::get('/voice/users', 'VuserController@index')->name('vUsers');
+	Route::get('/vuser/{id}', 'VuserController@show')->name('vuserShow');
+	Route::delete('/vuser/delete/{id}', 'VuserController@destroy')->name('vuserDelete');
 
 	
 

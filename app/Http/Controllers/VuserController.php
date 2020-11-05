@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Vuser;
 use App\Question;
+use App\Voice;
 use DB;
 use Session;
 
@@ -17,7 +18,10 @@ class VuserController extends Controller
      */
     public function index()
     {
-        //
+        $vusers = Vuser::orderBy('created_at', 'desc')->paginate(10);
+        return view('admin.vusers.index', compact(
+            'vusers'
+        ));
     }
 
     /**
@@ -75,7 +79,18 @@ class VuserController extends Controller
      */
     public function show($id)
     {
-        //
+        $vuser = Vuser::find($id);
+
+        $vuser_all_data = Vuser::join('voices', 'voices.vuser_phone', '=', 'vusers.m_phone')
+            ->join('questions', 'questions.id', '=', 'voices.qusetion_id')
+            ->where('vusers.id', $id)
+            ->select('voices.*', 'questions.question')
+            ->get();
+
+        return view('admin.vusers.show', compact(
+            'vuser',
+            'vuser_all_data'
+        ));
     }
 
     /**

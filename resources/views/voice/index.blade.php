@@ -32,12 +32,6 @@
 			</div>
 <div class="row">
 	<div class="col-md-12">
-@if(Session::has('smessage'))
-    <div class="alert alert-block alert-success">
-        <i class=" fa fa-check cool-green "></i>
-        {{ nl2br(Session::get('smessage')) }}
-    </div>
-@endif
 	@if ($msg = Session::get('msg'))
 	    <div class="alert alert-success">
 	        <p>{{ $msg }}</p>
@@ -87,6 +81,29 @@
 				<div class="col-md-6">
 					<div class="registration-image">
 						<img src="{{ asset('voice/assets/images/registration/man-at-the-office-2127140-1.png') }}" alt="Registration Image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="Our-donors">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3>Our Donors</h3>
+				</div>
+			</div>
+			<div class="row justify-content-around">
+				<div class="col-md-4">
+					<div class="donor-logo">
+						<img src="{{ asset('voice/assets/images/registration/donors/Share-Net-International-logo.png') }}" alt="Donor logo image">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="donor-logo">
+						<img src="{{ asset('voice/assets/images/registration/donors/MJFlogo.jpg') }}" alt="Donor logo image">
 					</div>
 				</div>
 			</div>

@@ -112,10 +112,10 @@ function createBlobFile(blob) {
     
 }
 
-function uploadMyRecord(id){
+// function uploadMyRecord(id){
   
   
-}
+// }
 
 
 function deleteMyRecord(id){
@@ -171,9 +171,7 @@ function uploadAllFiles(){
     
     var fd=new FormData();
 
-
         fd.append("_token", _token);
-
 
     for(id in RECORDS){ 
         //console.log('id search ',id);

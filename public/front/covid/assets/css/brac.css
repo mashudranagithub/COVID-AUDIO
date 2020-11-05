@@ -1327,6 +1327,25 @@ ul.icccad-news li {
     padding-left: 5px;
 }
 
+#Advocacy .single-edu-faq h3.show-details a {
+    color: #802988;
+    font-size: 20px;
+}
+
+#Advocacy .single-edu-faq .course-details h4 {
+    color: #802988;
+}
+
+#Advocacy .education-text table {
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+#Advocacy .education-text table tr td, #Advocacy .education-text table tr th {
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
 /*******************************
 7. Advocacy CSS End Here
 *******************************/

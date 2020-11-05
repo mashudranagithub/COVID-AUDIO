@@ -22,10 +22,10 @@
 							</button>
 							<div class="collapse navbar-collapse" id="navbarSupportedContent">
 								<ul class="navbar-nav mr-auto">
-									<li><a class="nav-link education-color" href="#Education">EDUCATION</a></li>
-									<li><a class="nav-link training-color" href="#Training">TRAINING</a></li>
-									<li><a class="nav-link research-color" href="#Research">RESEARCH</a></li>
-									<li><a class="nav-link advocacy-color" href="#Advocacy">ADVOCACY</a></li>
+									<li><a class="nav-link education-color" href="{{ route('homePage') }}#Education">EDUCATION</a></li>
+									<li><a class="nav-link training-color" href="{{ route('homePage') }}#Training">TRAINING</a></li>
+									<li><a class="nav-link research-color" href="{{ route('homePage') }}#Research">RESEARCH</a></li>
+									<li><a class="nav-link advocacy-color" href="{{ route('homePage') }}#Advocacy">ADVOCACY</a></li>
 								</ul>
 							</div>
 						</nav><!-- Main Navigation Menu End Here -->

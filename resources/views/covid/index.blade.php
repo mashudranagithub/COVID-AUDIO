@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 	<div class="header-bottom">
 		<div class="container">
 			<div class="row">
@@ -77,14 +78,14 @@
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
 						<h3 class="float-left">COVID-19 AWARENESS</h3>
-						<a target="_blank" href="awareness.html" class="float-right">View All</a>
+						<a target="_blank" href="{{ route('awarenessPage') }}" class="float-right">View All</a>
 					</div>
 				</div>
 				<div class="col-md-12">
 					<div class="owl-carousel awareness-slider">
 						<div class="single-awareness">
 							<div class="awareness-image">
-								<a target="_blank" href="assets/files/homeCare/Home-care-recommendation_English_09 06 2020 _English.pdf') }}">
+								<a target="_blank" href="{{ asset('front/covid/assets/files/homeCare/Home-care-recommendation_English_09 06 2020 _English.pdf') }}">
 									<img src="{{ asset('front/covid/assets/images/awareness/home-care.jpg') }}" alt="Home Care">
 								</a>
 							</div>
@@ -158,6 +159,70 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Students designing life course approach intervention</b></a></h3>
+						<div class="course-details">
+							<p class="mb-2">The current batch of MPH students of BRAC James P Grant School of Public Health at BRAC University is undertaking a 2 week long course on Aging and Health (MPH 681), started from October 11, 2020. This module introduced the students to population ageing, its underlying factors as well as regional and gender dimensions of ageing. Implications of rapid population ageing in low-income countries in the context of public health and care for older persons will be discussed. Students are exploring the preventable conditions which are causing mortality among the older population. Such as intestinal infections and nutrition related problems are still common in low-income regions of the world. The overall objective of the module is to provide an understanding of ageing taking a life-course approach and the necessity to view ageing from a multi-disciplinary perspective.</p>
+
+							<p class="mb-2">We have professor Malay Kanti Mridha from JPGSPH and Professor Dr. Fariha Haseen from BSMMU  to Coordinate the entire module, along with the following faculty members-</p>
+
+							<p class="mb-2">Syed Masud Ahmed (BRAC JPGSPH), Malabika Sarker (BRAC JPGSPH), Helal Uddin Ahmed (NIMH), Manna Rahman (VSO), Mehedi Hasan (BRAC JPGSPH), Abu Hanif Mohammad Abdullah (BRAC JPGSPH).</p>
+
+							<p class="mb-2">We also have Ipsita Sutradhar (BRAC JPGSPH) as a resource person and Nazrana Khaled (BRAC JPGSPH) and Fahmida Akter (BRAC JPGSPH). </p>
+
+							<p>Students are analyzing public health implications of population growth and burden of NCDs globally and at a national level in terms of the magnitude of the problem (economic burden, social burden and future impact). Identifying the multiple facets of ageing including functional ability, social support, role of the older persons, formal and informal care for older persons. Assessing the social, political, environmental, cultural and economic factors contributing to the burden of NCDs and illustrating health promotion aspects for preparation for healthy ageing from young adulthood through Mini Seminars arranged and conducted by the students in pairs or small groups everyday.</p>
+
+
+						</div>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Virtual tour of Hospital setting in a LMIC: Exploring the Nutritional Status of Children</b></a></h3>
+						<div class="course-details">
+							<p>The two-week long course on Public Health Nutrition started on September 27 th , 2020 and
+							the School prepared practical video shoots on the following:</p>
+							<p class="mb-2">1. How to assess nutritional status of children and women: anthropometric techniques, Z
+							scores and their interpretation</p>
+							<p class="mb-2">2. Assessment of nutritional status: anthropometric techniques and their use</p>
+							<p class="mb-2">3. Interviews and interpretation of the findings on Management of stunting, underweight,
+							wasting, severe acute malnutrition, and Nutritional rehabilitation of severely malnourished
+							children.</p>
+							<p class="mb-3">4. Practical demonstration of the Preparation of therapeutic diets: F-75 and Khichuri and
+							Nutritional rehabilitation.</p>
+
+							<p class="mb-3">The Students were able to get a virtual tour of the Dhaka hospital and see the rehabilitation
+							wards and interview of patients which helped them understand and conceptualize the
+							causes of malnutrition learning from a hospital setting, gain an idea on assessment of
+							nutritional status of children and women, and the different methods of improving intake of
+							nutrients.</p>
+							<p class="mb-3">In this module, Dr. Tahmeed Ahmed, MBBS, PhD, Senior Director & Senior Scientist,
+							Nutrition & Clinical Services Division (NCSD), ICDDR,B and Professor, BRAC James P Grant
+							School of Public Health, BRAC University is the Coordinator and teacher. He’s the first ever
+							Bangladeshi to take up the position of Executive Director of ICDDR,B. Several scientists and
+							research Investigators are partaking in this course to enrich the students with their practical
+							knowledge and experiences through teaching different sessions.</p>
+							<p>Students gained experience on food security, IYCF, nutrition during infections, nutrition
+							during adolescence and pregnancy etc with supervision from Research officers, Research
+							Investigators and Research Physicians from Icddrb.</p>
+						</div>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Why Gender, sexual and reproductive health & rights matter?</b></a></h3>
+						<div class="course-details">
+							<p class="mb-3">Gender, sexual and reproductive health & rights (MPH 660) module started on the 6th of September, 2020 and designed in a way which will help the students to acquire broad perspective on sexual and reproductive health and rights of women and men and other vulnerable groups, gain a layered understanding of the broader factors that shape sexual and reproductive health and rights. Some of the layers that will be considered (with varying emphases for particular topics) are: epidemiology, anthropology, policy, human rights, and health programs. The course will explore how global and local agendas and contexts (social, cultural and political economic factors), and gender shape health experiences (i.e quality of care, neglect and other forms of denial, which impacts on access and rights).</p>
+							<p class="mb-3">This module is Coordinated by Dr Sabina Faiz Rashid - Dean and Professor, BRAC James P Grant School of Public Health, BRAC University, Dhaka, Bangladesh, with the Co-coordinator Ms. Bachera Aktar - Assistant Director, The Center of Excellence for Gender, Sexual and Reproductive Health and Rights (CGSRHR), James P Grant School of Public Health, BRAC University, Dhaka, Bangladesh.</p>
+							<p class="mb-3">‘Online Debates’ are a new addition and an integral part of this course. The objective of these debates is for students to understand global policies and local realities which impact on rights, and have a healthy and logical discussions on the intersections between gender, socio-cultural, political and economic factors as they affect adversely reproductive health experiences and rights.</p>
+							<p>Topics such as  Legalization of abortion increases the rate of pre-marital sex and other ‘illicit’ relationships; Basic Comprehensive Sexuality education should be mandatory in primary education in all schools (Age 10 years and above); LGBTQI have the right to adopt children or have children of their own (i.e surrogacy); Need to promote and provide access to contraceptives for college going (grade 11 & 12) and university students in Educational Institution were discussed in these debates</p>
+						</div>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Multi-country virtual study in Infectious Diseases course during pandemic</b></a></h3>
+						<div class="course-details">
+							<p class="mb-3">Epidemiology of Infectious Diseases (MPH 620), a 3-week long course that started August 9th, introduced the students to a wide range of infectious diseases through illustrating the principles of infectious diseases around the globe. The course was conducted online and students acquired knowledge on the high burden of disease with data driven presentations from faculty members all over the world as well as strategies to reduce infectious disease burden in a low resource context.</p>
+							<p class="mb-3">Dr. Richard A. Cash, Professor: Global Health and Population, Harvard T.H. Chan School of Public Health, USA; and Professor, BRAC JPG School of Public Health; Infectious Diseases; Research Ethics, and Dr. Stephen P. Luby, Professor
+							of Medicine (Infectious Diseases), Associate Dean for Global Health Research, Stanford University, USA coordinated the entire module, along with other national and international faculty members. As per the requirement of the  course, the students worked in groups and designed small study to assess impact of COVID-19 on issues related to social and health seeking behavior during pandemic: Livelihood, Health care seeking behavior, Trust in organizations, Mental health, and Adaptation of behaviour i.e. use of masks/facial covering, hand washing, etc.</p>
+							<p>This is the first time the students conducted research in different countries simultaneously, which included the UK, India, Indonesia, Myanmar, Bangladesh, Maldives, Philippines. They collected quantitative and qualitative data through a variety of online data collection platforms including Phone interviews, online survey via different online platforms like Google, Facebook. Some of the research included Change in Healthcare Seeking Behaviour and Adaptation of Behaviour.</p>
+						</div>
+					</div>
 					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>MPH Students to analyse Health System and Policy of different countries</b></a></h3>
 						<div class="course-details">
@@ -256,11 +321,11 @@
 						<p>Online resource tools such as Moodle and Zoom allow students and faculty members from Bangladesh and Australia to do online discussion sessions and coaching (i.e. live and recorded) so students can continue to learn. Presently, the Epidemiology course is being taught online, and is coordinated by Dr. Shams El Arifeen, Senior Director, icddrb & Professor, BRAC JPG School of Public Health, with support from Dr. Nusrat Homaira, Senior Lecturer at UNSW School of Women’s and Children’s Health, Australia,  SK Masum Billah, PhD Researcher at University of Sydney School of Public Health & Adjunct Lecturer at BRAC JPG School of Public Health and other faculty members- and Teaching Fellows-  and MPH team from BRAC JPG School of Public Health.</p>
 						<p>More updates available on this website as the courses continue online.</p>
 					</div>
-					<h5><a href="assets/files/etra/Annual_Report_2018_Education.pdf') }}" target="_blank">Click here for more information on MPH programme</a></h5>
+					<h5><a href="{{ asset('front/covid/assets/files/etra/Annual_Report_2018_Education.pdf') }}" target="_blank">Click here for more information on MPH programme</a></h5>
 				</div>
 				<div class="col-md-6">
 					<div id="evoCalendar" class="sidebar-hide"></div>
-					<h5><a href="assets/files/MPHCalendar2020-21-Final.pdf') }}" target="_blank">Click here to see the full MPH Academic Calendar 2020-21 in pdf file</a></h5>
+					<h5><a href="{{ asset('front/covid/assets/files/MPHCalendar2020-21-Final.pdf') }}" target="_blank">Click here to see the full MPH Academic Calendar 2020-21 in pdf file</a></h5>
 				</div>
 			</div>
 			<div class="row">
@@ -313,80 +378,40 @@
 				</div> -->
 				<div class="col-md-12">
 					<ul>
-
-						<!-- 12 August 2020 -->
 						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">COVID-19 and Youth Initiatives</h4></li>
+							<li><h4 class="show-webinar">Community Health Workers During COVID-19</h4></li>
 							<div class="webinar-details">
 								<div class="row">		
 									<div class="col-md-6">
 										<div class="education-text">
 
-											<p><b>DATE:  </b>Wednesday, 12 August 2020</p>
-											<p><b>TIME:  </b>3:30 PM to 5:00 PM</p>
+											<p><b>DATE:  </b>11 October 2020, Sunday</p>
+											<p><b>TIME:  </b>4:00 pm -  5:30 pm  Bangladesh Standard Time</p>
 
-											<p><b>PANEL SPEAKERS:</b></p>
-											<p><b>1. Sarah Kamal, </b>2020 National President, Junior Chamber International (JCI) Bangladesh</p>
-											<p><b>2. Tawhida Shiropa, </b>Founder and CEO, Moner Bondhu</p>
-											<p><b>3. Sharnila Nuzhat Kabir, </b>Youth Advocate</p>
-											<p><b>4. Md. Sadequl Arefeen, </b>Co-founder The Earth Society</p>
+											<p><b>Panellists:</b></p>
 
-											<p><b>Full Recording: </b><a target="_blank" href="https://www.youtube.com/watch?v=gtrNcUjVRFU">https://www.youtube.com/watch?v=gtrNcUjVRFU</a></p>
+											<p><b>1. Dr AKM Rezaul Haque</b>, Senior Director, Health and Training, Gonoshasthaya Kendra(GK)</p>
+											<p><b>2. Dr Fawzia Rasheed</b>, Senior Adviser to the Director of Health of the Aga Khan Development Network</p>
+											<p><b>3. Dr Mushtaque Chowdhury</b>, Advisor, BRAC JPGSPH, Convener, Bangladesh Health Watch(BHW)</p>
+											<p><b>4. Dr Morseda Chowdhury</b>, Associate Director at Health, Nutrition and Population Programme, BRAC Bangladesh</p>
 
-											<p><b>Presentation: </b><a target="_blank" href="https://drive.google.com/drive/folders/1n_yGiMFxXDxb2N6WO5OaAOGqZov1IrSN">https://drive.google.com/drive/
-											folders/1n_yGiMFxXDxb2N6WO5OaAOGqZov1IrSN</a></p>
+											<p><b>The webinar seats are limited and will be filled on a rolling basis. To join, please Sign Up:</b>
+											<a class="mb-3" target="_blank" href="https://forms.gle/3rNPUYWXeSzpn196A">https://forms.gle/3rNPUYWXeSzpn196A</a></p>
 
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/SPH_webinar-12820.jpg') }}" alt="Webinar Banner Image">
+											<img src="{{ asset('front/covid/assets/images/webinar/community-health-workers.jpg') }}" alt="Webinar Banner Image">
 										</div>
 										<hr>
-										
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/SPH_webinar-12820.jpg') }}" target="_blank">Click here to see more</a></h5>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- 13 July -->
-						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">Covid-19: knowledge, practices, health and socio-economic impact in bangladesh</h4></li>
-							<div class="webinar-details">
-								<div class="row">		
-									<div class="col-md-6">
-										<div class="education-text">
-
-											<p><b>DATE:  </b>14 July 2020, Tuesday</p>
-											<p><b>TIME:  </b>3:30 PM -  5:00 PM  Bangladesh Standard Time <br>10:30 AM - 12:00 PM British Summer Time</p>
-
-											<p><b>PANEL SPEAKERS:</b></p>
-											<p><b>1. Dr Malay Kanti Mridha,</b> Professor & Director of Centre of Excellence for Non-Communicable Disease(CNCDN), BRAC James P Grant School of Public Health, BRAC University</p>
-											<p><b>2. Professor John Chambers,</b> Director, NIHR Global Health Research Unit for diabetes and Cardiovascular Disease in South Asians; Professor of Cardiovascular Epidemiology, Imperial College London, UK; Consultant Cardiologist, London North West Hospitals NHS Trust, UK</p>
-											<p><b>3. Dr Mehedi Hasan, </b> Senior Research Fellow & Coordinator, Center for Non-communicable Diseases and Nutrition, BRAC James P Grant School of Public Health, BRAC University</p>
-											<p><b>4. Dr Abu Abdullah Mohammad Hanif,</b> Senior Research Fellow, Center for Non-communicable Diseases and Nutrition, BRAC James P Grant School of Public Health, BRAC University</p>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/ncd-05.jpg') }}" alt="Webinar Banner Image">
-										</div>
-										<hr>
-										<!-- <p class="mb-1"><b>Presentations:</b></p>
-										<a href="#">#</a> -->
 
 										<p class="mb-3"></p>
 
-										<p class="mb-1"><b>Full Webinar Video:</b></p>
-										<a href="https://www.facebook.com/watch/live/?v=689374144946247&ref=watch_permalink">https://www.facebook.com/watch/
-										live/?v=689374144946247&ref=watch_permalink</a>
-
-										<p class="mb-3"></p>
+										<p><b>The webinar will be broadcast live on the BRAC JPGSPH Facebook Page:</b> <a class="mb-3" target="_blank" href="http://www.facebook.com/BRACJPGSPH">http://www.facebook.com/BRACJPGSPH</a></p>
 										
 
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/ncd-05.jpg') }}" target="_blank">Click here to see more</a></h5>
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/community-health-workers.jpg') }}" target="_blank">Click here to see more</a></h5>
 
 										
 									</div>
@@ -395,141 +420,191 @@
 						</div>
 
 						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">Rohingya Crisis: A Persepective from Bangladesh</h4></li>
+							<li><h4 class="show-webinar">Colourism in South Asia</h4></li>
 							<div class="webinar-details">
 								<div class="row">		
 									<div class="col-md-6">
 										<div class="education-text">
 
-											<p><b>DATE:  </b>10 July 2020</p>
-											<p><b>TIME:  </b>9:00 PM Bangladesh Standard Time <br>
-											10 :00 AM Winnipeg, Canada Time</p>
+											<p><b>DATE:  </b>24 September, 2020</p>
+											<p><b>TIME:  </b>4.00PM to 5.00PM (BD Time) <br>3.30PM to 4.30PM (India Time)</p>
+
+											<p><b>Welcome by:</b></p> 
+											<p><b>Sabina Faiz Rashid,</b>PhD, Dean and Professor, BRAC James P Grant School of Public Health, Associate Vice President, IMPACT, BRAC University</p>
+
+											<p><b>Speaker:</b></p>
+											<p><b>Nandita Das, </b>Actor, Director and Social Activist, India</p>
+
+											<p><b>Moderator:</b></p>
+											<p><b>Farhana Alam, </b>Assistant Director, Center for Gender, Sexual and Reproductive Health and Rights (CGSRHR), BRAC James P Grant School of Public Health, BRAC University</p>
+
+											<p><b>The webinar seats are limited and will be filled on a rolling basis. To join, please Sign Up:</b>
+											<a class="mb-3" target="_blank" href="https://forms.gle/gT9F2ZarCzy6nGd7A">https://forms.gle/gT9F2ZarCzy6nGd7A</a></p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/colourism-in-asia.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p><b>The webinar will be broadcast live on the BRAC JPGSPH Facebook Page:</b> <a class="mb-3" target="_blank" href="http://www.facebook.com/BRACJPGSPH">http://www.facebook.com/BRACJPGSPH</a></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/colourism-in-asia.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">Webinar on Masculinity and Gender Based Violence</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE: </b>17 September 2020, Thursday</p>
+											<p><b>TIME: </b>4:00 PM -  5:00 PM  Bangladesh Standard Time</p>
 
 											<p><b>PANEL SPEAKERS:</b></p>
-											<p><b>1. Kaosar Afsana PhD,</b> Professor, BRAC James P Grant School of Public Health, BRAC University. Former Director of Health, Nutrition and Population Programme, BRAC</p>
+											<p><b>1. Anand Pawar,</b> Executive Director, SAMYAK, Pune, India</p>
+											<p><b>2. Imtiaz Pavel Neel,</b> Gender and Diversity Justice, Analyst and Filmmaker</p>
+											<p><b>3. Farzana Misha,</b> Research Coordinator, BRAC James P Grant School of Public Health, BRAC University</p>
 
-											<p><b>2. AKM Mazharul Islam, </b>Professor of Anthropology, SUST.
-											Executive Director, Institute of Applied Anthropology.</p>
-
-											<p><b>3. Md. Shamsud Douza, </b>Additional Refugee Relief and Repatriation Commissioner (Deputy Secretary)
-											Refugee Relief and Repatriation Commissioner Office, Cox’s Bazar</p>
-
-											<p><b>4. Mr Md Rashadul Islam, </b>Senior Assistant Secretary and Camp in Charge in FDMN camp 11,12 and 18, Cox’s Bazar</p>
-
+											<p><b>MODERATOR:</b> </p>
+											<p><b>Farhana Alam, </b> Assistant Director (CGSRHR) at BRAC James P Grant School of Public Health, BRAC University</p>
 
 											<p><b>Full Webinar Video: </b>
-											<a class="mb-3" target="_blank" href="https://web.facebook.com/watchparty/742177433275744/?entry_source=FEED ">https://web.facebook.com/watchparty/742177433275744/?entry_source=FEED </a></p>
-											<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/crric.jpg') }}" target="_blank">Click here to see more</a></h5>
+											<a class="mb-3" target="_blank" href="https://www.youtube.com/watch?v=aXsmFt4SmAQ&feature=youtu.be">https://www.youtube.com/watch?v=aXsmFt4SmAQ&feature=youtu.be</a></p>
 
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/crric.jpg') }}" alt="Webinar Banner Image">
+											<img src="{{ asset('front/covid/assets/images/webinar/Webinar-Masculinity.jpg') }}" alt="Webinar Banner Image">
 										</div>
-										<hr>										
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- 08 July -->
-						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">Impact of covid-19 shutdown on the hijra community</h4></li>
-							<div class="webinar-details">
-								<div class="row">		
-									<div class="col-md-6">
-										<div class="education-text">
-
-											<p><b>DATE: </b>9 July 2020, Thursday</p>
-											<p><b>TIME: </b>3:30 PM -  5:00 PM Bangladesh Standard Time (BST) <br>
-												3:00 PM - 4:30 PM Indian Standard Time (IST)
-											</p>
-
-											<p><b>PANEL SPEAKERS:</b></p>
-
-											<p><b>1. MD HELAL UDDIN AHMED,</b> Deputy Director(Social Safety Net), Department of Social Services, Ministry of Social Welfare, Govt of Bangladesh</p>
-
-											<p><b>2. ANINDYA HAJRA, </b>Director, Pratyay Gender Trust Transfeminist, Transgender Rights and Social Justice Activist, Kolkata, India.</p>
-
-											<p><b>3. IVAN AHAMED KATHA, </b>President, Shacheton Hijra Odhikar Shangha. Human Rights Activist </p>
-
-											<p><b>4. TASFIYAH JALIL, </b>Senior Coordinator, BRAC James P Grant School of Public Health, BRAC University  </p>
-
-											<p><b>5. MD. MOSTAFIZUR  RAHMAN, </b>Assistant Coordinator, BRAC James P Grant School of Public Health, BRAC University</p>
-
-											<p><b>MODERATOR:</b></p>
-
-											<p><b>FARHANA ALAM, </b>Assistant Director (CGSRHR), BRAC James P Grant School of Public Health, BRAC University</p>
-
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/shutdown-hijra.jpg') }}" alt="Webinar Banner Image">
-										</div>
-										
 										<hr>
 
-										<p><b>The webinar Full Video: </b>
-										<a class="mb-3" target="_blank" href="https://www.youtube.com/watch?v=RiHwriOqe1g&feature=youtu.be">https://www.youtube.com/watch?v=RiHwriOqe1g&feature=youtu.be</a></p>
 										<p class="mb-3"></p>
-										<p><b>Presentation:</b> </p>
-										<p><b>Tasfiyah Jalil and  Md. Mostafizur Rahman:</b> <br>
-										<a class="mb-3" target="_blank" href="https://drive.google.com/drive/folders/1SuANVb3kvSCtnIC8dHrMpr9aRKFPOvv0">https://drive.google.com/drive/folders/
-										1SuANVb3kvSCtnIC8dHrMpr9aRKFPOvv0</a></p>
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/shutdown-hijra.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+										<p><b>The webinar will be broadcast live on the BRAC JPGSPH Facebook Page:</b> <a class="mb-3" target="_blank" href="http://www.facebook.com/BRACJPGSPH">http://www.facebook.com/BRACJPGSPH</a></p>
+										
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/Webinar-Masculinity.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+										
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- 01 July -->
 
-						<!-- 12 July 2020 -->
 						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">South Asia: The Public Health Response to Covid-19</h4></li>
+							<li><h4 class="show-webinar">Role of Informal health providers in Covid-19</h4></li>
 							<div class="webinar-details">
 								<div class="row">		
 									<div class="col-md-6">
 										<div class="education-text">
-											<p><b>DATE: </b>2 July 2020</p>
-											<p><b>Panelists:</b></p>
-											<p><b>1· Dr Ahmed Mushtaque Raza Chowdhury</b>  was formerly Vice Chair of BRAC, Dhaka, and is an alumnus of LSE Professor</p>
-											<p><b>2. K Srinath Reddy</b> is President Public Health Foundation of India;</p>
-											<p><b>3. Dr Faisal Sultan (@CEOSKMCH) is CEO,</b> Shaukat Khanum Memorial Cancer Hospital & Research Centre, Lahore</p>
-											<p><b>4. Dr Mishal S Khan (@DrMishalK)</b> is Associate Professor in Health Policy, London School of Hygiene and Tropical Medicine.</p>
 
-											<p><b>Chair: Dr Nilanjan Sarkar </b>is Deputy Director, South Asia Centre.</p>
+											<p><b>DATE: </b>August 13, 2020</p>
+											<p><b>TIME: </b>8.30 PM (BD Time)</p>
 
-											<p><b>Webinar Full Video:</b> <br>
-											<a href="https://www.youtube.com/watch?v=pFfRuTU1tOA&feature=emb_logo">https://www.youtube.com/
-											watch?v=pFfRuTU1tOA&feature=emb_logo</a></p>
+											<p><b>Discussants:</b></p> 
+
+											<p><b>1. Dr. A. E. Md. Muhiuddin Osmani, </b>MBBS, FCPS (Medicine), Joint Chief (Health Wing), Planning Commission, Ministry of Planning</p> 
+											<p><b>2. Prof. Jishnu Das,</b> Professor at GWU, Ex-Senior Economist in the Development Research Group at the World Bank</p>
+											<p><b>3. Dr. Aftab Uddin,</b> Public Health Expert and Medical Educationalist</p> 
+											<p><b>4. Dr. Malabika Sarker,</b> Professor and Associate Dean, James P Grant School of Public Health </p>
+												
+											<p><b>Session Chair:</b></p>
+											<p><b>Dr. Abu Mohammad Zakir Hussain,</b> Ex Director, PHC & DC, Former Director IEDCR, Formal Regional Advisor SEARO, WHO</p>
+
+											<p><b>Moderator:</b></p>
+											<p><b>Mahrukh Mohiuddin, </b>Acting Convenor, Working Committee, Health Alliance Bangladesh </p>
+
 
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/south-asia-response.jpg') }}" alt="Webinar Banner Image">
+											<img src="{{ asset('front/covid/assets/images/webinar/informal-healthcare.jpg') }}" alt="Webinar Banner Image">
 										</div>
 										<hr>
+
+										<p><b>Keynote Speaker:</b></p> 
+										<p><b>Rubayat Khan, </b>Founder & CEO, Jeeon</p>
+
+										<p class="mb-1"><b>Full Webinar Video:</b></p>
+										<a href="https://www.facebook.com/watch/live/?v=747135769459709&ref=watch_permalink">https://www.facebook.com/watch/live/?v=747135769459709&ref=watch_permalink</a>
 
 										<p class="mb-3"></p>										
 
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/south-asia-response.jpg') }}" target="_blank">Click here to see more</a></h5>
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/informal-healthcare.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">MiB webinar on “Impacts of Coronavirus on Non-Member RMG Factories in Bangladesh”</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>August 12, 2020</p>
+											<p><b>TIME:  </b>3.00 pm (BD Time)</p>
+
+											<p><b>Discussants:</b></p> 
+												
+											<p><b>1. Md. Kamrul Hasan,</b> Deputy Inspector General, DIFE</p>
+											<p><b>2. Sharif Zahif,</b> Managing Director Ananta Group, Director BGMEA</p>
+											<p><b>3. Dr. Khondakar Golam Moazzem,</b> Research Director, Centre for Policy Dialogue (CPD)</p>
+											<p><b>4. Jenefa Jabbar,</b> Barrister-at-law, Advocate Supreme Court of Bangladesh, Director HRLS and Social Compliance, BRAC</p>
+											<p><b>5. Tania Taslima,</b> Managing Director 2Ts Creation</p>
+											<p><b>6. Tapan Shaha,</b> General Secretary Textile Garments Workers Federation</p>
+											<p><b>7. Mossamat Parvin,</b> RMG worker</p>
+
+											<p><b>Chair:</b></p>
+											<p><b>Prof. Dr. Rahim B. Talukdar,</b> Adviser, CED, Team Leader, Mapped in Bangladesh (MiB), CED-Brac University </p>
+
+											<p><b>Moderator:</b></p>
+											<p><b>Syed Hasibuddin Hussain,</b> Project Manager, Mapped in Bangladesh (MiB),  CED-Brac University</p>
+
+											
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/non-member-rmg.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p><b>Keynote Presenters:</b></p>
+										<p><b>Atonu Rabbani,</b> Phd, Associate Professor, Department of Economics, University of Dhaka, Associate Scientist, BRAC James P Grant School of Public Health</p>
+
+										<p><b>Webinar Video:</b>
+										<a class="mb-3" target="_blank" href="https://www.youtube.com/watch?v=-D8K-Bq2u40&feature=youtu.be">https://www.youtube.com/watch?v=-D8K-Bq2u40&feature=youtu.be</a></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/non-member-rmg.jpg') }}" target="_blank">Click here to see more</a></h5>
 
 										
 									</div>
 								</div>
 							</div>
 						</div>
- 
+
+						<!-- 10th September -->
 
 					</ul>
 
 
 				</div>
 				<div class="col-md-12">
-					<h5><a href="webinars.html" target="_blank">View all webinars</a></h5>
+					<h5><a href="{{ route('webinarsPage') }}" target="_blank">View all webinars</a></h5>
 				</div>
 			</div>
 
@@ -547,11 +622,11 @@
 				</div>
 				<div class="col-md-4">
 					<div class="single-training">
-						<a target="_blank" href="assets/files/Training on COVID-2019_BRAC JPGSPH.pdf') }}">
+						<a target="_blank" href="{{ asset('front/covid/assets/files/Training on COVID-2019_BRAC JPGSPH.pdf') }}">
 							<h5>One week training on awareness, prevention, and protection from COVID-19 was completed with the BRAC JPG School students, researchers, academics, faculty, and management staff.</h5>
 						</a>
 					</div>
-					<h4><a target="_blank" href="assets/files/Training on COVID-2019_BRAC JPGSPH.pdf') }}">Click for Training</a></h4>
+					<h4><a target="_blank" href="{{ asset('front/covid/assets/files/Training on COVID-2019_BRAC JPGSPH.pdf') }}">Click for Training</a></h4>
 				</div>
 				<div class="col-md-4">
 					<div class="single-training">
@@ -559,7 +634,7 @@
 							<img src="{{ asset('front/covid/assets/images/training/bracjpg-office-training.jpg') }}" alt="Training on covid-19">
 						</a>
 					</div>
-					<h4><a target="_blank" href="assets/files/Training on COVID-2019_BRAC JPGSPH.pdf') }}">COVID-19 training for support staff</a></h4>
+					<h4><a target="_blank" href="{{ asset('front/covid/assets/files/Training on COVID-2019_BRAC JPGSPH.pdf') }}">COVID-19 training for support staff</a></h4>
 				</div>
 				<div class="col-md-4">
 					<div class="single-training">
@@ -646,7 +721,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-heading"></div>
-					<h5><a href="assets/files/etra/Annual_Report_2018_Training.pdf') }}" target="_blank">CLICK LINK FOR MORE INFORMATION</a></h5>
+					<h5><a href="{{ asset('front/covid/assets/files/etra/Annual_Report_2018_Training.pdf') }}" target="_blank">CLICK LINK FOR MORE INFORMATION</a></h5>
 				</div>	
 			</div>
 		</div>
@@ -660,7 +735,7 @@
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
 						<h2>Research</h2>
-						<h5 class="mt-3"><a href="assets/files/research/Organisation Capacity Statement.pdf') }}" target="_blank">Click for Organisational statement</a></h5>
+						<h5 class="mt-3"><a href="{{ asset('front/covid/assets/files/research/Organisation Capacity Statement.pdf') }}" target="_blank">Click for Organisational statement</a></h5>
 					</div>
 				</div>
 			</div>			
@@ -668,7 +743,7 @@
 			<div class="row mt-4 mb-4">
 				<div class="col-md-12">
 					<div class="section-heading">
-						<h3>19 NEW AND UPCOMING RAPID RESEARCH SURVEYS AND QUALITATIVE ASSESSMENTS ARE BEING UNDER TAKEN (APRIL- PRESENT) AND 14 COMPLETED:</h3>
+						<h3>31 NEW AND UPCOMING RAPID RESEARCH SURVEYS AND QUALITATIVE ASSESSMENTS ARE BEING UNDER TAKEN (APRIL- PRESENT) AND 14 COMPLETED:</h3>
 					</div>
 				</div>
 			</div>
@@ -682,7 +757,7 @@
 						workers, factory workers, daily-wage earners, and front line workers and so forth. Without comprehensive mitigating
 						measures, these groups will be among the worst affected from a personal, social, health and
 						economic perspective.</p>
-						<h5 class="mt-3"><a href="assets/files/research/pdf/Research Updates- send to mukul_allPage.pdf') }}" target="_blank">Click here to see more</a></h5>
+						<h5 class="mt-3"><a href="{{ asset('front/covid/assets/files/research/pdf/Research Updates- send to mukul_allPage.pdf') }}" target="_blank">Click here to see more</a></h5>
 					</div>
 				</div>
 				<div class="col-md-5">
@@ -705,7 +780,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="education-text">
-						<p><b><a target="_blank" href="assets/files/research/peer_reviewed_publication/January-August 16, 2020.pdf') }}">January - August 16, 2020: (PDF)</a></b></p>
+						<p><b><a target="_blank" href="{{ asset('front/covid/assets/files/research/peer_reviewed_publication/January-September 2020.pdf') }}">January - September, 2020: (PDF)</a></b></p>
 						<p><b><a target="_blank" href="http://bracjpgsph.org/images/PUBLICATION/PUBLICATIONS_2019_v12.pdf') }}">January - December 2019: (PDF)</a></b></p>
 						<p><b><a target="_blank" href="http://bracjpgsph.org/images/PUBLICATION/Publications_2018_FinalV3.pdf') }}">January - December 2018: (PDF)</a></b></p>
 					</div>
@@ -724,133 +799,133 @@
 					<div class="owl-carousel research-brief-slider">
 
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/pregnant_woman.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}" target="_blank">Psychological stress of pregnant women during coronavirus disease</a></h4>
-							<a href="assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}" target="_blank">Psychological stress of pregnant women during coronavirus disease</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Health_System.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Health_System.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/health-system-nine-weeks.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Health_System.pdf') }}" target="_blank">Bangladesh Health System’s Response to COVID-19 during First Nine weeks</a></h4>
-							<a href="assets/files/research/brief/Health_System.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Health_System.pdf') }}" target="_blank">Bangladesh Health System’s Response to COVID-19 during First Nine weeks</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Health_System.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Exploring-the-impact-of-covid-19-on-adolescents-in-urban-slums-in-Dhaka-Bangladesh.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Exploring-the-impact-of-covid-19-on-adolescents-in-urban-slums-in-Dhaka-Bangladesh.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/young-voices.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Exploring-the-impact-of-covid-19-on-adolescents-in-urban-slums-in-Dhaka-Bangladesh.pdf') }}" target="_blank">Exploring the impact of covid-19 on adolescents</a></h4>
-							<a href="assets/files/research/brief/Exploring-the-impact-of-covid-19-on-adolescents-in-urban-slums-in-Dhaka-Bangladesh.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Exploring-the-impact-of-covid-19-on-adolescents-in-urban-slums-in-Dhaka-Bangladesh.pdf') }}" target="_blank">Exploring the impact of covid-19 on adolescents</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Exploring-the-impact-of-covid-19-on-adolescents-in-urban-slums-in-Dhaka-Bangladesh.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/pdf/Gender.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/pdf/Gender.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/gender.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/pdf/Gender.pdf') }}" target="_blank">Gender based perception and differentials of COVID-19</a></h4>
-							<a href="assets/files/research/pdf/Gender.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/pdf/Gender.pdf') }}" target="_blank">Gender based perception and differentials of COVID-19</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/pdf/Gender.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/pdf/Masud-Bhai.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/pdf/Masud-Bhai.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/flw.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/pdf/Masud-Bhai.pdf') }}" target="_blank">Re-visiting Front Line Health Workers</a></h4>
-							<a href="assets/files/research/pdf/Masud-Bhai.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/pdf/Masud-Bhai.pdf') }}" target="_blank">Re-visiting Front Line Health Workers</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/pdf/Masud-Bhai.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/pdf/Disabilities .pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/pdf/Disabilities .pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/disabilities.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/pdf/Disabilities .pdf') }}" target="_blank"> LIVES OF PEOPLE WITH DISABILITIES DURING COVID-19</a></h4>
-							<a href="assets/files/research/pdf/Disabilities .pdf') }}" class="btn-more" target="_blank">Research brief will be uploaded once completed</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/pdf/Disabilities .pdf') }}" target="_blank"> LIVES OF PEOPLE WITH DISABILITIES DURING COVID-19</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/pdf/Disabilities .pdf') }}" class="btn-more" target="_blank">Research brief will be uploaded once completed</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/stigma.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}" target="_blank">Stigma, Shame and COVID-19</a></h4>
-							<a href="assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}" target="_blank">Stigma, Shame and COVID-19</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Immunization backlogs_Final.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Immunization backlogs_Final.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/immunization.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Immunization backlogs_Final.pdf') }}" target="_blank">Immunization Backlogs</a></h4>
-							<a href="assets/files/research/brief/Immunization backlogs_Final.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Immunization backlogs_Final.pdf') }}" target="_blank">Immunization Backlogs</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Immunization backlogs_Final.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Slum_Health .pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Slum_Health .pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/slum-health.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Slum_Health .pdf') }}" target="_blank">Slum Health</a></h4>
-							<a href="assets/files/research/brief/Slum_Health .pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Slum_Health .pdf') }}" target="_blank">Slum Health</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Slum_Health .pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Balancing_hunger_and_response.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Balancing_hunger_and_response.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/socially.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Balancing_hunger_and_response.pdf') }}" target="_blank">A Socially Just Model</a></h4>
-							<a href="assets/files/research/brief/Balancing_hunger_and_response.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Balancing_hunger_and_response.pdf') }}" target="_blank">A Socially Just Model</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Balancing_hunger_and_response.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/front-line-workers.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}" target="_blank">frontline workers</a></h4>
-							<a href="assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}" target="_blank">frontline workers</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/awareness.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}" target="_blank">health awareness</a></h4>
-							<a href="assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}" target="_blank">health awareness</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/local-beliefs.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}" target="_blank">local cultural beliefs on health</a></h4>
-							<a href="assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}" target="_blank">local cultural beliefs on health</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						<div class="single-brief">
-							<a href="assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/mental-health.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}" target="_blank">mental health</a></h4>
-							<a href="assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}" target="_blank">mental health</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						<div class="single-brief">
-							<a href="assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min_Updated.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/hijra.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min.pdf') }}" target="_blank">on the fringes transgender communities</a></h4>
-							<a href="assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min_Updated.pdf') }}" target="_blank">on the fringes transgender communities</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min_Updated.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						<div class="single-brief">
-							<a href="assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/rmg.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}" target="_blank">rmg workers</a></h4>
-							<a href="assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}" target="_blank">rmg workers</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 						<div class="single-brief">
-							<a href="assets/files/research/brief/ARISE-Urban Poor 7may.pdf') }}" target="_blank">
+							<a href="{{ asset('front/covid/assets/files/research/brief/ARISE-Urban Poor 7may.pdf') }}" target="_blank">
 								<img src="{{ asset('front/covid/assets/images/research/brief/ARISE.jpg') }}" alt="Research Brief Image">
 							</a>
-							<h4><a href="assets/files/research/brief/ARISE-Urban Poor 7may.pdf') }}" target="_blank">Urban poor lived experiences in slums</a></h4>
-							<a href="assets/files/research/brief/ARISE-Urban Poor 7may.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
+							<h4><a href="{{ asset('front/covid/assets/files/research/brief/ARISE-Urban Poor 7may.pdf') }}" target="_blank">Urban poor lived experiences in slums</a></h4>
+							<a href="{{ asset('front/covid/assets/files/research/brief/ARISE-Urban Poor 7may.pdf') }}" class="btn-more" target="_blank">Click here for more information</a>
 						</div>
 					</div>
 				</div>
@@ -861,7 +936,7 @@
 					<div class="section-heading">
 						<h3></h3>
 					</div>
-					<h3>COVID 19 RESEARCH ARE PART OF THE 5 CENTRES AT THE SCHOOL AND SOME FOCUS ON HUMANITARIAN RESEARCH IN THE ROHINGYA CAMPS AND HOST COMMUNITIES</h3>
+					<h3>COVID-19 RESEARCH ARE PART OF THE 5 CENTRES AT THE SCHOOL AND SOME FOCUS ON HUMANITARIAN RESEARCH IN THE ROHINGYA CAMPS AND HOST COMMUNITIES</h3>
 					<h3>CENTRES OF RESEARCH EXCELLENCE</h3>
 				</div>
 			</div>
@@ -874,36 +949,67 @@
 
 						<div class="research-ongoing-part">
 							<div class="single-research">
-								<!--<h3></h3>-->
+					
 					<ul>
-						<li><a target="_blank" href="assets/files/research/pdf/Advancing Inclusive.pdf') }}">Advancing inclusive and resilient urban development targeted at the urban poor in Bangladesh</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/BRAC Health.pdf') }}">BRAC health, nutrition and population programme (HNPP): impact evaluation and social return on investment of selected programmes</a></li>
 
-						<li><a target="_blank" href="assets/files/research/pdf/Survey on Consumer.pdf') }}">Survey on consumer awareness of Nutrition, Food Safety and Hygiene</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/Media Surveillance.pdf') }}">Media Surveillance On Coronavirus</a></li> 
-						<li><a target="_blank" href="assets/files/research/pdf/A Quick Assessm.pdf') }}">A Quick Assessment of Knowledge, Perceptions, Barriers and Enablers, and Experiences of the Frontline Health Workers (Flws) Vis-à-vis COVID-19 Epidemic Management in Bangladesh</a></li> 
-						<li><a target="_blank" href="assets/files/research/pdf/Adapting with the.pdf') }}">Adapting with the Context: ‘One BRAC’ Story in COVID-19 Response in Bangladesh</a></li>
+						<!-- 22 October Added list start -->
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/BRAC’s Community-based Comprehensive.pdf') }}">A baseline survey of an evaluation study of BRAC’s Community-based Comprehensive COVID-19 Response Project</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Sex Workers in Bangladesh during covid.pdf') }}">The Impact of COVID-19 on the social, economic, and psychosocial wellbeing of Sex-Workers in Bangladesh</a></li>
+
+						<!-- 16th September Added list start -->
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/1. Bridging Communities in Cox’s Bazar.pdf') }}">Bridging Communities in Cox’s Bazar: Mitigating Risks and Promoting Gender, Governance and Localization of Humanitarian Responses in COVID-19 Era</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/2. COVID-19 Response Process Documentation Research.pdf') }}">BRAC COVID-19 Response Process Documentation Research</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/3. Gender and COVID-19.pdf') }}">Gender and COVID-19</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/4. Life in the Times.pdf') }}">Life in the Times of Coronavirus: A Gendered Perspective</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/5. COVID19 Knowledge, perceptions.pdf') }}">COVID-19: Knowledge, perceptions, and experience of lives and livelihood and mental health of Rohingya Refugees in Camps of Bangladesh</a></li>
+
+						<li><a target="_blank" href="#">Pashe Achi Telecommunication model of BIED during COVID-19 Situation in Bangladesh: A process documentation study</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/7. Evaluation and Implementation.pdf') }}">Evaluation and Implementation Research on BRAC Comprehensive COVID-19 Response</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/8. A Process Documentation.pdf') }}">A Process Documentation of the National Approach to Preventing COVID-19 Infections in Bangladesh</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/9. Effect and challenges of introducing.pdf') }}">Effect and challenges of introducing referral transportation system project on utilization of comprehensive SRHR health services during Covid-19 pandemic in Rohingya population: An implementation research on fidelity and coverage</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/10. Managing Impact of COVID-19 in Rohingya Refugee Camps.pdf') }}">Managing Impact of COVID-19 in Rohingya Refugee Camps and Host Communities with Culturally Appropriate Technological Solutions</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/6. Exploring the perception of caregivers.pdf') }}">Exploring the perception of caregivers’ engagement about Pashe Achi telecommunication model</a></li>
+						<!-- 16th September Added list end -->
+
+						<!-- <li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Advancing Inclusive.pdf') }}">Advancing inclusive and resilient urban development targeted at the urban poor in Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/BRAC Health.pdf') }}">BRAC health, nutrition and population programme (HNPP): impact evaluation and social return on investment of selected programmes</a></li> -->
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Survey on Consumer.pdf') }}">Survey on consumer awareness of Nutrition, Food Safety and Hygiene</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Media Surveillance.pdf') }}">Media Surveillance On Coronavirus</a></li> 
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/A Quick Assessm.pdf') }}">A Quick Assessment of Knowledge, Perceptions, Barriers and Enablers, and Experiences of the Frontline Health Workers (Flws) Vis-à-vis COVID-19 Epidemic Management in Bangladesh</a></li> 
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Adapting with the.pdf') }}">Adapting with the Context: ‘One BRAC’ Story in COVID-19 Response in Bangladesh</a></li>
 
 						
 
-						<li><a target="_blank" href="assets/files/research/pdf/COVID-19 Impact.pdf') }}">Covid-19 Impact on Urban Slums and Low Income Settlements: Education, Psychosocial Wellbeing and coping</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/Understanding kno.pdf') }}">Understanding knowledge and awareness on COVID-19 (Corona disease) and its impact on Livelihoods and life of Rohingya Refugee Camps in Cox’s Bazar, Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Impact.pdf') }}">Covid-19 Impact on Urban Slums and Low Income Settlements: Education, Psychosocial Wellbeing and coping</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Understanding kno.pdf') }}">Understanding knowledge and awareness on COVID-19 (Corona disease) and its impact on Livelihoods and life of Rohingya Refugee Camps in Cox’s Bazar, Bangladesh</a></li>
 						
-						<li><a target="_blank" href="assets/files/research/pdf/Mental and Emotional H.pdf') }}">Mental And Emotional Health and Well-Being of University Students</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/Knowledge, Practices.pdf') }}">COVID 19: Knowledge, Practices and Impact in South-Asia (Bangladesh Component)</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Mental and Emotional H.pdf') }}">Mental And Emotional Health and Well-Being of University Students</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Knowledge, Practices.pdf') }}">COVID 19: Knowledge, Practices and Impact in South-Asia (Bangladesh Component)</a></li>
 						
-						<li><a target="_blank" href="assets/files/research/pdf/Exploring Opportuniti.pdf') }}">Exploring Opportunities to Improve Health Outcomes and Enable better Health Systems Delivery through Mobile Money: Impact of COVID-19</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/COVID-19 Mitigatio.pdf') }}">COVID-19 mitigation Study among Migrant Workers in Singapore</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/What works to continue.pdf') }}">What works to continue maternal and neonatal healthcare services during COVID-19 pandemic by MANOSHI Programme in urban slums of Bangladesh?-a case study</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/A Process Docu.pdf') }}">A Process Documentation of the Radio Intervention during COVID-19 Situation in Bangladesh</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/Telecounselling Interv.pdf') }}">Telecounselling Interventions during COVID-19 Situation in Bangladesh: A  Process Documentation</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/Telecommunication model.pdf') }}">Telecommunication model towards Govt. Play Lab students:   A process documentation l during COVID-19 Situation in Bangladesh</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/COVID-19 Impact in Bangladesh_22may2020.pdf') }}">COVID-19 Impact in Bangladesh: Transmission Dynamics, Health System, Preparedness and Financing by Districts</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/The Impact of COVID-19 .pdf') }}">The Impact of COVID-19 on the Psychosocial Wellbeing of the Sexually Marginalized Community in Bangladesh</a></li>
-						<li><a target="_blank" href="assets/files/research/pdf/COVID 19 Shutdown.pdf') }}">COVID 19 shutdown: a new threat to the personal, social and economic wellbeing of Dalit community</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Exploring Opportuniti.pdf') }}">Exploring Opportunities to Improve Health Outcomes and Enable better Health Systems Delivery through Mobile Money: Impact of COVID-19</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Mitigatio.pdf') }}">COVID-19 mitigation Study among Migrant Workers in Singapore</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/What works to continue.pdf') }}">What works to continue maternal and neonatal healthcare services during COVID-19 pandemic by MANOSHI Programme in urban slums of Bangladesh?-a case study</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/A Process Docu.pdf') }}">A Process Documentation of the Radio Intervention during COVID-19 Situation in Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Telecounselling Interv.pdf') }}">Telecounselling Interventions during COVID-19 Situation in Bangladesh: A  Process Documentation</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Telecommunication model.pdf') }}">Telecommunication model towards Govt. Play Lab students:   A process documentation l during COVID-19 Situation in Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Impact in Bangladesh_22may2020.pdf') }}">COVID-19 Impact in Bangladesh: Transmission Dynamics, Health System, Preparedness and Financing by Districts</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/The Impact of COVID-19 .pdf') }}">The Impact of COVID-19 on the Psychosocial Wellbeing of the Sexually Marginalized Community in Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID 19 Shutdown.pdf') }}">COVID 19 shutdown: a new threat to the personal, social and economic wellbeing of Dalit community</a></li>
+
+						<li><a target="_blank" href="#">An integrated research on comprehensive response to COVID 19 in two rural subdistricts in Bangladesh led by BRAC</a></li>
 					</ul>
 
-								<h4><span class="black-color"></span> <a target="_blank" href="assets/files/research/pdf/"></a></h4>
+								<h4><span class="black-color"></span> <a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/') }}"></a></h4>
 
 							</div>
 						</div>
@@ -920,8 +1026,8 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Sabina-Faiz-Rashid.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="assets/files/cv/Dr-Rashid-Resume-July-3-2020.pdf') }}"><span>Professor Sabina Faiz Rashid</span></a></p>
-									<a target="_blank" href="assets/files/cv/Dr-Rashid-Resume-July-3-2020.pdf') }}" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Dr-Rashid-Resume-Sept-22-v3-2020.pdf') }}"><span>Professor Sabina Faiz Rashid</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Dr-Rashid-Resume-Sept-22-v3-2020.pdf') }}" class="cv-link">Show CV</a>
 								</div>
 							</div>
 						</div>
@@ -932,8 +1038,8 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Malabika-Sarker.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="assets/files/cv/Malabika-Sarker_Full_CV_ April 2020.pdf') }}"><span>Professor Malabika Sarker</span></a></p>
-									<a target="_blank" href="assets/files/cv/Malabika-Sarker_Full_CV_ April 2020.pdf') }}" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malabika-Sarker_Full_CV_ April 2020.pdf') }}"><span>Professor Malabika Sarker</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malabika-Sarker_Full_CV_ April 2020.pdf') }}" class="cv-link">Show CV</a>
 								</div>
 							</div>
 						</div>
@@ -944,8 +1050,8 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Syed-Masud-Ahmed.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="assets/files/cv/CV-of-Syed-Masud-Ahmed_Mar. 2020.pdf') }}"><span>Professor Syed Masud Ahmed</span></a></p>
-									<a target="_blank" href="assets/files/cv/CV-of-Syed-Masud-Ahmed_Mar. 2020.pdf') }}" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/CV-of-Syed-Masud-Ahmed_Mar. 2020.pdf') }}"><span>Professor Syed Masud Ahmed</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/CV-of-Syed-Masud-Ahmed_Mar. 2020.pdf') }}" class="cv-link">Show CV</a>
 								</div>
 							</div>
 						</div>
@@ -968,15 +1074,26 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Malay-Kanti-Mridha.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="assets/files/cv/Malay_Kanti_Mridha_CV_2019.pdf') }}"><span>Professor Malay Kanti Mridha</span></a></p>
-									<a target="_blank" href="assets/files/cv/Malay_Kanti_Mridha_CV_2019.pdf') }}" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malay_Kanti_Mridha_CV_2019.pdf') }}"><span>Professor Malay Kanti Mridha</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malay_Kanti_Mridha_CV_2019.pdf') }}" class="cv-link">Show CV</a>
 								</div>
 							</div>
 						</div>
 						<div class="ongoing-research">
-							<h4><a target="_blank" href="assets/files/research/Research-Project-2020.pdf') }}">2020 research list</a></h4>
-							<h4><a target="_blank" href="assets/files/research/Research-2019.pdf') }}">2019 research list</a></h4>
+							<h4><a target="_blank" href="{{ asset('front/covid/assets/files/research/Research-Project-2020.pdf') }}">2020 research list</a></h4>
+							<h4><a target="_blank" href="{{ asset('front/covid/assets/files/research/Research-2019.pdf') }}">2019 research list</a></h4>
 						</div>
+					</div>
+
+					<!-- New section to link voice memo -->
+					<div class="research-center-part mt-4">
+						<h4>Innovative digital research on gendered experience on COVID-19</h4>
+						<div class="registration-image" style="overflow: hidden; margin-bottom:25px;">
+							<a href="{{ route('vUserCreatePage') }}">
+								<img src="{{ asset('voice/assets/images/registration/man-at-the-office-2127140-1.png') }}" alt="Registration Image">
+							</a>
+						</div>
+						<a href="{{ route('vUserCreatePage') }}">Click here to record your voice memo</a>
 					</div>
 				</div>
 
@@ -990,85 +1107,85 @@
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}">Psychological Stress of Pregnant Women During the Coronavirus Disease (Covid-19) Pandemic</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Mothers & Pregnant Women During Covid19.pdf') }}">Psychological Stress of Pregnant Women During the Coronavirus Disease (Covid-19) Pandemic</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Health_System.pdf') }}">Health System’s Response to COVID-19 In Bangladesh: A Rapid Study on the key building blocks</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Health_System.pdf') }}">Health System’s Response to COVID-19 In Bangladesh: A Rapid Study on the key building blocks</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/pdf/Gender.pdf') }}">Gender based perception and differentials of COVID-19: Findings from Rapid Surveys</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Gender.pdf') }}">Gender based perception and differentials of COVID-19: Findings from Rapid Surveys</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/pdf/Masud-Bhai.pdf') }}">Re-visitng the Front Line health Workers’ (FLWs) attending suspected or confirmed COVID-19 patients in Bangladesh: how far has the situation improved in a month since the last survey?</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Masud-Bhai.pdf') }}">Re-visitng the Front Line health Workers’ (FLWs) attending suspected or confirmed COVID-19 patients in Bangladesh: how far has the situation improved in a month since the last survey?</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/pdf/Disabilities .pdf') }}">Livelihood, food security and well-being of persons with disabilities in Bangladesh during the COVID-19 Pandemic.</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Disabilities .pdf') }}">Livelihood, food security and well-being of persons with disabilities in Bangladesh during the COVID-19 Pandemic.</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}">Stigma, Shame and COVID-19: "They Won't Even Touch the Money We Touched”</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/Stgma-Shame-and-COVID-19.pdf') }}">Stigma, Shame and COVID-19: "They Won't Even Touch the Money We Touched”</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Immunization backlogs_Final.pdf') }}">Immunization Backlogs: A Quick Assessment of the Effects of COVID-19 on the Expanded Programme on Immunization (EPI) in Bangladesh</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Immunization backlogs_Final.pdf') }}">Immunization Backlogs: A Quick Assessment of the Effects of COVID-19 on the Expanded Programme on Immunization (EPI) in Bangladesh</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}">JPG COVID-19 Rapid Survey in Urban and Rural sites: Awareness and knowledge about COVID-19 during the early onslaught of the pandemic</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Health Awareness_April 19_final brief 2020-min.pdf') }}">JPG COVID-19 Rapid Survey in Urban and Rural sites: Awareness and knowledge about COVID-19 during the early onslaught of the pandemic</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}">JPG COVID-19 Rapid Survey in Urban and Rural sites: Loss of Mental Well-being at the time of COVID-19 Pandemic</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Mental health_April 19_final brief 2020-min.pdf') }}">JPG COVID-19 Rapid Survey in Urban and Rural sites: Loss of Mental Well-being at the time of COVID-19 Pandemic</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}">Developing Appropriate Health Messaging for Urban and Rural Populations</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Local Cultural beliefs on Health_April 19_final brief 2020-min.pdf') }}">Developing Appropriate Health Messaging for Urban and Rural Populations</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Urban_ Poor Lived Experiences in SLums ARISE_April 19_final brief 2020-min.pdf') }}">IMPACT ON COVID-19- Lived Experiences of the Urban Poor in Slums during the Shutdown</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Urban_ Poor Lived Experiences in SLums ARISE_April 19_final brief 2020-min.pdf') }}">IMPACT ON COVID-19- Lived Experiences of the Urban Poor in Slums during the Shutdown</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min.pdf') }}">ON THE FRINGES: Impact of COVID-19 Shutdown on Hijras Daily Personal, Social and Economic lives</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/On the fringes Transgender Communities_April 19_final brief 2020-min_Updated.pdf') }}">ON THE FRINGES: Impact of COVID-19 Shutdown on Hijras Daily Personal, Social and Economic lives</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}">Front Line Health Workers (FLWs) perceptions and opinions on their personal safety while attending suspected or confirmed COVID-19 patients in Bangladesh</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/Frontline workers_April 19_final brief 2020-min.pdf') }}">Front Line Health Workers (FLWs) perceptions and opinions on their personal safety while attending suspected or confirmed COVID-19 patients in Bangladesh</a>
 										</h4>
 									</li>
 
 									<li>
 										<h4>
-											<a target="_blank" href="assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}">Pins and needles at the time of a pandemic: Learning from the RMG workers through a rapid survey</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/brief/RMG workers_April 19_final brief 2020-min.pdf') }}">Pins and needles at the time of a pandemic: Learning from the RMG workers through a rapid survey</a>
 										</h4>
 									</li>
 
@@ -1079,7 +1196,7 @@
 
 				<div class="col-md-12 text-center">
 					<div class="section-heading"></div>
-					<h5><a href="assets/files/etra/Annual_Report_2018_Research.pdf') }}" target="_blank">CLICK LINK FOR MORE INFORMATION</a></h5>
+					<h5><a href="{{ asset('front/covid/assets/files/etra/Annual_Report_2018_Research.pdf') }}" target="_blank">CLICK LINK FOR MORE INFORMATION</a></h5>
 				</div>
 			</div>
 		</div>
@@ -1280,8 +1397,8 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
-						<h3 class="float-left">66 NEWS ARTICLES AND 20 NEW BLOGS HAVE BEEN POSTED SINCE APRIL</h3>
-						<a target="_blank" href="advocacy.html" class="float-right">View All</a>
+						<h3 class="float-left">76 NEWS ARTICLES AND 21 NEW BLOGS HAVE BEEN POSTED SINCE APRIL</h3>
+						<a target="_blank" href="{{ route('advocacyPage') }}#exter" class="float-right">View All</a>
 					</div>
 				</div>
 				<div class="col-md-12">
@@ -1363,7 +1480,7 @@
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
 						<h3 class="float-left">External publications</h3>
-						<a target="_blank" href="advocacy.html#exter" class="float-right">View All</a>
+						<a target="_blank" href="{{ route('advocacyPage') }}" class="float-right">View All</a>
 					</div>
 				</div>
 				<div class="col-md-12">
@@ -1449,6 +1566,50 @@
 
 			<div class="row"></div>
 
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-heading">
+						<h3>MEMBERSHIPS (2020)</h3>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Professor Sabina Faiz Rashid</b></a></h3>
+						<div class="course-details"> 
+							<h4>Membership of Boards, Secretariat, Organizations in 2020</h4>
+							<p class="mb-3"><b>September 1, 2020:</b>Invited to be member of the COVID-19 Research Roadmap social science working group, World Health Organisation, Geneva, Switzerland</p>
+							<p class="mb-3"><b>July 1, 2020:</b> Co-Chair the World Congress on Public Health (October 12-16, 2020), Congress Management Committee, World Federation of Public Health Associations, Headquarters, University of Geneva</p>
+							<p class="mb-3"><b>June 2020:</b> Member, of the MRC Wellcome Trust Joint Health Systems Research Committee (three years’ appointment), UK</p>
+							<p class="mb-3"><b>May 2020:</b> Member of the Global Network for Academic Public Health, the focus of the network is to engage in conversations to enhance academic public health worldwide through mutual learning and collaborations between academic public health institutions globally.</p>
+							<p class="mb-3"><b>April 2020:</b> Lead Focal, (Bangladesh), Regional Platform on Gender and Sexual and Reproductive Health and Rights, with Partner platforms in India and Nepal. Overall coordinator, SRHM, Geneva, (funded by Gates, India)</p>
+							<p class="mb-4"><b>March 2020 – Present:</b> Member, Rockefeller-BU 3-D Commission, led by Professor Sandro Galeo, Dean, Robert A Knox Professor, School of Public Health, Boston University (global group of members as part of the Commission), funded by Rockefeller Foundation.</p>
+							<h4>Board Member of International Journals in 2020</h4>
+							<p><b>2020</b> - Editorial Advisory Board, Sexual Reproductive Health Matters SRHM (Peer reviewed Journal) 
+							(Member of the advisory board of additional 5 peer-reviewed journals since 2012)</p>
+						</div>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Professor Malabika Sarker</b></a></h3>
+						<div class="course-details">
+							<p><b>2020:</b> Panel member, Applied Global Health Research Board, MRC, UKRI, UK</p>
+						</div>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Professor Kaosar Afsana</b></a></h3>
+						<div class="course-details">
+							<p class="mb-2">- Vice-Chair, Scientific Committee, UN Summit for Food Security 2021, United Nations, New    York, USA</p>
+							<p>- Member, Strategic Committee, Ahimsa Renaissance ThinkTank, Ahimsha Fund, Lyon, France</p>
+						</div>
+					</div>
+					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Professor Malay Kanti Mridha</b></a></h3>
+						<div class="course-details">
+							<p>External Editor of the Borneo Journal of Medical Sciences. The journal is published by the Department of Medicine and Health Sciences of Univirsiti Malaysia Sabah (UMS)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row"></div>
+
 			<div class="row mt-4">
 				<div class="col-md-12">
 					<div class="section-heading">
@@ -1470,7 +1631,7 @@
 				</div>
 				<div class="col-md-12 text-center">
 					<div class="section-heading"></div>
-					<h5><a href="assets/files/etra/Annual_Report_2018_Advocacy.pdf') }}" target="_blank">CLICK LINK FOR MORE INFORMATION</a></h5>
+					<h5><a href="{{ asset('front/covid/assets/files/etra/Annual_Report_2018_Advocacy.pdf') }}" target="_blank">CLICK LINK FOR MORE INFORMATION</a></h5>
 				</div>
 			</div>
 			<div class="row mt-3">
@@ -1494,15 +1655,63 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row mt-3">
 				<div class="col-md-12">
-					<a href="{{ route('vUserCreatePage') }}" class="btn btn-jpg">Voice</a>
+					<div class="section-heading">
+						<h3>New Membership in 2020 in Dhaka Academic Sites</h3>
+					</div>
+					<div class="education-text">
+						<table>
+							<thead>
+								<tr>
+									<th>SI No</th>
+									<th>PIN No</th>
+									<th>Title</th>
+									<th>Name</th>
+									<th>Gender</th>
+									<th>Designation</th>
+									<th>Date of Joining</th>
+									<th>Contract Ending Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>12609</td>
+									<td>Ms.</td>
+									<td>Surayia Begum</td>
+									<td>F</td>
+									<td>Principal</td>
+									<td>5-Apr-20</td>
+									<td>30-Sep-21</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>12607</td>
+									<td>Ms.</td>
+									<td>Pabitra Chakma</td>
+									<td>F</td>
+									<td>Jr. Instructor</td>
+									<td>1-Apr-20</td>
+									<td>30-Sep-21</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>12608</td>
+									<td>Ms.</td>
+									<td>Sanchita Baidda</td>
+									<td>F</td>
+									<td>Jr. Instructor</td>
+									<td>1-Apr-20</td>
+									<td>30-Sep-21</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
-
 		</div>
 	</section><!-- Advocacy End Here -->
-
 
 
 

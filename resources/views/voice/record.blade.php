@@ -57,7 +57,7 @@
 
 <form action="{{ route('recordStore') }}" method="post" enctype="multipart/form-data">
 	{{ csrf_field() }}
-	<input name="vuser_id" type="hidden" value="{{ $vuser_id[0]->id }}">
+	<input name="vuser_id" type="hidden" value="{{ $vuser_id[0]->id }}" required>
 
 	<section id="Question">
 		<div class="container">
@@ -162,7 +162,7 @@
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-8 d-flex align-items-center justify-content-center">
-					<input type="checkbox" value="agree">
+					<input type="checkbox" value="agree" required>
 					<p>I consent to BRAC JPGSPH using my voice note for various research purposes including in podcast production. (a tick option has to be provided)</p>
 				</div>
 			</div>
@@ -181,6 +181,29 @@
 	
 
 </form>
+
+
+	<section id="Our-donors">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h3>Our Donors</h3>
+				</div>
+			</div>
+			<div class="row justify-content-around">
+				<div class="col-md-4">
+					<div class="donor-logo">
+						<img src="{{ asset('voice/assets/images/registration/donors/Share-Net-International-logo.png') }}" alt="Donor logo image">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="donor-logo">
+						<img src="{{ asset('voice/assets/images/registration/donors/MJFlogo.jpg') }}" alt="Donor logo image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 
 @endsection

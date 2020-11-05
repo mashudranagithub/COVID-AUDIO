@@ -25,6 +25,21 @@
 
 
         <li class="treeview">
+<!--           <a href="javascript:void(0);">
+            <i class="fa fa-cogs text-red"></i>
+            <span>Audio</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a> -->
+          <!-- <ul class="treeview-menu"> -->
+              <li><a class="nav-link" href="{{ route('vUsers') }}"><i class="fa fa-circle-o text-aqua"></i>All Users</a></li>
+          <!-- </ul> -->
+        </li>
+
+
+
+        <li class="treeview">
           <a href="javascript:void(0);">
             <i class="fa fa-cogs text-red"></i>
             <span>Audio</span>
