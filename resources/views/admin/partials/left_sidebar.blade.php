@@ -41,15 +41,16 @@
 
         <li class="treeview">
           <a href="javascript:void(0);">
-            <i class="fa fa-cogs text-red"></i>
-            <span>Audio</span>
+            <i class="fa fa-microphone text-red"></i>
+            <span>Voices</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-              <li><a class="nav-link" href="#"><i class="fa fa-circle-o text-aqua"></i>Audio Files</a></li>
-              <li><a class="nav-link" href="#"><i class="fa fa-circle-o text-red"></i>Audio Upload</a></li>
+              <li><a class="nav-link" href="{{ route('allVoices') }}"><i class="fa fa-microphone text-aqua"></i>All Voices</a></li>
+              <li><a class="nav-link" href="{{ route('lockdownVoices') }}"><i class="fa fa-microphone text-red"></i>Lockdown Voices</a></li>
+              <li><a class="nav-link" href="{{ route('pandemicVoices') }}"><i class="fa fa-microphone text-red"></i>Pandemic Voices</a></li>
           </ul>
         </li>
 
@@ -57,7 +58,7 @@
 
         <li class="treeview">
           <a href="javascript:void(0);">
-            <i class="fa fa-question text-red"></i>
+            <i class="fa fa-question text-aqua"></i>
             <span>Questions</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>

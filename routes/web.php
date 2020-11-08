@@ -46,6 +46,12 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::get('/vuser/{id}', 'VuserController@show')->name('vuserShow');
 	Route::delete('/vuser/delete/{id}', 'VuserController@destroy')->name('vuserDelete');
 
+
+
+	Route::get('/allvoices', 'VoiceController@index')->name('allVoices');
+	Route::get('/lockdown/voices', 'VoiceController@lockdown_voices')->name('lockdownVoices');
+	Route::get('/pandemic/voices', 'VoiceController@pandemic_voices')->name('pandemicVoices');
+
 	
 
 });

@@ -17,7 +17,48 @@ class VoiceController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
+    {        
+        $voices = Voice::join('questions', 'questions.id', '=', 'voices.qusetion_id')
+                    ->select('voices.*', 'questions.question')
+                    ->orderBy('created_at', 'desc')
+                    ->paginate(10);
+
+        return view('admin.voices.index', compact(
+            'voices'
+        ));
+    }
+
+
+    // Lockdown Voice answers
+    public function lockdown_voices()
     {
+
+        $lockdown_voices = Voice::join('questions', 'questions.id', '=', 'voices.qusetion_id')
+            ->select('voices.*', 'questions.question')
+            ->where('questions.category', 'lockdown')
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);
+
+        return view('admin.voices.lockdown-voices', compact(
+            'lockdown_voices'
+        ));
+
+    }
+
+
+    // Pandemic Voice answers
+    public function pandemic_voices()
+    {
+
+        $pandemic_voices = Voice::join('questions', 'questions.id', '=', 'voices.qusetion_id')
+            ->select('voices.*', 'questions.question')
+            ->where('questions.category', 'pandemic')
+            ->orderBy('created_at', 'desc')
+            ->paginate(10);
+
+        return view('admin.voices.pandemic-voices', compact(
+            'pandemic_voices'
+        ));
 
     }
 

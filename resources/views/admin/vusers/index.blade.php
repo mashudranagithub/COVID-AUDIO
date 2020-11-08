@@ -83,12 +83,12 @@
                                     </td>
                                     <td>{{ $vuser->age }}</td>
                     				<td style="display: flex;justify-content: left;">
-                    					<a class="btn btn-warning" href="{{ route('vuserShow', $vuser->id) }}">Show Voices</a>
-        								<form action="{{ route('vuserDelete', $vuser->id) }}" method="POST">
+                    					<a class="btn btn-success" href="{{ route('vuserShow', $vuser->id) }}">Show Voices</a>
+        								<!-- <form action="{{ route('vuserDelete', $vuser->id) }}" method="POST">
         									{{ csrf_field() }}
         									{{ method_field('DELETE') }}
         									<button type="submit" class="btn btn-danger" style="margin-left:10px;">Delete</button>
-        								</form>
+        								</form> -->
                     				</td>
                     			</tr>
                     			@endforeach
