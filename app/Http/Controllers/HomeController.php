@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Voice;
+use App\Question;
+use App\Vuser;
+use DB;
+use Session;
 
 class HomeController extends Controller
 {
@@ -23,6 +28,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('admin.index');
+        $questions_number = Question::all()->count();
+        $vuser_number = Vuser::all()->count();
+        $voice_number = Voice::all()->count();
+
+        return view('admin.index', compact(
+            'questions_number',
+            'vuser_number',
+            'voice_number'
+        ));
     }
 }

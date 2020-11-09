@@ -17,69 +17,102 @@
     <!-- Main content -->
     <section class="content">
       <!-- /.row -->
-      <!-- Main row -->
+
       <div class="row">
-        <section class="col-lg-12 connectedSortable">
+        <div class="col-lg-4 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>{{ $questions_number }}</h3>
 
-          <!-- Audio List -->
-          <div class="box box-success">
-            <div class="box-header">
-              <i class="fa fa-files-o"></i>
-              <h3 class="box-title">Uploaded Audios</h3>
+              <p>Questions</p>
             </div>
-            <div class="box-body chat" id="chat-box">
-              Audio Will be displayed here
-
-              @if ($msg = Session::get('msg'))
-              <div class="alert alert-success">
-                  <p>{{ $msg }}</p>
-              </div>
-              @endif
-              
-              <ul style="max-width: 500px;">
-                  <li>
-                      <audio src="#" controls></audio>
-                  </li>
-              </ul>
-
-        
+            <div class="icon">
+              <i class="fa fa-question"></i>
             </div>
+            <a href="{{ route('questions') }}" class="small-box-footer">All Questions <i class="fa fa-arrow-circle-right"></i></a>
           </div>
-          <!-- Audio List End -->
+        </div>
 
-          <!-- Audio List -->
-          <div class="box box-success">
-            <div class="box-header">
-              <i class="fa fa-files-o"></i>
-              <h3 class="box-title">Voice Uploader List</h3>
+        <div class="col-lg-4 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-red">
+            <div class="inner">
+              <h3>{{ $vuser_number }}</h3>
+
+              <p>Voice Recorders</p>
             </div>
-            <div class="box-body chat" id="chat-box">
-                <table width="100%">
-                  <thead>
-                    <tr>
-                      <th>Si</th>
-                      <th>Location</th>
-                      <th>Phone Number</th>
-                      <th>Gender</th>
-                      <th>Age</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Dhaka</td>
-                      <td>01918631391</td>
-                      <td>Male</td>
-                      <td>33</td>
-                    </tr>
-                  </tbody>
-                </table>        
+            <div class="icon">
+              <i class="ion ion-person-add"></i>
             </div>
+            <a href="{{ route('vUsers') }}" class="small-box-footer">All Voice Recorders <i class="fa fa-arrow-circle-right"></i></a>
           </div>
-          <!-- Audio List End -->
-        </section>
+        </div>
+
+        <div class="col-lg-4 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>{{ $voice_number }}<!-- <sup style="font-size: 20px">%</sup> --></h3>
+
+              <p>Voice</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-microphone"></i>
+            </div>
+            <a href="{{ route('allVoices') }}" class="small-box-footer">All Voices <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+
       </div>
-      <!-- /.row (main row) -->
+
+      <!-- Admin index content here -->
+
+
+<div class="row">
+      <div class="col-md-12">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-bar-chart-o"></i>
+
+              <h3 class="box-title">Bar Chart</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+<div id="bar-chart" style="height: 300px; padding: 0px; position: relative;">
+   <canvas class="flot-base" width="509" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 509.5px; height: 300px;"></canvas>
+   <div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);">
+      <div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;">
+         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 24px; text-align: center;">January</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 106px; text-align: center;">February</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 197px; text-align: center;">March</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 285px; text-align: center;">April</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 370px; text-align: center;">May</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 452px; text-align: center;">June</div>
+      </div>
+      <div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;">
+         <div class="flot-tick-label tickLabel" style="position: absolute; top: 270px; left: 7px; text-align: right;">0</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; top: 203px; left: 7px; text-align: right;">5</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; top: 135px; left: 1px; text-align: right;">10</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; top: 68px; left: 1px; text-align: right;">15</div>
+         <div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 1px; text-align: right;">20</div>
+      </div>
+   </div>
+   <canvas class="flot-overlay" width="509" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 509.5px; height: 300px;"></canvas>
+</div>
+            </div>
+            <!-- /.box-body-->
+          </div>
+      </div>
+
+</div>
+
 
     </section>
     <!-- /.content -->

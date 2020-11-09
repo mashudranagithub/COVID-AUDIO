@@ -52,6 +52,10 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::get('/lockdown/voices', 'VoiceController@lockdown_voices')->name('lockdownVoices');
 	Route::get('/pandemic/voices', 'VoiceController@pandemic_voices')->name('pandemicVoices');
 
+
+
+	Route::get('/question-wise-answers', 'VoiceController@questions_answers')->name('questionsAnswers');
+
 	
 
 });

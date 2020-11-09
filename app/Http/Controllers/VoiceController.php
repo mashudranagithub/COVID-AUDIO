@@ -63,6 +63,24 @@ class VoiceController extends Controller
     }
 
 
+    // Question Wise Voice answers
+    public function questions_answers()
+    {
+        $all_questions = Question::orderBy('created_at', 'desc')->paginate(2);
+
+        $questions_answers = Voice::join('questions', 'questions.id', '=', 'voices.qusetion_id')
+            ->select('voices.*', 'questions.question')
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        return view('admin.voices.question-wise-voices', compact(
+            'all_questions',
+            'questions_answers'
+        ));
+
+    }
+
+
     public function record()
     {
 

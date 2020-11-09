@@ -24,18 +24,30 @@
 
 
 
+
         <li class="treeview">
-<!--           <a href="javascript:void(0);">
-            <i class="fa fa-cogs text-red"></i>
-            <span>Audio</span>
+          <a href="javascript:void(0);">
+            <i class="fa fa-question text-aqua"></i>
+            <span>Questions</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
-          </a> -->
-          <!-- <ul class="treeview-menu"> -->
-              <li><a class="nav-link" href="{{ route('vUsers') }}"><i class="fa fa-circle-o text-aqua"></i>All Users</a></li>
-          <!-- </ul> -->
+          </a>
+          <ul class="treeview-menu">
+              <li><a class="nav-link" href="{{ route('questions') }}"><i class="fa fa-question text-aqua"></i>All Questions</a></li>
+              <li><a class="nav-link" href="{{ route('questionCreate') }}"><i class="fa fa-circle-o text-red"></i>Question Create</a></li>
+          </ul>
         </li>
+
+
+
+
+
+        <li class="treeview">
+              <li><a class="nav-link" href="{{ route('vUsers') }}"><i class="fa fa-circle-o text-aqua"></i>All Voice Users</a></li>
+        </li>
+
+
 
 
 
@@ -56,21 +68,10 @@
 
 
 
-        <li class="treeview">
-          <a href="javascript:void(0);">
-            <i class="fa fa-question text-aqua"></i>
-            <span>Questions</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-              <li><a class="nav-link" href="{{ route('questions') }}"><i class="fa fa-question text-aqua"></i>All Questions</a></li>
-              <li><a class="nav-link" href="{{ route('questionCreate') }}"><i class="fa fa-circle-o text-red"></i>Question Create</a></li>
-          </ul>
-        </li>
 
-        
+      <li class="treeview">
+        <li><a class="nav-link" href="{{ route('questionsAnswers') }}"><i class="fa fa-question text-aqua"></i><i class="fa fa-microphone text-red"></i>Question Wise Voices</a>
+      </li>       
 
 
 
