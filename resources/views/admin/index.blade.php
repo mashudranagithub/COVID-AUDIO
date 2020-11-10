@@ -72,40 +72,73 @@
 
 <div class="row">
       <div class="col-md-12">
-        <div class="box box-primary">
+        <div class="box box-primary" style="overflow: hidden;">
             <div class="box-header with-border">
-              <i class="fa fa-bar-chart-o"></i>
+              <i class="fa fa-chart-pie"></i>
 
-              <h3 class="box-title">Bar Chart</h3>
+              <h3 class="box-title">Answer percentage in pie chart</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                <!-- <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button> -->
               </div>
             </div>
             <div class="box-body">
-<div id="bar-chart" style="height: 300px; padding: 0px; position: relative;">
-   <canvas class="flot-base" width="509" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 509.5px; height: 300px;"></canvas>
-   <div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);">
-      <div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;">
-         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 24px; text-align: center;">January</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 106px; text-align: center;">February</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 197px; text-align: center;">March</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 285px; text-align: center;">April</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 370px; text-align: center;">May</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; max-width: 84px; top: 283px; left: 452px; text-align: center;">June</div>
-      </div>
-      <div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;">
-         <div class="flot-tick-label tickLabel" style="position: absolute; top: 270px; left: 7px; text-align: right;">0</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; top: 203px; left: 7px; text-align: right;">5</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; top: 135px; left: 1px; text-align: right;">10</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; top: 68px; left: 1px; text-align: right;">15</div>
-         <div class="flot-tick-label tickLabel" style="position: absolute; top: 0px; left: 1px; text-align: right;">20</div>
-      </div>
-   </div>
-   <canvas class="flot-overlay" width="509" height="300" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 509.5px; height: 300px;"></canvas>
-</div>
+
+                <!-- Google charts -->
+                <div id="piechart"></div>
+
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+                <script type="text/javascript">
+                // Load google charts
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawChart);
+
+                // Draw the chart and set the chart values
+                function drawChart() {
+                  var data = google.visualization.arrayToDataTable([
+                  ['Task', '100%'],
+
+                    @foreach($questions as $question)
+
+                        <?php $i = 0;?>
+                        @foreach($voices as $voice)
+                            @if($voice->qusetion_id == $question->id)
+                                <?php $i++; ?>
+                            @endif
+                        @endforeach
+                        
+                        ['{!! $question->question !!}',  <?php echo $i; ?>],
+
+                    @endforeach
+
+                ]);
+
+
+                var options = {
+                    is3D: false,
+                    pieHole: 0.1,
+                    pieStartAngle: 0,
+                    height: 450,
+                    chartArea:{left:0,top:30,bottom:30,width:'85%',height:'90%'},
+                    fontSize: 13,
+                    // pieSliceText: 'label',
+                    // slices: {  
+                    //     0: {offset: 0.2},
+                    //     1: {offset: 0.2}
+                    // },
+
+                };
+
+                  // Display the chart inside the <div> element with id="piechart"
+                  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                  chart.draw(data, options);
+                }
+                </script>
+
+
             </div>
             <!-- /.box-body-->
           </div>

@@ -32,10 +32,18 @@ class HomeController extends Controller
         $vuser_number = Vuser::all()->count();
         $voice_number = Voice::all()->count();
 
+        $questions = Question::all();
+
+        $voices = Voice::orderBy('created_at', 'desc')->get();
+
+        // dd($voices);
+
         return view('admin.index', compact(
             'questions_number',
             'vuser_number',
-            'voice_number'
+            'voice_number',
+            'questions',
+            'voices'
         ));
     }
 }
