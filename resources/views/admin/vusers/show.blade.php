@@ -50,8 +50,10 @@
                         <p>Gender:
                             @if($vuser->gender == 'm')
                                 Male
-                            @else
+                            @elseif($vuser->gender == 'f')
                                 Female
+                            @else
+                                Third Gender
                             @endif
                         </p>
                         <p>Age: {{ $vuser->age }}</p>

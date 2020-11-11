@@ -261,10 +261,7 @@ ol.questions li::before {
     padding-top: 3px;
 }
 
-button.btn.btn-record:hover {
-    background: #C58C06;
-}
-
+button.btn.btn-record.active,
 button.btn.btn-record:hover {
     background: #C58C06;
 }

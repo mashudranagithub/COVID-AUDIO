@@ -77,8 +77,10 @@
                                     <td>
                                         @if($vuser->gender == 'm')
                                             Male
-                                        @else
+                                        @elseif($vuser->gender == 'f')
                                             Female
+                                        @else
+                                            Third Gender
                                         @endif
                                     </td>
                                     <td>{{ $vuser->age }}</td>

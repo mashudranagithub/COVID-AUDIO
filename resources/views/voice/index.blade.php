@@ -52,6 +52,7 @@
 											<option value="">Gender</option>
 											<option value="m">Male</option>
 											<option value="f">Female</option>
+											<option value="h">Third Gender</option>
 										</select>
 									</div>
 								</div>
@@ -72,9 +73,9 @@
 								<input name="location" id="location" placeholder="Where are you recording from" type="text" class="form-control">
 							</div>
 							<div class="form-group">
-								<input name="m_phone" placeholder="Your Phone Number" type="text" class="form-control" minlength="11" pattern="[0-9]{11}">
+								<input name="m_phone" placeholder="Your Phone Number" type="text" class="form-control" minlength="9" maxlength="11" pattern="[0-9]{9, }">
 							</div>
-							<button type="submit" class="btn btn-register">Get Start <img src="{{ asset('voice/assets/images/registration/right-arrow.png') }}" alt="Right Arrow Image"></button>
+							<button type="submit" class="btn btn-register">Get Started <img src="{{ asset('voice/assets/images/registration/right-arrow.png') }}" alt="Right Arrow Image"></button>
 						</form>
 					</div>
 				</div>
@@ -92,7 +93,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3>Our Donors</h3>
+					<h3>Our Partners</h3>
 				</div>
 			</div>
 			<div class="row justify-content-around">

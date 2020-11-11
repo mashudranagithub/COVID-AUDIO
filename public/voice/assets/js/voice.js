@@ -21,11 +21,12 @@ function startMyRecord(id){
  
     var constraints = { audio: true, video:false } 
 
-  document.getElementById("start_"+ id).disabled = true;
+    document.getElementById("start_"+ id).disabled = true;
+    document.getElementById("start_"+ id).classList.add("active");
   
-  document.getElementById("stop_"+ id).disabled = false;
-  document.getElementById("play_"+ id).disabled = true;
-  document.getElementById("pause_"+ id).disabled = true;
+    document.getElementById("stop_"+ id).disabled = false;
+    document.getElementById("play_"+ id).disabled = true;
+    document.getElementById("pause_"+ id).disabled = true;
     document.getElementById("delete_"+ id).disabled = true;
     //document.getElementById("upload_"+ id).disabled = true;
 
@@ -64,7 +65,7 @@ function startMyRecord(id){
      
     setTimeout(function(){
         stopMyRecord(id);
-    }, 40 * 1000); 
+    }, 70 * 1000); 
   
 }
 
@@ -74,6 +75,7 @@ function stopMyRecord(id){
         current_question_id = id + '';
     //disable the stop button, enable the record too allow for new recordings
     document.getElementById("start_"+ id).disabled = false;
+    document.getElementById("start_"+ id).classList.remove("active");
     
     document.getElementById("stop_"+ id).disabled = true;
     document.getElementById("play_"+ id).disabled = false;

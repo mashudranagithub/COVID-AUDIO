@@ -187,7 +187,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3>Our Donors</h3>
+					<h3>Our Partners</h3>
 				</div>
 			</div>
 			<div class="row justify-content-around">
