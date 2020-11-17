@@ -194,3 +194,11 @@ function uploadAllFiles(){
 }
 
 
+
+$(document).ready(function() {
+    $('.jjj').select2();
+    $('.select2-container .select2-selection--single').css({"height": "38px", "line-height": "38px"});
+    $('.select2-container--default .select2-selection--single .select2-selection__rendered').css({"height": "38px", "line-height": "38px", "padding-left": "15px"});
+    $('.select2-container--default .select2-selection--single .select2-selection__arrow').css({"height": "36px", "line-height": "36px"});
+});
+

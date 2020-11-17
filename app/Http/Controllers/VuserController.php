@@ -61,14 +61,12 @@ class VuserController extends Controller
         if($request->input('m_phone')){
             Session::put('s_phone',$request->input('m_phone'));
             Session::flash('smessage','You are Successfully registered to record your voice answers!!');
+            $vuser->save();
+            return redirect()->route('record')->with('msg','Registration Successful');
         }else{
             Session::flash('smessage','Invalid data!');
             return redirect()->back();
         }
-
-        $vuser->save();
-
-        return redirect()->route('record')->with('msg','Registration Successful');
     }
 
     /**

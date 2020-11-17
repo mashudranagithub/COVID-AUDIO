@@ -36,9 +36,9 @@
 </div>
 			<div class="row">
 				<div class="col-md-12">
-					<p>COVID 19 has changed the world in a fundamental way. The pandemic continues to affect social structures, relations, communities globally. People have lost loved ones, health systems were stretched even in the richest of the nations, and local economies have been severed by lockdowns and the continuing threat of the virus transmission. Citizens of all socio-economic and cultural backgrounds have had to reorganize their divves around the novel coronavirus. Many international experts argue that this state of open-close, transmission-flattening of the curve, will continue in the foreseeable future.</p>
-					<p>Bangladesh was particularly affected by the COVID19 pandemic. With the global economy shutting down from March 2020, the ready-made garments sector, the single largest employer in the country, was badly affected, with almost 1 mildivon workers losing their jobs. Many informal sector jobs such as those in construction and other semi-manufacturing industries have been affected direly. National and international organizations are shrinking their operations, leading to further unemployment or underemployment. Moreover, social gatherings and cultural markers that bring about a sense of community, from Eid to Durga Puja to weddings, have all stopped or changed to COVID19 readivties.</p>
-					<p>This research is a way of finding out what have been those experiences during the lockdown and afterwards? How has COVID19 affected men and women in Bangladesh, divving in various different geographical and socio-economic readivties? Instead of doing the “traditional” research where we ask questions, we want YOU to tell us your stories, in your own words, in your own voice. There are 10 guiding questions. You can record under all 10 of the questions! Simple instructions are given below.</p>
+					<p>COVID-19 has changed the world in a fundamental way. The pandemic continues to affect social structures, relations, and communities globally with devastating effects, high death rates and financial crisis. Yet, despite it all, we are working and living through this tragedy.</p>
+					<p>Bangladesh was particularly affected by the COVID-19 pandemic. Lockdowns, post-lockdown, health system challenges, economic recoveries - the country is still going through a tumultuous time, trying its very best to remain afloat.  At the heart of these ups and downs is the people, you. We invite you to share your COVID 19 stories. We want to hear how you and your loved ones coped during the lockdown? With everything opening up while the virus is still at large, how has your life changed?</p>
+					<p>Tell us your story. There are 10 guiding questions. Pick any ONE of the questions and tell us your experience. Your story may be one of the lucky ones to get featured in our upcoming podcast series on life in Bangladesh during pandemic. We look forward to hearing from you.</p>
 				</div>
 			</div>
 		</div>
@@ -49,7 +49,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h3>How To Record and Upload:</h3>
-					<p>Do you see a PLAY button under each Engdivsh/Bangla question? Great! Just cdivck on that, come close to your phone/computer microphone  and record a 40 second cdivp on the question provided below. If you divke the recording, just hit UPLOAD. If you don’t divke it, you can DELETE and RECORD again! </p>
+					<p>Do you see a PLAY button under each Engdivsh/Bangla question? Great! Just cdivck on that, come close to your phone/computer microphone  and record a 70 second cdivp on the question provided below. If you like the recording, just hit Submit. If you don’t like it, you can DELETE and RECORD again! </p>
 				</div>
 			</div>
 		</div>

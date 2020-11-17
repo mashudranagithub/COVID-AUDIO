@@ -90,11 +90,17 @@ class VoiceController extends Controller
 
         $lockdown_questions = Question::where('status', '1')->where('category', 'lockdown')->get();
         $pandemic_questions = Question::where('status', '1')->where('category', 'pandemic')->get();
-        return view('voice.record', compact(
-            'lockdown_questions',
-            'pandemic_questions',
-            'vuser_id'
-        ));
+
+        if($session_phone) {
+            return view('voice.record', compact(
+                'lockdown_questions',
+                'pandemic_questions',
+                'vuser_id'
+            ));
+        }else{
+            return redirect()->route('vUserCreatePage')->with('msg', 'You are not a registered user!! Please register first.');
+        }
+
     }
 
     /**

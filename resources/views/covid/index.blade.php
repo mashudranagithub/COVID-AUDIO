@@ -780,9 +780,9 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="education-text">
-						<p><b><a target="_blank" href="{{ asset('front/covid/assets/files/research/peer_reviewed_publication/January-September 2020.pdf') }}">January - September, 2020: (PDF)</a></b></p>
-						<p><b><a target="_blank" href="http://bracjpgsph.org/images/PUBLICATION/PUBLICATIONS_2019_v12.pdf') }}">January - December 2019: (PDF)</a></b></p>
-						<p><b><a target="_blank" href="http://bracjpgsph.org/images/PUBLICATION/Publications_2018_FinalV3.pdf') }}">January - December 2018: (PDF)</a></b></p>
+						<p><b><a target="_blank" href="{{ asset('front/covid/assets/files/research/peer_reviewed_publication/PEER-REVIEWED-PUBLICATIONS-2020(till-17-November-2020).pdf') }}">PEER-REVIEWED PUBLICATIONS 2020: (PDF)</a></b></p>
+						<p><b><a target="_blank" href="{{ asset('front/covid/assets/files/research/peer_reviewed_publication/PUBLICATIONS-2019.pdf') }}">PEER-REVIEWED PUBLICATIONS 2019: (PDF)</a></b></p>
+						<p><b><a target="_blank" href="http://bracjpgsph.org/images/PUBLICATION/Publications_2018_FinalV3.pdf">January - December 2018: (PDF)</a></b></p>
 					</div>
 				</div>
 			</div>
@@ -1026,8 +1026,8 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Sabina-Faiz-Rashid.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Dr-Rashid-Resume-Sept-22-v3-2020.pdf') }}"><span>Professor Sabina Faiz Rashid</span></a></p>
-									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Dr-Rashid-Resume-Sept-22-v3-2020.pdf') }}" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Dr-Rashid-Resume-October-v5.2020.pdf') }}"><span>Professor Sabina Faiz Rashid</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Dr-Rashid-Resume-October-v5.2020.pdf') }}" class="cv-link">Show CV</a>
 								</div>
 							</div>
 						</div>

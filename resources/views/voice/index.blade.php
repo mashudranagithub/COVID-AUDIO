@@ -58,7 +58,7 @@
 								</div>
 								<div class="col">
 									<div class="form-group">
-										<select name="age" id="Age" class="form-control">
+										<select name="age" id="Age" class="jjj form-control">
 
 											<option value="">Your Age</option>
 
@@ -70,7 +70,32 @@
 								</div>
 							</div>
 							<div class="form-group">
-								<input name="location" id="location" placeholder="Where are you recording from" type="text" class="form-control">
+								<select name="location" id="select" class="jjj form-control" style="height: 38px; line-height: 38px;">
+									<option value="">Select Your Location</option>
+									<option value="outside">Outside of Bangladesh</option>
+								</select>
+								<!-- <input name="location" id="location" placeholder="Where are you recording from" type="text" class="form-control"> -->
+
+
+
+<script>
+	var select = document.getElementById("select"),
+	arr = ["Dhaka","Faridpur","Gazipur","Gopalganj","Jamalpur","Kishoreganj","Madaripur","Manikganj","Munshiganj","Mymensingh","Narayanganj","Narsingdi","Netrokona","Rajbari","hariatpur","Sherpur","Tangail","Bogura","Joypurhat","Naogaon","Natore","Nawabganj","Pabna","Rajshahi","Sirajgonj","Dinajpur","Gaibandha","Kurigram","Lalmonirhat","ilphamari","Panchagarh","Rangpur","Thakurgaon","Barguna","Barishal","Bhola","Jhalokati","Patuakhali","Pirojpur","Bandarban","Brahmanbaria","Chandpur","Chattogram","Cumilla","Cox's Bazar","Feni","Khagrachari","Lakshmipur","Noakhali","Rangamati","Habiganj","Maulvibazar","Sunamganj","Sylhet","Bagerhat","Chuadanga","Jashore","Jhenaidah","Khulna","Kushtia","Magura","Meherpur","Narail","Satkhira"];
+
+	for(var i = 0; i < arr.length; i++)
+	{
+		var option = document.createElement("OPTION"),
+			txt = document.createTextNode(arr[i]);
+		option.appendChild(txt);
+		option.setAttribute("value", arr[i]);
+		select.insertBefore(option, select.lastChild);
+	}
+</script>
+
+
+
+
+
 							</div>
 							<div class="form-group">
 								<input name="m_phone" placeholder="Your Phone Number" type="text" class="form-control" minlength="9" maxlength="11" pattern="[0-9]{9, }">
