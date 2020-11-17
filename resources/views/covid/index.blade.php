@@ -1074,8 +1074,8 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Malay-Kanti-Mridha.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malay_Kanti_Mridha_CV_2019.pdf') }}"><span>Professor Malay Kanti Mridha</span></a></p>
-									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malay_Kanti_Mridha_CV_2019.pdf') }}" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malay_Kanti_Mridha_CV_2020.pdf') }}"><span>Professor Malay Kanti Mridha</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/Malay_Kanti_Mridha_CV_2020.pdf') }}" class="cv-link">Show CV</a>
 								</div>
 							</div>
 						</div>
