@@ -13,7 +13,7 @@
 				</div>
 				<div class="col-md-3">
 					<div class="language">
-						<a href="{{ route('banglaVuserCreatePage') }}" class="btn btn-lang"> বাংলা </a>
+						<a href="{{ route('vUserCreatePage') }}" class="btn btn-lang">English</a>
 					</div>
 				</div>
 			</div>
@@ -47,17 +47,17 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="registration-form">
-						<h2>Tell us your pandemic story. We are all in this together.</h2>
-						<form action="{{ route('vUserCreate') }}" method="post">
+						<h2>আপনার মহামারী গল্প বলুন। আমরা সবাই একইসঙ্গে।</h2>
+						<form action="{{ route('banglaVuserCreate') }}" method="post">
 							{{ csrf_field() }}
 							<div class="form-row">
 								<div class="col">
 									<div class="form-group">
 										<select name="gender" id="Gender" class="form-control">
-											<option value="">Gender</option>
-											<option value="m">Male</option>
-											<option value="f">Female</option>
-											<option value="h">Third Gender</option>
+											<option value="">লিঙ্গ</option>
+											<option value="m">পুরুষ</option>
+											<option value="f">মহিলা</option>
+											<option value="h">তৃতীয় লিঙ্গ</option>
 										</select>
 									</div>
 								</div>
@@ -65,7 +65,7 @@
 									<div class="form-group">
 										<select name="age" id="Age" class="jjj form-control">
 
-											<option value="">Your Age</option>
+											<option value="">আপনার বয়স</option>
 
 											<?php for($i=1;$i<=100;$i++){ ?>
 												<option value="<?php echo $i ?>"><?php echo $i ?></option>
@@ -76,7 +76,7 @@
 							</div>
 							<div class="form-group">
 								<select name="location" id="select" class="jjj form-control" style="height: 38px; line-height: 38px;">
-									<option value="">Select Your Location</option>
+									<option value="">আপনার এলাকা নির্ধারণ করুন</option>
 									<option value="outside">Outside of Bangladesh</option>
 								</select>
 								<!-- <input name="location" id="location" placeholder="Where are you recording from" type="text" class="form-control"> -->
@@ -103,9 +103,9 @@
 
 							</div>
 							<div class="form-group">
-								<input name="m_phone" placeholder="Your Phone Number" type="text" class="form-control" minlength="9" maxlength="11" pattern="[0-9]{9, }">
+								<input name="m_phone" placeholder="আপনার মোবাইল নাম্বার" type="text" class="form-control" minlength="9" maxlength="11" pattern="[0-9]{9, }">
 							</div>
-							<button type="submit" class="btn btn-register">Get Started <img src="{{ asset('voice/assets/images/registration/right-arrow.png') }}" alt="Right Arrow Image"></button>
+							<button type="submit" class="btn btn-register">শুরু করা যাক <img src="{{ asset('voice/assets/images/registration/right-arrow.png') }}" alt="Right Arrow Image"></button>
 						</form>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3>Our Partners</h3>
+					<h3>আমাদের অংশীধারগন</h3>
 				</div>
 			</div>
 			<div class="row justify-content-around">

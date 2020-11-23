@@ -34,6 +34,10 @@ class VuserController extends Controller
         return view('voice.index');
     }
 
+    public function bnVcreate() {
+        return view('voice.bangla.index');
+    }
+
     /**
      * Store a newly created resource in storage.
      *
@@ -63,6 +67,36 @@ class VuserController extends Controller
             Session::flash('smessage','You are Successfully registered to record your voice answers!!');
             $vuser->save();
             return redirect()->route('record')->with('msg','Registration Successful');
+        }else{
+            Session::flash('smessage','Invalid data!');
+            return redirect()->back();
+        }
+    }
+
+
+    public function bnVstore(Request $request)
+    {
+        $this->validate($request,[
+            'gender'=>'required',
+            'age'=>'required',
+            'location'=>'required',
+            'm_phone'=>'required|unique:vusers'
+        ]);
+
+        $vuser = new Vuser();
+
+        $vuser->gender = $request->input('gender');
+        $vuser->age = $request->input('age');
+        $vuser->location = $request->input('location');
+        $vuser->m_phone = $request->input('m_phone');
+
+
+
+        if($request->input('m_phone')){
+            Session::put('s_phone',$request->input('m_phone'));
+            Session::flash('smessage','আপনি আপনার ভয়েস রেকর্ড করার জন্য সফল ভাবে রেজিস্ট্রেশান সম্পন্ন করেছেন।');
+            $vuser->save();
+            return redirect()->route('banglaRecord')->with('msg','Registration Successful');
         }else{
             Session::flash('smessage','Invalid data!');
             return redirect()->back();

@@ -23,6 +23,11 @@ Route::get('/v', 'VuserController@create')->name('vUserCreatePage');
 
 Route::post('/vreg', 'VuserController@store')->name('vUserCreate');
 
+Route::get('/bn/v', 'VuserController@bnVcreate')->name('banglaVuserCreatePage');
+Route::post('/bn/vreg', 'VuserController@bnVstore')->name('banglaVuserCreate');
+
+Route::get('/bn/record', 'VoiceController@bnRecord')->name('banglaRecord');
+
 Route::get('/record', 'VoiceController@record')->name('record');
 
 Route::post('/voiceup', 'VoiceController@store')->name('recordStore');

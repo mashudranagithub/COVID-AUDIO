@@ -148,6 +148,9 @@ function playMyRecord(id){
         document.getElementById('audio_'+ id).play();
         document.getElementById("pause_"+ id).disabled = false;
         document.getElementById("play_"+ id).disabled = false;
+
+        document.getElementById("play_"+ id).classList.add("active");
+
         /*
         setTimeout(function(){
             pauseMyRecord(id);
@@ -163,6 +166,8 @@ function pauseMyRecord(id){
         document.getElementById('audio_'+ id).pause();
         document.getElementById("pause_"+ id).disabled = true;
         document.getElementById("play_"+ id).disabled = false;
+
+        document.getElementById("play_"+ id).classList.remove("active");
     } 
 }
 
@@ -190,7 +195,7 @@ function uploadAllFiles(){
       }
     };
     xhr.open("POST","voiceup",true);
-    xhr.send(fd); 
+    xhr.send(fd);
 }
 
 

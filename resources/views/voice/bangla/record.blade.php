@@ -13,7 +13,7 @@
 				</div>
 				<div class="col-md-5">
 					<div class="warning d-flex justify-content-between align-items-center">
-						<p>Please no foul language. No obscenity Let’s keep it clean, let’s keep it respectful</p>
+						<p>দয়া করে কোন বাজে ভাষা ব্যবহার করে সম্মান নষ্ট করবেন না। অশ্লীলতা থেকে দুরে থাকুন । </p>
 						<img src="{{ asset('voice/assets/images/record/warning.png') }}" alt="Warning Icon Image">
 					</div>
 				</div>
@@ -36,9 +36,9 @@
 </div>
 			<div class="row">
 				<div class="col-md-12">
-					<p>COVID-19 has changed the world in a fundamental way. The pandemic continues to affect social structures, relations, and communities globally with devastating effects, high death rates and financial crisis. Yet, despite it all, we are working and living through this tragedy.</p>
-					<p>Bangladesh was particularly affected by the COVID-19 pandemic. Lockdowns, post-lockdown, health system challenges, economic recoveries - the country is still going through a tumultuous time, trying its very best to remain afloat.  At the heart of these ups and downs is the people, you. We invite you to share your COVID 19 stories. We want to hear how you and your loved ones coped during the lockdown? With everything opening up while the virus is still at large, how has your life changed?</p>
-					<p>Tell us your story. There are 10 guiding questions. Pick any ONE of the questions and tell us your experience. Your story may be one of the lucky ones to get featured in our upcoming podcast series on life in Bangladesh during pandemic. We look forward to hearing from you.</p>
+					<p>কোভিড-১৯ পুরো বিশ্বকে গভীরভাবে প্রভাবিত করেছে। এই মহামারী আমাদের সমাজ ব্যবস্থা, পারস্পরিক সম্পর্ক এবং যোগাযোগ ব্যবস্থাকে প্রতিনিয়ত প্রভাবিত করে যাচ্ছে। অব্যাহত রাখছে উচ্চ মৃত্যুহার, ধ্বংসাত্মক প্রভাব পরছে অর্থনীতিতে। কিন্তু তা স্বত্বেও আমরা কাজ করে যাচ্ছি, বেঁচে থাকার উদ্দেশ্যে।</p>
+					<p>বাংলাদেশকে কোভিড-১৯ মহামারী তীব্রভাবে প্রভাবিত করেছে। লকডাউন, লকডাউনের পরবর্তী অস্থিতিশীলতা, স্বাস্থ্যব্যবস্থার সীমাবদ্ধতা, অর্থনৈতিক অবস্থার পরিবর্তন – আমাদের দেশটি এখনও অশান্ত সময়ের মধ্য দিয়ে যাচ্ছে, স্বাভাবিক থাকার জন্য যথাসাধ্য চেষ্টা করছে। এই উত্থান-পতনের কেন্দ্রবিন্দুতে রয়েছি আমি, আপনি, আমরা। আমরা আপনাকে আমন্ত্রণ জানাচ্ছি আপনার এবং আপনার প্রিয়জনের গল্প বলার জন্য। আমরা শুনতে চাই লকডাউন এবং লকডাউনের পরবর্তী অবস্থা আপনার জীবনকে কীভাবে পরিবর্তিত করছে?</p>
+					<p>আমাদেরকে আপনার গল্প বলুন। নিচে ১০ টি গাইডিং প্রশ্ন রয়েছে। যে কোনও একটি নির্বাচন করুন এবং শেয়ার করুন আপনার অভিজ্ঞতা। আপনি হতে পারেন সেই ভাগ্যবানদের একজন, যার গল্পটি আমরা শোনাব মহামারীর সময় বাংলাদেশের জীবন নিয়ে নির্মিত আসন্ন পডকাস্ট সিরিজে। আমরা আপনার গল্প শোনার অপেক্ষায় আছি।</p>
 				</div>
 			</div>
 		</div>
@@ -48,8 +48,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>How To Record and Upload:</h3>
-					<p>Do you see a PLAY button under each English question? Great! Just click on that, come close to your phone/computer microphone  and record a 70 second click on the question provided below. If you like the recording, just hit Submit. If you don’t like it, you can DELETE and RECORD again! </p>
+					<h3>কীভাবে রেকর্ড এবং আপলোড করবেন?</h3>
+					<p>আপনি কি প্রতিটি ইংরেজি প্রশ্নের অধীনে রেকর্ড বাটন দেখতে পাচ্ছেন? দুর্দান্ত! কেবল এটিতে ক্লিক করুন, আপনার ফোন / কম্পিউটার মাইক্রোফোনের কাছাকাছি আসুন এবং নীচে প্রদত্ত প্রশ্নের উপর একটি ৭০ সেকেন্ড অডিও রেকর্ড করুন। আপনি যদি রেকর্ডিং পছন্দ করেন তবে কেবল জমা দিন আর আপনি যদি এটি পছন্দ না করেন তবে আপনি আবার মুছে ফেলতে এবং রেকর্ড করতে পারেন!</p>
 				</div>
 			</div>
 		</div>
@@ -64,7 +64,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-heading">
-						<h2>Questions:</h2>
+						<h2>প্রশ্নসমুহ:</h2>
 					</div>
 				</div>
 			</div>
@@ -75,7 +75,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block-heading">
-							<h3>During the Lockdown</h3>
+							<h3>লকডাউন চলাকালীন</h3>
 						</div>
 
 						<ol class="questions">
@@ -119,7 +119,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block-heading">
-							<h3>Living Through a Pandemic</h3>
+							<h3>মহামারীর মধ্যে বসবাস</h3>
 						</div>
 						<ol class="questions">
 							@foreach($pandemic_questions as $p_question)
@@ -163,7 +163,7 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-8 d-flex align-items-center justify-content-center">
 					<input type="checkbox" value="agree" required>
-					<p>I consent to BRAC JPGSPH using my voice note for various research purposes including in podcast production. (a tick option has to be provided)</p>
+					<p>আমি পডকাস্ট উত্পাদন সহ বিভিন্ন গবেষণামূলক উদ্দেশ্যে আমার ভয়েস নোটটি ব্যবহার করতে ব্র্যাক JPGSPH কে সম্মতি জানাই। (একটি টিক বিকল্প প্রদান করতে হবে)</p>
 				</div>
 			</div>
 		</div>
@@ -175,7 +175,7 @@
 	<input type="hidden" id="_token" value="{{ csrf_token() }}">
 
 	<section id="Submit" class="d-flex align-items-center justify-content-center">
-		<button onclick="uploadAllFiles()" type="submit" class="btn btn-submit">Submit</button>
+		<button onclick="uploadAllFiles()" type="submit" class="btn btn-submit">সাবমিট করুন</button>
 	</section>
 
 	
@@ -187,7 +187,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h3>Our Partners</h3>
+					<h3>আমাদের অংশীধারগন</h3>
 				</div>
 			</div>
 			<div class="row justify-content-around">

@@ -81,6 +81,29 @@ class VoiceController extends Controller
     }
 
 
+    public function bnRecord()
+    {
+
+        $session_phone = Session::get('s_phone');
+
+        $vuser_id = Vuser::where('m_phone', $session_phone)->get('id');
+
+        $lockdown_questions = Question::where('status', '1')->where('category', 'lockdown')->get();
+        $pandemic_questions = Question::where('status', '1')->where('category', 'pandemic')->get();
+
+        if($session_phone) {
+            return view('voice.bangla.record', compact(
+                'lockdown_questions',
+                'pandemic_questions',
+                'vuser_id'
+            ));
+        }else{
+            return redirect()->route('vUserCreatePage')->with('msg', 'আপনি আপনার ভয়েস রেকর্ড করার জন্য সফল ভাবে রেজিস্ট্রেশান সম্পন্ন করে আসুন |');
+        }
+
+    }
+
+
     public function record()
     {
 

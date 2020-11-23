@@ -1062,8 +1062,9 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Zahidul-Quayyum.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="#"><span>Professor Zahidul Quaiyyum</span></a> & <a target="_blank" href="#"><span>Associate Professor Tanvir Hassan</span></a></p>
-									<a target="_blank" href="#" class="cv-link">Show CV</a>
+									<p class="director-name">Led by <a target="_blank" href="#"><span>Professor Zahidul Quaiyyum</span></a> & <a target="_blank" href="{{ asset('front/covid/assets/images/research/director/CV_Tanvir-Hasan_September-24-2020.pdf') }}"><span>Associate Professor Tanvir Hassan</span></a></p>
+									<a target="_blank" href="#" class="cv-link">CV of Zahidul Quaiyyum</a> <br> <br>
+									<a target="_blank" href="{{ asset('front/covid/assets/images/research/director/CV_Tanvir-Hasan_September-24-2020.pdf') }}" class="cv-link">CV of Tanvir Hassan</a>
 								</div>
 							</div>
 						</div>
