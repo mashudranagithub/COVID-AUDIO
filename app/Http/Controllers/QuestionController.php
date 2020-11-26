@@ -45,7 +45,8 @@ class QuestionController extends Controller
         $this->validate($request,[
             'category'=>'required',
             'status'=>'required',
-            'question'=>'required'
+            'question'=>'required',
+            'bnquestion'=>'required'
         ]);
 
         $question = new Question();
@@ -53,6 +54,7 @@ class QuestionController extends Controller
         $question->category = $request->input('category');
         $question->status = $request->input('status');
         $question->question = $request->input('question');
+        $question->bnquestion = $request->input('bnquestion');
 
         $question->save();
 
@@ -94,7 +96,8 @@ class QuestionController extends Controller
         $this->validate($request,[
             'category'=>'required',
             'status'=>'required',
-            'question'=>'required'
+            'question'=>'required',
+            'bnquestion'=>'required'
         ]);
 
         $question = Question::find($id);
@@ -102,6 +105,7 @@ class QuestionController extends Controller
         $question->category = $request->input('category');
         $question->status = $request->input('status');
         $question->question = $request->input('question');
+        $question->bnquestion = $request->input('bnquestion');
 
         $question->save();
 

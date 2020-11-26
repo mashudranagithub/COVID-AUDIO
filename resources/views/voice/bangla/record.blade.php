@@ -48,8 +48,21 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h3>কীভাবে রেকর্ড এবং আপলোড করবেন?</h3>
-					<p>আপনি কি প্রতিটি ইংরেজি প্রশ্নের অধীনে রেকর্ড বাটন দেখতে পাচ্ছেন? দুর্দান্ত! কেবল এটিতে ক্লিক করুন, আপনার ফোন / কম্পিউটার মাইক্রোফোনের কাছাকাছি আসুন এবং নীচে প্রদত্ত প্রশ্নের উপর একটি ৭০ সেকেন্ড অডিও রেকর্ড করুন। আপনি যদি রেকর্ডিং পছন্দ করেন তবে কেবল জমা দিন আর আপনি যদি এটি পছন্দ না করেন তবে আপনি আবার মুছে ফেলতে এবং রেকর্ড করতে পারেন!</p>
+					<h3>কিভাবে রেকর্ড ও আপলোড করবেনঃ</h3>
+
+					<style>
+						p.how-record img {
+							width: 25px;
+							background: transparent;
+							height: 25px;
+							padding: 4px;
+							margin: 5px;
+							border: 1px solid #fff;
+						}
+					</style>
+
+					<p class="how-record">আপনি কি প্রতিটি প্রশ্নের সাথে <img src="{{ asset('voice/assets/images/record/icons/recording-symbol.png') }}" alt="Button icon image"> <img src="{{ asset('voice/assets/images/record/icons/stop.png') }}" alt="Button icon image"> <img src="{{ asset('voice/assets/images/record/icons/play.png') }}" alt="Button icon image"> <img src="{{ asset('voice/assets/images/record/icons/delete.png') }}" alt="Button icon image"> আইকন গুলো দেখতে পাচ্ছেন?  আপনার গল্পটি রেকর্ড করতে, আপনার ফোন / কম্পিউটারের কাছে এসে  <img src="{{ asset('voice/assets/images/record/icons/recording-symbol.png') }}" alt="Button icon image"> চাপুন। আপনার উত্তরটি দেয়া হয়ে গেলে রেকর্ডিং বন্ধ করতে <img src="{{ asset('voice/assets/images/record/icons/stop.png') }}" alt="Button icon image">  চাপুন, অন্যথায় এটি 70 সেকেন্ড পরে স্বয়ংক্রিয়ভাবে বন্ধ হয়ে যাবে। তারপরে আপনার রেকর্ড করা গল্পটি শুনতে <img src="{{ asset('voice/assets/images/record/icons/play.png') }}" alt="Button icon image"> চাপুন। যদি রেকর্ড করা উওরটি আপনার পছন্দ হয় তাহলে পরের প্রশ্নের উওর শুরু করুন, আর যদি উওরটি আপনার পছন্দ না হয় তাহলে <img src="{{ asset('voice/assets/images/record/icons/delete.png') }}" alt="Button icon image"> চাপুন এবং আবার রেকর্ড করুন।</p> <br>
+					<p>আপনার সব উত্তর রেকর্ড করা হয়ে গেলে পৃষ্ঠার শেষে সাবমিট বাটন চাপুন এবং আপনার ভয়েস নোটগুলি প্রেরণ করুন!</p>
 				</div>
 			</div>
 		</div>
@@ -75,34 +88,34 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block-heading">
-							<h3>লকডাউন চলাকালীন</h3>
+							<h3>লকডাউনের সময়ের অভিজ্ঞতা</h3>
 						</div>
 
 						<ol class="questions">
 							@foreach($lockdown_questions as $l_question)
 							<li>
 								<div class="single-question d-flex justify-content-between align-items-center">
-									<p>{{ $l_question->question }}</p>
+									<p>{{ $l_question->bnquestion }}</p>
 									<div class="buttons d-flex">
 										<button type="button" class="btn btn-record start_rec" id="start_id_{{ $l_question->id }}" onclick="startMyRecord('id_{{$l_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/recording-symbol.png') }}" alt="Button icon image">
-											<span>Record</span>
+											<span>রেকর্ড</span>
 										</button>
 										<button type="button" class="btn btn-stop" id="stop_id_{{ $l_question->id }}" disabled onclick="stopMyRecord('id_{{$l_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/stop.png') }}" alt="Button icon image">
-											<span>Stop</span>
+											<span>থামুন</span>
 										</button>
 										<button type="button" class="btn btn-play" id="play_id_{{ $l_question->id }}" disabled onclick="playMyRecord('id_{{$l_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/play.png') }}" alt="Button icon image">
-											<span>Play</span>
+											<span>প্লে</span>
 										</button>
 										<button type="button" class="btn btn-pause" id="pause_id_{{ $l_question->id }}" disabled onclick="pauseMyRecord('id_{{$l_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/pause.png') }}" alt="Button icon image">
-											<span>Pause</span>
+											<span>পজ</span>
 										</button>
 										<button type="button" class="btn btn-delete" id="delete_id_{{ $l_question->id }}" disabled onclick="deleteMyRecord('id_{{$l_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/delete.png') }}" alt="Button icon image">
-											<span>Delete</span>
+											<span>ডিলিট</span>
 										</button>
 									</div>
 								</div>
@@ -119,33 +132,33 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="block-heading">
-							<h3>মহামারীর মধ্যে বসবাস</h3>
+							<h3>বর্তমান মহামারী চলাকালীন অভিজ্ঞতা</h3>
 						</div>
 						<ol class="questions">
 							@foreach($pandemic_questions as $p_question)
 							<li>
 								<div class="single-question d-flex justify-content-between align-items-center">
-									<p>{{ $p_question->question }}</p>
+									<p>{{ $p_question->bnquestion }}</p>
 									<div class="buttons d-flex">
 										<button type="button" class="btn btn-record start_rec" id="start_id_{{ $p_question->id }}" onclick="startMyRecord('id_{{$p_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/recording-symbol.png') }}" alt="Button icon image">
-											<span>Record</span>
+											<span>রেকর্ড</span>
 										</button>
 										<button type="button" class="btn btn-stop" id="stop_id_{{ $p_question->id }}" disabled onclick="stopMyRecord('id_{{$p_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/stop.png') }}" alt="Button icon image">
-											<span>Stop</span>
+											<span>থামুন</span>
 										</button>
 										<button type="button" class="btn btn-play" id="play_id_{{ $p_question->id }}" disabled onclick="playMyRecord('id_{{$p_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/play.png') }}" alt="Button icon image">
-											<span>Play</span>
+											<span>প্লে</span>
 										</button>
 										<button type="button" class="btn btn-pause" id="pause_id_{{ $p_question->id }}" disabled onclick="pauseMyRecord('id_{{$p_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/pause.png') }}" alt="Button icon image">
-											<span>Pause</span>
+											<span>পজ</span>
 										</button>
 										<button type="button" class="btn btn-delete" id="delete_id_{{ $p_question->id }}" disabled onclick="deleteMyRecord('id_{{$p_question->id}}')">
 											<img src="{{ asset('voice/assets/images/record/icons/delete.png') }}" alt="Button icon image">
-											<span>Delete</span>
+											<span>ডিলিট</span>
 										</button>
 									</div>
 								</div>

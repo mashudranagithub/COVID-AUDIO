@@ -71,7 +71,7 @@
             			@foreach($lockdown_questions as $l_question)
             			<tr>
             				<td>{{ $i++ }}</td>
-            				<td>{{ $l_question->question }}</td>
+            				<td>{{ $l_question->question }} <br> {{ $l_question->bnquestion }}</td>
             				<td>
             					@if($l_question->status === 1)
             						 Published
@@ -111,7 +111,7 @@
             			@foreach($pandemic_questions as $p_question)
             			<tr>
             				<td>{{ $i++ }}</td>
-            				<td>{{ $p_question->question }}</td>
+            				<td>{{ $p_question->question }} <br>{{ $p_question->bnquestion }}</td>
             				<td>
             					@if($p_question->status === 1)
             						 Published

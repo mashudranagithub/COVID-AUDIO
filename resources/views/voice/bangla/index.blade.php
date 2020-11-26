@@ -47,7 +47,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="registration-form">
-						<h2>আপনার মহামারী গল্প বলুন। আমরা সবাই একইসঙ্গে।</h2>
+						<h2>আমাদেরকে আপনার করোনাকালীন সময়ের গল্প বলুন। আমরা সবাই এই সময়ের সাক্ষী।</h2>
 						<form action="{{ route('banglaVuserCreate') }}" method="post">
 							{{ csrf_field() }}
 							<div class="form-row">
@@ -65,18 +65,30 @@
 									<div class="form-group">
 										<select name="age" id="Age" class="jjj form-control">
 
-											<option value="">আপনার বয়স</option>
+											<option value="">আপনার বয়স ?</option>
 
-											<?php for($i=1;$i<=100;$i++){ ?>
-												<option value="<?php echo $i ?>"><?php echo $i ?></option>
-											<?php } ?>
+
 										</select>
+
+										<script>
+											var select = document.getElementById("Age"),
+											narr = ["১","২","৩","৪","৫","৬","৭","৮","৯","১০","১১","১২","১৩","১৪","১৫","১৬","১৭","১৮","১৯","২০","২১","২২","২৩","২৪","২৫","২৬","২৭","২৮","২৯","৩০","৩১","৩২","৩৩","৩৪","৩৫","৩৬","৩৭","৩৮","৩৯","৪০","৪১","৪২","৪৩","৪৪","৪৫","৪৬","৪৭","৪৮","৪৯","৫০","৫১","৫২","৫৩","৫৪","৫৫","৫৬","৫৭","৫৮","৫৯","৬০","৬১","৬২","৬৩","৬৪","৬৫","৬৬	","৬৭","৬৮	","৬৯	","৭০","৭১","৭২","৭৩","৭৪","৭৫","৭৬	","৭৭","৭৮","৭৯","৮০","৮১","৮২","৮৩","৮৪","৮৫","৮৬","৮৭","৮৮","৮৯","৯০","৯১","৯২","৯৩","৯৪","৯৫","৯৬","৯৭","৯৮","৯৯","১০০"];
+
+											for(var i = 0; i < 100; i++){
+												var option = document.createElement("OPTION"),
+													txt = document.createTextNode(narr[i]);
+												option.appendChild(txt);
+												option.setAttribute("value", i + 1);
+												select.insertBefore(option, select.lastChild);
+											}
+
+										</script>
 									</div>
 								</div>
 							</div>
 							<div class="form-group">
 								<select name="location" id="select" class="jjj form-control" style="height: 38px; line-height: 38px;">
-									<option value="">আপনার এলাকা নির্ধারণ করুন</option>
+									<option value="">আপনি কোথা থেকে বলছেন?/ আপনার ঠিকানা ?</option>
 									<option value="outside">Outside of Bangladesh</option>
 								</select>
 								<!-- <input name="location" id="location" placeholder="Where are you recording from" type="text" class="form-control"> -->
@@ -85,16 +97,19 @@
 
 <script>
 	var select = document.getElementById("select"),
-	arr = ["Dhaka","Faridpur","Gazipur","Gopalganj","Jamalpur","Kishoreganj","Madaripur","Manikganj","Munshiganj","Mymensingh","Narayanganj","Narsingdi","Netrokona","Rajbari","hariatpur","Sherpur","Tangail","Bogura","Joypurhat","Naogaon","Natore","Nawabganj","Pabna","Rajshahi","Sirajgonj","Dinajpur","Gaibandha","Kurigram","Lalmonirhat","ilphamari","Panchagarh","Rangpur","Thakurgaon","Barguna","Barishal","Bhola","Jhalokati","Patuakhali","Pirojpur","Bandarban","Brahmanbaria","Chandpur","Chattogram","Cumilla","Cox's Bazar","Feni","Khagrachari","Lakshmipur","Noakhali","Rangamati","Habiganj","Maulvibazar","Sunamganj","Sylhet","Bagerhat","Chuadanga","Jashore","Jhenaidah","Khulna","Kushtia","Magura","Meherpur","Narail","Satkhira"];
+	arr = ["Dhaka","Faridpur","Gazipur","Gopalganj","Jamalpur","Kishoreganj","Madaripur","Manikganj","Munshiganj","Mymensingh","Narayanganj","Narsingdi","Netrokona","Rajbari","Shariatpur","Sherpur","Tangail","Bogura","Joypurhat","Naogaon","Natore","Chapainawabganj","Pabna","Rajshahi","Sirajgonj","Dinajpur","Gaibandha","Kurigram","Lalmonirhat","Nilphamari","Panchagarh","Rangpur","Thakurgaon","Barguna","Barishal","Bhola","Jhalokati","Patuakhali","Pirojpur","Bandarban","Brahmanbaria","Chandpur","Chattogram","Cumilla","Cox's Bazar","Feni","Khagrachari","Lakshmipur","Noakhali","Rangamati","Habiganj","Maulvibazar","Sunamganj","Sylhet","Bagerhat","Chuadanga","Jashore","Jhenaidah","Khulna","Kushtia","Magura","Meherpur","Narail","Satkhira"];
+
+	bnarr = ["ঢাকা","ফরিদপুর","গাজীপুর","গোপালগঞ্জ","জামালপুর","কিশোরগঞ্জ","মাদারিপুর","মানিকগঞ্জ	","মুন্সিগঞ্জ","ময়মনসিংহ","নারায়ণগঞ্জ","নরসিংদি","নেত্রকোনা","রাজবাড়ি","শরিয়তপুর","শেরপুর","টাঙ্গাইল","বগুড়া","জয়পুরহাট","নওগাঁ","নাটোর","চাঁপাইনবাবগঞ্জ","পাবনা","রাজশাহী","সিরাজগঞ্জ","দিনাজপুর","গাইবান্ধা","কুড়িগ্রাম","লালমনিরহাট","নীলফামারী","পঞ্চগড়","রংপুর","ঠাকুরগাঁও","বরগুনা","বরিশাল","ভোলা","ঝালকাঠি","পটুয়াখালি","পিরোজপুর	","বান্দরবান","ব্রাহ্মণবাড়িয়া","চাঁদপুর","চট্টগ্রাম","কুমিল্লা","কক্সবাজার","ফেনী","খাগড়াছড়ি","লক্ষ্মীপুর","নোয়াখালি","রাঙ্গামাটি","হবিগঞ্জ","মৌলভীবাজার","সুনামগঞ্জ","সিলেট",	"বাগেরহাট","চুয়াডাঙ্গা	","যশোর","ঝিনাইদহ","খুলনা","কুষ্টিয়া","মাগুরা","মেহেরপুর","নড়াইল","সাতক্ষীরা"];
 
 	for(var i = 0; i < arr.length; i++)
 	{
 		var option = document.createElement("OPTION"),
-			txt = document.createTextNode(arr[i]);
+			txt = document.createTextNode(bnarr[i]);
 		option.appendChild(txt);
 		option.setAttribute("value", arr[i]);
 		select.insertBefore(option, select.lastChild);
 	}
+
 </script>
 
 
@@ -105,7 +120,7 @@
 							<div class="form-group">
 								<input name="m_phone" placeholder="আপনার মোবাইল নাম্বার" type="text" class="form-control" minlength="9" maxlength="11" pattern="[0-9]{9, }">
 							</div>
-							<button type="submit" class="btn btn-register">শুরু করা যাক <img src="{{ asset('voice/assets/images/registration/right-arrow.png') }}" alt="Right Arrow Image"></button>
+							<button type="submit" class="btn btn-register">শুরু করুন <img src="{{ asset('voice/assets/images/registration/right-arrow.png') }}" alt="Right Arrow Image"></button>
 						</form>
 					</div>
 				</div>

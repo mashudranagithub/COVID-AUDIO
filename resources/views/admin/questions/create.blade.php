@@ -64,6 +64,10 @@
 						<label for="question">Question</label>
 						<input name="question" type="text" class="form-control" id="question" placeholder="Example question?" required>
 					</div>
+          <div class="form-group">
+            <label for="bnquestion">প্রশ্নটি বাংলায়</label>
+            <input name="bnquestion" type="text" class="form-control" id="bnquestion" placeholder="বাংলায় প্রশ্ন করুন ?" required>
+          </div>
 					<button class="btn btn-success" type="submit">Create</button>
 				</form>     
             </div>

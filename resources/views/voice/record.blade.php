@@ -49,7 +49,21 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h3>How To Record and Upload:</h3>
-					<p>Do you see a PLAY button under each English question? Great! Just click on that, come close to your phone/computer microphone  and record a 70 second click on the question provided below. If you like the recording, just hit Submit. If you don’t like it, you can DELETE and RECORD again! </p>
+					<!-- <p>Do you see a PLAY button under each English question? Great! Just click on that, come close to your phone/computer microphone  and record a 70 second click on the question provided below. If you like the recording, just hit Submit. If you don’t like it, you can DELETE and RECORD again! </p> -->
+
+					<style>
+						p.how-record img {
+							width: 25px;
+							background: transparent;
+							height: 25px;
+							padding: 4px;
+							margin: 5px;
+							border: 1px solid #fff;
+						}
+					</style>
+
+					<p class="how-record">Do you see the icons <img src="{{ asset('voice/assets/images/record/icons/recording-symbol.png') }}" alt="Button icon image"> <img src="{{ asset('voice/assets/images/record/icons/stop.png') }}" alt="Button icon image"> <img src="{{ asset('voice/assets/images/record/icons/play.png') }}" alt="Button icon image"> <img src="{{ asset('voice/assets/images/record/icons/delete.png') }}" alt="Button icon image"> with each question? To record, come close to your phone/computer and press <img src="{{ asset('voice/assets/images/record/icons/recording-symbol.png') }}" alt="Button icon image"> to record your story. Hit <img src="{{ asset('voice/assets/images/record/icons/stop.png') }}" alt="Button icon image"> to stop your recording if you are done otherwise it will stop automatically after 70 seconds, and then <img src="{{ asset('voice/assets/images/record/icons/play.png') }}" alt="Button icon image"> to hear your story. Like it? Great! Move on to the next question. Not so great? No problem: hit <img src="{{ asset('voice/assets/images/record/icons/delete.png') }}" alt="Button icon image"> and record again.</p><br>
+					<p>Once you are done recording go to the submit button at the end of the page to send in your voice notes!</p>
 				</div>
 			</div>
 		</div>
