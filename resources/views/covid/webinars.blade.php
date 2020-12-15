@@ -24,6 +24,123 @@
 			<div class="row mb-4">
 				<div class="col-md-12">
 					<ul>
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">Health, Fitness, and Nutrition during COVID-19</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>3 December 2020, Thursday</p>
+											<p><b>TIME:  </b>5:00 pm -  6:30 pm (Bangladesh Standard Time)</p>
+
+											<p><b>Panel Speakers:</b></p>
+
+											<p><b>Tanjim Ahmad Sohel Taj,</b> Social Activist, Founder of Inspire Fitness; Host and Creator of Hotline Commando</p>
+
+											<p><b>Nazia Hassan,</b> Certified Fitness Trainer</p>
+											<p><b>Professor Malay Kanti Mridha,</b> Professor and  Director of the Centre of Excellence for Non-Communicable Diseases & Nutrition (CNCDN), BRAC James P Grant School of Public Health, BRAC University</p>
+
+											<p><b>Moderator:</b></p>
+
+											<p><b>Rafee Muhammad Tamjid</b>, Assistant Manager, New Media, BRAC James P Grant School of Public Health, BRAC University</p>
+
+											<p><b>Full Webinar Video: </b> <a class="mt-3" target="_blank" href="https://www.youtube.com/watch?v=i75GusfbD1E">https://www.youtube.com/watch?v=i75GusfbD1E</a></p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/health-fitness.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p class="mb-3"></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/health-fitness.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">"Producing a Safe and Effective Vaccine: Align Public Health Needs with Economic & Social Development Objectives"</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>23 November 2020</p>
+											<p><b>TIME:  </b>4:00 PM – 5:30 PM (Bangladesh Standard Time)</p>
+
+											<p><b>Panel Speakers:</b></p>
+
+											<p><b>Malabika Sarker,</b> Professor & Associate Dean of BRAC James P Grant School of Public Health, BRAC University; Director, CoE Science of Implementation & Scale Up (SISU)</p>
+
+											<p><b>Prof. Ian Frazer,</b> Nobel prize and inventor of the vaccine against human papillomavirus (HPV)</p>
+											<p><b>Professor Walter Ricciardi,</b> President, WFPHA</p>
+											<p><b>Dr. Jane Barratt,</b> Secretary Genereal, IFA</p>
+											<p><b>Dr. Michael Moore AM,</b> Former President, WFPHA</p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/safe-effecting-vaccine.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p class="mb-3"></p>
+
+										<p><b>Full Webinar Video: </b> <a class="mt-3" target="_blank" href="https://www.facebook.com/834660103326222/videos/393548095093599">https://www.facebook.com/834660103326222/videos/393548095093599</a></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/safe-effecting-vaccine.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">Implementation Research: A catalyst for bridging the knowledge gap between Discovery to Delivery</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>Thursday, November 19, 2020</p>
+											<p><b>TIME:  </b>9:00 am-10:30 am (Berkeley time) | 11 pm - 12:30 am (Dhaka time)</p>
+
+											<p><b>Panel Speaker:</b></p>
+
+											<p><b>Malabika Sarker,</b> Professor & Associate Dean of BRAC James P Grant School of Public Health, BRAC University; Director, CoE Science of Implementation & Scale Up (SISU)</p>
+
+											<p><b>Moderator:</b></p>
+
+											<p><b>Bilal Siddiqi,</b> Director of Research, Center for Effective Global Action (CEGA), UC Berkeley</p>
+
+											<p><b>Full Webinar Video: </b> <a class="mt-3" target="_blank" href="https://www.youtube.com/watch?v=6Y0ljQJtUzQ">https://www.youtube.com/watch?v=6Y0ljQJtUzQ</a></p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/implementation-research.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p class="mb-3"></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/implementation-research.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div class="webinar education-text mb-4">
 							<li><h4 class="show-webinar">Community Health Workers During COVID-19</h4></li>
 							<div class="webinar-details">

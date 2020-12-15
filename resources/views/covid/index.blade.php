@@ -160,49 +160,33 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="single-edu-faq">
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Role-play by the students: Exploring different aspects of Environment & Climate Change through the lens of Public Health</b></a></h3>
+						<div class="course-details">
+							<p class="mb-3">The MPH 16th batch students just completed their last course work for the academic year. Students highly enjoyed this module which included a teaching-learning experience. One of the specialities of  Environment, Health and Climate Change (MPH 541) is that it does not have a final exam but only a reflection of three things they learnt and have to summarize on the last day. Students got a chance to be acquainted with environmental determinants and factors broadly affecting health and wellbeing and gained basic understanding and orientation on key concepts, approaches and perspectives of environment, climate change and disaster in the context of public health implication. The course also dealt with the application of selected tools widely used for environmental assessment and further explored how policies and frameworks related to environment and climate change are formulated at national and international level.</p>
+							<p>The course coordinator was Dr. Zahirul Islam; Clinical Research Fellow, Child Health Research Center at the University of University of Queensland, Australia. He used various means of technology to make the teaching sessions more interactive and interesting such as: Video Documentaries to explain the relation with health and Environment and climate changes; Mini workshop and panel sessions with experts from The Government and Highest International NGOs in the country, Futures Wheel Exercises, Simulation sessions, Facilitated discussions. Overall the module ensured a student-centred learning.</p>
+						</div>
+					</div>
+					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Students designing life course approach intervention</b></a></h3>
 						<div class="course-details">
-							<p class="mb-2">The current batch of MPH students of BRAC James P Grant School of Public Health at BRAC University is undertaking a 2 week long course on Aging and Health (MPH 681), started from October 11, 2020. This module introduced the students to population ageing, its underlying factors as well as regional and gender dimensions of ageing. Implications of rapid population ageing in low-income countries in the context of public health and care for older persons will be discussed. Students are exploring the preventable conditions which are causing mortality among the older population. Such as intestinal infections and nutrition related problems are still common in low-income regions of the world. The overall objective of the module is to provide an understanding of ageing taking a life-course approach and the necessity to view ageing from a multi-disciplinary perspective.</p>
-
-							<p class="mb-2">We have professor Malay Kanti Mridha from JPGSPH and Professor Dr. Fariha Haseen from BSMMU  to Coordinate the entire module, along with the following faculty members-</p>
-
+							<p class="mb-2">A 2 week long course on Aging and Health (MPH 681) started on October 11, 2020 and was designed to run for 2 weeks. This module introduced the students to population ageing, its underlying factors as well as regional and gender dimensions of ageing. Implications of rapid population ageing in low-income countries in the context of public health and care for older persons will be discussed. Students are exploring the preventable conditions which are causing mortality among the older population. Such as intestinal infections and nutrition related problems are still common in low-income regions of the world. The overall objective of the module is to provide an understanding of ageing taking a life-course approach and the necessity to view ageing from a multi-disciplinary perspective.</p>
+							<p class="mb-2">We have professor Malay Kanti Mridha from JPGSPH and Professor Dr. Fariha Haseen from BSMMU to Coordinate the entire module, along with the following faculty members-</p>
 							<p class="mb-2">Syed Masud Ahmed (BRAC JPGSPH), Malabika Sarker (BRAC JPGSPH), Helal Uddin Ahmed (NIMH), Manna Rahman (VSO), Mehedi Hasan (BRAC JPGSPH), Abu Hanif Mohammad Abdullah (BRAC JPGSPH).</p>
-
-							<p class="mb-2">We also have Ipsita Sutradhar (BRAC JPGSPH) as a resource person and Nazrana Khaled (BRAC JPGSPH) and Fahmida Akter (BRAC JPGSPH). </p>
-
-							<p>Students are analyzing public health implications of population growth and burden of NCDs globally and at a national level in terms of the magnitude of the problem (economic burden, social burden and future impact). Identifying the multiple facets of ageing including functional ability, social support, role of the older persons, formal and informal care for older persons. Assessing the social, political, environmental, cultural and economic factors contributing to the burden of NCDs and illustrating health promotion aspects for preparation for healthy ageing from young adulthood through Mini Seminars arranged and conducted by the students in pairs or small groups everyday.</p>
-
-
+							<p class="mb-2">We also have Ipsita Sutradhar (BRAC JPGSPH) as a resource person and Nazrana Khaled (BRAC JPGSPH) and Fahmida Akter (BRAC JPGSPH).</p>
+							<p>Students are analyzing public health implications of population growth and the burden of NCDs globally and at a national level in terms of the magnitude of the problem (economic burden, social burden and future impact). Identifying the multiple facets of ageing including functional ability, social support, role of the older persons, formal and informal care for older persons. Assessing the social, political, environmental, cultural and economic factors contributing to the burden of NCDs and illustrating health promotion aspects for preparation for healthy ageing from young adulthood through Mini Seminars arranged and conducted by the students in pairs or small groups everyday.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Virtual tour of Hospital setting in a LMIC: Exploring the Nutritional Status of Children</b></a></h3>
 						<div class="course-details">
-							<p>The two-week long course on Public Health Nutrition started on September 27 th , 2020 and
-							the School prepared practical video shoots on the following:</p>
-							<p class="mb-2">1. How to assess nutritional status of children and women: anthropometric techniques, Z
-							scores and their interpretation</p>
+							<p>The two-week long course on Public Health Nutrition started on September 27 th , 2020 and the School prepared practical video shoots on the following:</p>
+							<p class="mb-2">1. How to assess nutritional status of children and women: anthropometric techniques, Z scores and their interpretation</p>
 							<p class="mb-2">2. Assessment of nutritional status: anthropometric techniques and their use</p>
-							<p class="mb-2">3. Interviews and interpretation of the findings on Management of stunting, underweight,
-							wasting, severe acute malnutrition, and Nutritional rehabilitation of severely malnourished
-							children.</p>
-							<p class="mb-3">4. Practical demonstration of the Preparation of therapeutic diets: F-75 and Khichuri and
-							Nutritional rehabilitation.</p>
-
-							<p class="mb-3">The Students were able to get a virtual tour of the Dhaka hospital and see the rehabilitation
-							wards and interview of patients which helped them understand and conceptualize the
-							causes of malnutrition learning from a hospital setting, gain an idea on assessment of
-							nutritional status of children and women, and the different methods of improving intake of
-							nutrients.</p>
-							<p class="mb-3">In this module, Dr. Tahmeed Ahmed, MBBS, PhD, Senior Director & Senior Scientist,
-							Nutrition & Clinical Services Division (NCSD), ICDDR,B and Professor, BRAC James P Grant
-							School of Public Health, BRAC University is the Coordinator and teacher. He’s the first ever
-							Bangladeshi to take up the position of Executive Director of ICDDR,B. Several scientists and
-							research Investigators are partaking in this course to enrich the students with their practical
-							knowledge and experiences through teaching different sessions.</p>
-							<p>Students gained experience on food security, IYCF, nutrition during infections, nutrition
-							during adolescence and pregnancy etc with supervision from Research officers, Research
-							Investigators and Research Physicians from Icddrb.</p>
+							<p class="mb-2">3. Interviews and interpretation of the findings on Management of stunting, underweight, wasting, severe acute malnutrition, and Nutritional rehabilitation of severely malnourished children.</p>
+							<p class="mb-3">4. Practical demonstration of the Preparation of therapeutic diets: F-75 and Khichuri and Nutritional rehabilitation.</p>
+							<p class="mb-3">The Students were able to get a virtual tour of the Dhaka hospital and see the rehabilitation wards and interview of patients which helped them understand and conceptualize the causes of malnutrition learning from a hospital setting, gain an idea on assessment of nutritional status of children and women, and the different methods of improving intake of nutrients.</p>
+							<p class="mb-3">In this module, Dr. Tahmeed Ahmed, MBBS, PhD, Senior Director & Senior Scientist, Nutrition & Clinical Services Division (NCSD), ICDDR,B and Professor, BRAC James P Grant School of Public Health, BRAC University is the Coordinator and teacher. He’s the first ever Bangladeshi to take up the position of Executive Director of ICDDR,B. Several scientists and research Investigators are partaking in this course to enrich the students with their practical knowledge and experiences through teaching different sessions.</p>
+							<p>Students gained experience on food security, IYCF, nutrition during infections, nutrition during adolescence and pregnancy etc with supervision from Research officers, Research Investigators and Research Physicians from Icddrb.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
@@ -210,56 +194,46 @@
 						<div class="course-details">
 							<p class="mb-3">Gender, sexual and reproductive health & rights (MPH 660) module started on the 6th of September, 2020 and designed in a way which will help the students to acquire broad perspective on sexual and reproductive health and rights of women and men and other vulnerable groups, gain a layered understanding of the broader factors that shape sexual and reproductive health and rights. Some of the layers that will be considered (with varying emphases for particular topics) are: epidemiology, anthropology, policy, human rights, and health programs. The course will explore how global and local agendas and contexts (social, cultural and political economic factors), and gender shape health experiences (i.e quality of care, neglect and other forms of denial, which impacts on access and rights).</p>
 							<p class="mb-3">This module is Coordinated by Dr Sabina Faiz Rashid - Dean and Professor, BRAC James P Grant School of Public Health, BRAC University, Dhaka, Bangladesh, with the Co-coordinator Ms. Bachera Aktar - Assistant Director, The Center of Excellence for Gender, Sexual and Reproductive Health and Rights (CGSRHR), James P Grant School of Public Health, BRAC University, Dhaka, Bangladesh.</p>
-							<p class="mb-3">‘Online Debates’ are a new addition and an integral part of this course. The objective of these debates is for students to understand global policies and local realities which impact on rights, and have a healthy and logical discussions on the intersections between gender, socio-cultural, political and economic factors as they affect adversely reproductive health experiences and rights.</p>
-							<p>Topics such as  Legalization of abortion increases the rate of pre-marital sex and other ‘illicit’ relationships; Basic Comprehensive Sexuality education should be mandatory in primary education in all schools (Age 10 years and above); LGBTQI have the right to adopt children or have children of their own (i.e surrogacy); Need to promote and provide access to contraceptives for college going (grade 11 & 12) and university students in Educational Institution were discussed in these debates</p>
+							<p class="mb-3">‘Online Debates’ are a new addition and an integral part of this course. The objective of these debates is for students to understand global policies and local realities which impact on rights, and have healthy and logical discussions on the intersections between gender, socio-cultural, political and economic factors as they affect adversely reproductive health experiences and rights.</p>
+							<p>Topics such as Legalization of abortion increases the rate of pre-marital sex and other ‘illicit’ relationships; Basic Comprehensive Sexuality education should be mandatory in primary education in all schools (Age 10 years and above); LGBTQI have the right to adopt children or have children of their own (i.e surrogacy); Need to promote and provide access to contraceptives for college going (grade 11 & 12) and university students in Educational Institution were discussed in these debates.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>Multi-country virtual study in Infectious Diseases course during pandemic</b></a></h3>
 						<div class="course-details">
 							<p class="mb-3">Epidemiology of Infectious Diseases (MPH 620), a 3-week long course that started August 9th, introduced the students to a wide range of infectious diseases through illustrating the principles of infectious diseases around the globe. The course was conducted online and students acquired knowledge on the high burden of disease with data driven presentations from faculty members all over the world as well as strategies to reduce infectious disease burden in a low resource context.</p>
-							<p class="mb-3">Dr. Richard A. Cash, Professor: Global Health and Population, Harvard T.H. Chan School of Public Health, USA; and Professor, BRAC JPG School of Public Health; Infectious Diseases; Research Ethics, and Dr. Stephen P. Luby, Professor
-							of Medicine (Infectious Diseases), Associate Dean for Global Health Research, Stanford University, USA coordinated the entire module, along with other national and international faculty members. As per the requirement of the  course, the students worked in groups and designed small study to assess impact of COVID-19 on issues related to social and health seeking behavior during pandemic: Livelihood, Health care seeking behavior, Trust in organizations, Mental health, and Adaptation of behaviour i.e. use of masks/facial covering, hand washing, etc.</p>
+							<p class="mb-3">Dr. Richard A. Cash, Professor: Global Health and Population, Harvard T.H. Chan School of Public Health, USA; and Professor, BRAC JPG School of Public Health; Infectious Diseases; Research Ethics, and Dr. Stephen P. Luby, Professor of Medicine (Infectious Diseases), Associate Dean for Global Health Research, Stanford University, USA coordinated the entire module, along with other national and international faculty members. As per the requirement of the course, the students worked in groups and designed small study to assess impact of COVID-19 on issues related to social and health seeking behavior during pandemic: Livelihood, Health care seeking behavior, Trust in organizations, Mental health, and Adaptation of behaviour i.e. use of masks/facial covering, hand washing, etc.</p>
 							<p>This is the first time the students conducted research in different countries simultaneously, which included the UK, India, Indonesia, Myanmar, Bangladesh, Maldives, Philippines. They collected quantitative and qualitative data through a variety of online data collection platforms including Phone interviews, online survey via different online platforms like Google, Facebook. Some of the research included Change in Healthcare Seeking Behaviour and Adaptation of Behaviour.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>MPH Students to analyse Health System and Policy of different countries</b></a></h3>
 						<div class="course-details">
-							<p class="mb-3">What else could be more relevant, interesting and timely than exploring how systemic challenges can be overcome during a pandemic situation like covid 19?</p>
-							<p class="mb-3">The Master of Public Health (MPH) students at BRAC JPG School of Public Health are getting engaged in active discussion, meaningful exchange of ideas and productive dialogue with health systems experts during the current Health Systems Management Module. The students are also critically reviewing health systems contexts and response to covid-19 situation in different countries.</p>
-							<p class="mb-3">As per the requirement of the course, students will also undertake experiential learning project on Health System’s response to COVID 19 pandemic in different country context and apply critical systems thinking approach in order to identify gaps and challenges and find out a possible solution.</p>
-							<p class="mb-3">The course is being advised by Prof. Syed Masud Ahmed, Director, Centre of Excellence for Health Systems and Universal Health Coverage at BRAC JPG School of Public Health and coordinated by Shaikh A Shahed Hossain, Professor, BRAC JPG School of Public Health with support from other Facilitators Bachera Aktar, Assistant Director, The Center of Excellence for Gender, Sexual and Reproductive Health and Rights (CGSRHR), BRAC JPG School of Public Health; Kuhel Faizul Islam, Senior Coordinator, JPGSPH, BRAC University and Rushdia Ahmed, Senior Researcher (part-time) with BRAC JPG School of Public Health & Doctoral Student University of Toronto, Canada.</p>
-							<p class="mb-3">Students are also receiving critical sessions by distinguished faculty members and experts and practitioners from renowned organizations and institutions round the globe. They include Dr. Timothy Grant Evans, Inaugural Director and Associate Dean of the School of Population and Global Health (SPGH) in the Faculty of Medicine and Associate Vice-Principal at Global Policy and Innovation, McGill University; Ermin Erasmus, Collaboration for Health Policy & Systems Analysis in South Africa; Miatta Zenabu Gbanya, Immunization Specialist, UNICEF Afghanistan;  Dr. Taufique Joarder, Research Director, USAID’s Multisectoral Nutrition Programming through Implementation Science Activity, FHI360 Bangladesh; Jannatul Ferdous, Health Officer (Health System Strengthening), UNICEF Bangladesh; Dr. ATM Iqbal Anwar, Project Director, Universal Health Coverage, Health System and Population Studies Division, ICDDRB and Dr. Mohammad Mushtuq Husain; Advisor IEDCR (Consultant, COVID-19 Pandemic Control, World Bank).</p>
-							<p class="mb-3">Teaching Fellows for this course include Samiun Nazrin Bente Kamal Tune, Farzana Manzoor, Nibedita Sarker , Mowtushi Matin, Wafa Alam, Md. Imran Hossain Mithu, Bushra Zarin Islam, Ranjan Koiri, Rituja Shome, Ateeb Ahmad Parray who are working as Research Associates and assistant coordinator at JPGSPH, BRAC University.</p>
+							<p class="mb-3">The MPH students have been getting engaged in active discussion, meaningful exchange of ideas and productive dialogue with health systems experts during the current Health Systems Management Module. The students are also critically reviewing health systems contexts and responses to covid-19 situations in different countries.</p>
+							<p class="mb-3">As per the requirement of the course, students have also undertaken experiential learning projects on Health System’s response to COVID 19 pandemic in different country context and apply critical systems thinking approach in order to identify gaps and challenges and find out a possible solution.</p>
+							<p class="mb-3">The course is being advised by Prof. Syed Masud Ahmed, Director, Centre of Excellence for Health Systems and Universal Health Coverage and coordinated by Shaikh A Shahed Hossain, Professor with support from other Facilitators.</p>
+							<p>Students are also receiving critical sessions by distinguished faculty members and experts and practitioners from renowned organizations and institutions round the globe. Dr. Timothy Grant Evans, Inaugural Director and Associate Dean of the School of Population and Global Health (SPGH) in the Faculty of Medicine and Associate Vice-Principal at Global Policy and Innovation, McGill University; Ermin Erasmus, Collaboration for Health Policy & Systems Analysis in South Africa; Miatta Zenabu Gbanya, Immunization Specialist, UNICEF Afghanistan; Dr. Taufique Joarder, Research Director, USAID’s Multisectoral Nutrition Programming through Implementation Science Activity, FHI360 Bangladesh; Jannatul Ferdous, Health Officer (Health System Strengthening), UNICEF Bangladesh; Dr. ATM Iqbal Anwar, Project Director, Universal Health Coverage, Health System and Population Studies Division, ICDDRB and Dr. Mohammad Mushtuq Husain; Advisor IEDCR (Consultant, COVID-19 Pandemic Control, World Bank) have all provided these sessions to the students during the coursework.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>MPH STUDENTS DESIGN COMMUNITY BASED INNOVATIVE HEALTH INSURANCE SCHEME</b></a></h3>
 						<div class="course-details">
-							<p class="mb-3">After successful completion of week-long Proposal Development Workshop, the Master of Public Health (MPH) students are currently undertaking Health Economics and Health Care Financing module, the 5th online course during COVID-19 pandemic. Coordinated by Dr. Zahidul Quayyum, Professor of Health Economics; Co-Director Research and Co-Director Centre of Excellence for Urban Equity and Health (CUEH), BRAC JPG School of Public Health, BRAC University and Dr. Jahangir Khan, Senior Lecturer at Department of International Public Health at Liverpool School of Tropical Medicine, UK; Adjunct Researcher, Department of Learning, Informatics, Management and Ethics, Karolinska Institutet, Sweden and Adjunct Professor at BRAC James P Grant School of Public Health, BRAC University, Bangladesh.</p>
-							<p class="mb-3">This course is intensively designed with lots of hands-on learning experiences that will foster basic understanding of different approaches of health economics and health care financing and its application in the field of public health.</p>
-							<p class="mb-3">Unlike other previous online modules, this module is separated in two different blocks; Block-I: Basic Concepts, Market for Health Care Goods, Resource Allocation, and Economic Evaluation, and Block-II: Healthcare Financing. The course will engage students in interactive and meaningful discussion on different market forces and dynamics of health care industry and how it relates to designing community based health insurance projects. As per the requirement of the course, students will design community-based health insurance schemes in a developing country context.</p>
-							<p class="mb-3">Students will also get critical other sessions by distinguished faculty members and experts and practitioners from renowned organizations and institutions. They include Professor Nahid Akhter Jahan and Professor Sayed Abdul Hamid at Institute of Health Economics, University of Dhaka; Dr. Shakil Ahmed, Senior Economist at World Bank Group; Mr. Musabbir Rahim, Manager at BRAC-Aarong, and Dr. Sayem Ahmed; Health Economist at Liverpool School of Tropical Medicine, UK and Dr. Marufa Sultana, PhD Candidate at the Deakin University, Australia.</p>
-							<p>Teaching Fellows for this course include Muhammad Nazmul Islam: Research Fellow, Marzuka Ahmed Radia; Research Coordinator, Baby Naznin; Research Assistant, from JPGSPH. In addition, the MPH team are also providing management support for the implementation of this online module.</p>
+							<p class="mb-3">The 5th online course taking place during the COVID-19 pandemic is the Health Economics and Health Care Financing module which is coordinated by Dr. Zahidul Quayyum, Professor of Health Economics; Co-Director Research and Co-Director Centre of Excellence for Urban Equity and Health (CUEH), and Dr. Jahangir Khan, Senior Lecturer at Department of International Public Health at Liverpool School of Tropical Medicine, UK; Adjunct Researcher, Department of Learning, Informatics, Management and Ethics, Karolinska Institutet, Sweden and Adjunct Professor.</p>
+							<p class="mb-3">This course is intensively designed with lots of hands-on learning experiences that will foster basic understanding of different approaches of health economics and health care financing and its application in the field of public health. This course is separated in two different blocks: Block-I: Basic Concepts, Market for Health Care Goods, Resource Allocation, and Economic Evaluation, and Block-II: Healthcare Financing. The course is designed to engage students in interactive and meaningful discussion on different market forces and dynamics of the healthcare industry and how it relates to designing community based health insurance projects.</p>
+							<p>Students have received critical sessions by distinguished faculty members and experts and practitioners from renowned organizations and institutions. Professor Nahid Akhter Jahan and Professor Sayed Abdul Hamid at Institute of Health Economics, University of Dhaka; Dr. Shakil Ahmed, Senior Economist at World Bank Group; Mr. Musabbir Rahim, Manager at BRAC-Aarong, and Dr. Sayem Ahmed; Health Economist at Liverpool School of Tropical Medicine, UK and Dr. Marufa Sultana, PhD Candidate at the Deakin University, Australia has conducted sessions with the students.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
-						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"> <b> MPH STUDENTS PARTICIPATE IN ONLINE QUANTITATIVE RESEARCH METHODS MODULE </b></a></h3>
+						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"><b>MPH STUDENTS PARTICIPATE IN ONLINE QUANTITATIVE RESEARCH METHODS MODULE</b></a></h3>
 						<div class="course-details">
-							<p class="mb-3">After successful completion of 4 weeks long Biostatistics course, Master of Public Health (MPH) students are currently undertaking Quantitative Research Methods, the 3rd online course during COVID-19 pandemic. Coordinated by Malabika Sarker Professor and Associate Dean; Director of Research, Director Center of Excellence for Science of Implementation & Scale-Up (CoE-SISU) BRAC JPG School of Public Health, the QRM course is designed as an intensive, hands-on learning experience that will foster the development of a basic understanding of different research designs and concrete skills in quantitative research methods, with a particular emphasis on survey development.</p>
-							<p class="mb-3">Unlike other previous online modules, students are doing online group work to design a quantitative research query, make data collection plan in a pandemic, collect data online and present findings in group.</p>
-							<p class="mb-3">The Course will be co-facilitated by Malay Kanti Mridha Professor and Director, Center of Excellence for Non- communicable Diseases and Nutrition BRAC JPG School of Public Health; Atonu Rabbani, Associate Scientist, at BRAC JPG School of Public Health; Mrittika Barua, Senior Research Fellow, BRAC JPG School of Public Health; Mehedi Hasan, Senior Research Fellow, BRAC JPG School of Public Health; Nazmul Islam, Research Fellow, BRAC JPG School of Public Health; Musfiqur Rahman, Research Associate, BRAC JPG School of Public Health.</p>
-							<p>Teaching Fellows for this course include Avijit Saha: Research Fellow, Shams Shabab Haider, Research Assistant; and Suhi Hanif, Statistical Analyst. In addition, the MPH team are also providing management support for the implementation of this online module.</p>
+							<p class="mb-3">After successful completion of the 4 week Biostatistics course, our MPH students are not lagging behind and have moved forward to the 3rd online course during the pandemic: Quantitative Research Methods. The course is coordinated by Malabika Sarker Professor and Associate Dean; Director of Research, Director Center of Excellence for Science of Implementation & Scale-Up (CoE-SISU). The QRM course is designed as an intensive, hands-on learning experience that will foster the development of a basic understanding of different research designs and concrete skills in quantitative research methods, with a particular emphasis on survey development.</p>
+							<p>Unlike other previous online modules, students are doing online group work to design a quantitative research query, make data collection plans in a pandemic, collect data online and present findings in group.</p>
 						</div>
 					</div>
 					<div class="single-edu-faq">
 						<h3 class="show-details"><a href="javascript:void(0);" class="education-color"> <b> MPH Students undertake online Biostatistics course </b></a></h3>
 						<div class="course-details">
-							<p class="mb-3">MPH Students undertake online Biostatistics course
-							After the successful completion of Epidemiology course, MPH students are currently undertaking 2nd online course Biostatistics. Coordinated by Dr Md. Tanvir Hasan Assistant Professor and Co-Director of Centre of Excellence for Urban Equity and Health (CUEH) BRAC JPG School of Public Health Currently, this 4-week course will equip students with basic statistical tools and its application in public health.
-							</p>
-							<p>Dr Malay Kanti Mridha Professor and Director, Center of Excellence for Non- communicable Diseases and Nutrition BRAC JPG School of Public Health; Dr Shofiqur Rahman, Professor, Institute of Statistical Research and Training at Dhaka University and Dr Dipak Mitra, Professor and Chair, Department of Public Health at North South University are also teaching in this module.  Teaching Fellows for this course include  Uzzal Chowdhury: Senior Statistician, Mir Rayhanul Islam: Senior Research Associate, Abdul Awal: Senior Research Assistant, Srizan Chowdhury: Research Assistant and Md Mobkul Hossain: Statistical Analyst. In addition, the MPH team are also providing management support for the implementation of this online module.</p>
+							<p>The course that took place during the pandemic was the Biostatistical course. The MPH Students took the Biostatistics course online after the successful completion of Epidemiology course. The course was coordinated by Dr Md. Tanvir Hasan Assistant Professor and Co-Director of Centre of Excellence for Urban Equity and Health (CUEH). This 4-week course equips students with basic statistical tools and its application in public health.</p>
 						</div>
 					</div>
 				</div>
@@ -378,6 +352,123 @@
 				</div> -->
 				<div class="col-md-12">
 					<ul>
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">Health, Fitness, and Nutrition during COVID-19</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>3 December 2020, Thursday</p>
+											<p><b>TIME:  </b>5:00 pm -  6:30 pm (Bangladesh Standard Time)</p>
+
+											<p><b>Panel Speakers:</b></p>
+
+											<p><b>Tanjim Ahmad Sohel Taj,</b> Social Activist, Founder of Inspire Fitness; Host and Creator of Hotline Commando</p>
+
+											<p><b>Nazia Hassan,</b> Certified Fitness Trainer</p>
+											<p><b>Professor Malay Kanti Mridha,</b> Professor and  Director of the Centre of Excellence for Non-Communicable Diseases & Nutrition (CNCDN), BRAC James P Grant School of Public Health, BRAC University</p>
+
+											<p><b>Moderator:</b></p>
+
+											<p><b>Rafee Muhammad Tamjid</b>, Assistant Manager, New Media, BRAC James P Grant School of Public Health, BRAC University</p>
+
+											<p><b>Full Webinar Video: </b> <a class="mt-3" target="_blank" href="https://www.youtube.com/watch?v=i75GusfbD1E">https://www.youtube.com/watch?v=i75GusfbD1E</a></p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/health-fitness.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p class="mb-3"></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/health-fitness.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">"Producing a Safe and Effective Vaccine: Align Public Health Needs with Economic & Social Development Objectives"</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>23 November 2020</p>
+											<p><b>TIME:  </b>4:00 PM – 5:30 PM (Bangladesh Standard Time)</p>
+
+											<p><b>Panel Speakers:</b></p>
+
+											<p><b>Malabika Sarker,</b> Professor & Associate Dean of BRAC James P Grant School of Public Health, BRAC University; Director, CoE Science of Implementation & Scale Up (SISU)</p>
+
+											<p><b>Prof. Ian Frazer,</b> Nobel prize and inventor of the vaccine against human papillomavirus (HPV)</p>
+											<p><b>Professor Walter Ricciardi,</b> President, WFPHA</p>
+											<p><b>Dr. Jane Barratt,</b> Secretary Genereal, IFA</p>
+											<p><b>Dr. Michael Moore AM,</b> Former President, WFPHA</p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/safe-effecting-vaccine.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p class="mb-3"></p>
+
+										<p><b>Full Webinar Video: </b> <a class="mt-3" target="_blank" href="https://www.facebook.com/834660103326222/videos/393548095093599">https://www.facebook.com/834660103326222/videos/393548095093599</a></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/safe-effecting-vaccine.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="webinar education-text mb-4">
+							<li><h4 class="show-webinar">Implementation Research: A catalyst for bridging the knowledge gap between Discovery to Delivery</h4></li>
+							<div class="webinar-details">
+								<div class="row">		
+									<div class="col-md-6">
+										<div class="education-text">
+
+											<p><b>DATE:  </b>Thursday, November 19, 2020</p>
+											<p><b>TIME:  </b>9:00 am-10:30 am (Berkeley time) | 11 pm - 12:30 am (Dhaka time)</p>
+
+											<p><b>Panel Speaker:</b></p>
+
+											<p><b>Malabika Sarker,</b> Professor & Associate Dean of BRAC James P Grant School of Public Health, BRAC University; Director, CoE Science of Implementation & Scale Up (SISU)</p>
+
+											<p><b>Moderator:</b></p>
+
+											<p><b>Bilal Siddiqi,</b> Director of Research, Center for Effective Global Action (CEGA), UC Berkeley</p>
+
+											<p><b>Full Webinar Video: </b> <a class="mt-3" target="_blank" href="https://www.youtube.com/watch?v=6Y0ljQJtUzQ">https://www.youtube.com/watch?v=6Y0ljQJtUzQ</a></p>
+
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="section-banner">
+											<img src="{{ asset('front/covid/assets/images/webinar/implementation-research.jpg') }}" alt="Webinar Banner Image">
+										</div>
+										<hr>
+
+										<p class="mb-3"></p>
+
+										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/implementation-research.jpg') }}" target="_blank">Click here to see more</a></h5>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div class="webinar education-text mb-4">
 							<li><h4 class="show-webinar">Community Health Workers During COVID-19</h4></li>
 							<div class="webinar-details">
@@ -457,147 +548,6 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">Webinar on Masculinity and Gender Based Violence</h4></li>
-							<div class="webinar-details">
-								<div class="row">		
-									<div class="col-md-6">
-										<div class="education-text">
-
-											<p><b>DATE: </b>17 September 2020, Thursday</p>
-											<p><b>TIME: </b>4:00 PM -  5:00 PM  Bangladesh Standard Time</p>
-
-											<p><b>PANEL SPEAKERS:</b></p>
-											<p><b>1. Anand Pawar,</b> Executive Director, SAMYAK, Pune, India</p>
-											<p><b>2. Imtiaz Pavel Neel,</b> Gender and Diversity Justice, Analyst and Filmmaker</p>
-											<p><b>3. Farzana Misha,</b> Research Coordinator, BRAC James P Grant School of Public Health, BRAC University</p>
-
-											<p><b>MODERATOR:</b> </p>
-											<p><b>Farhana Alam, </b> Assistant Director (CGSRHR) at BRAC James P Grant School of Public Health, BRAC University</p>
-
-											<p><b>Full Webinar Video: </b>
-											<a class="mb-3" target="_blank" href="https://www.youtube.com/watch?v=aXsmFt4SmAQ&feature=youtu.be">https://www.youtube.com/watch?v=aXsmFt4SmAQ&feature=youtu.be</a></p>
-
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/Webinar-Masculinity.jpg') }}" alt="Webinar Banner Image">
-										</div>
-										<hr>
-
-										<p class="mb-3"></p>
-
-										<p><b>The webinar will be broadcast live on the BRAC JPGSPH Facebook Page:</b> <a class="mb-3" target="_blank" href="http://www.facebook.com/BRACJPGSPH">http://www.facebook.com/BRACJPGSPH</a></p>
-										
-
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/Webinar-Masculinity.jpg') }}" target="_blank">Click here to see more</a></h5>
-
-										
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">Role of Informal health providers in Covid-19</h4></li>
-							<div class="webinar-details">
-								<div class="row">		
-									<div class="col-md-6">
-										<div class="education-text">
-
-											<p><b>DATE: </b>August 13, 2020</p>
-											<p><b>TIME: </b>8.30 PM (BD Time)</p>
-
-											<p><b>Discussants:</b></p> 
-
-											<p><b>1. Dr. A. E. Md. Muhiuddin Osmani, </b>MBBS, FCPS (Medicine), Joint Chief (Health Wing), Planning Commission, Ministry of Planning</p> 
-											<p><b>2. Prof. Jishnu Das,</b> Professor at GWU, Ex-Senior Economist in the Development Research Group at the World Bank</p>
-											<p><b>3. Dr. Aftab Uddin,</b> Public Health Expert and Medical Educationalist</p> 
-											<p><b>4. Dr. Malabika Sarker,</b> Professor and Associate Dean, James P Grant School of Public Health </p>
-												
-											<p><b>Session Chair:</b></p>
-											<p><b>Dr. Abu Mohammad Zakir Hussain,</b> Ex Director, PHC & DC, Former Director IEDCR, Formal Regional Advisor SEARO, WHO</p>
-
-											<p><b>Moderator:</b></p>
-											<p><b>Mahrukh Mohiuddin, </b>Acting Convenor, Working Committee, Health Alliance Bangladesh </p>
-
-
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/informal-healthcare.jpg') }}" alt="Webinar Banner Image">
-										</div>
-										<hr>
-
-										<p><b>Keynote Speaker:</b></p> 
-										<p><b>Rubayat Khan, </b>Founder & CEO, Jeeon</p>
-
-										<p class="mb-1"><b>Full Webinar Video:</b></p>
-										<a href="https://www.facebook.com/watch/live/?v=747135769459709&ref=watch_permalink">https://www.facebook.com/watch/live/?v=747135769459709&ref=watch_permalink</a>
-
-										<p class="mb-3"></p>										
-
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/informal-healthcare.jpg') }}" target="_blank">Click here to see more</a></h5>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="webinar education-text mb-4">
-							<li><h4 class="show-webinar">MiB webinar on “Impacts of Coronavirus on Non-Member RMG Factories in Bangladesh”</h4></li>
-							<div class="webinar-details">
-								<div class="row">		
-									<div class="col-md-6">
-										<div class="education-text">
-
-											<p><b>DATE:  </b>August 12, 2020</p>
-											<p><b>TIME:  </b>3.00 pm (BD Time)</p>
-
-											<p><b>Discussants:</b></p> 
-												
-											<p><b>1. Md. Kamrul Hasan,</b> Deputy Inspector General, DIFE</p>
-											<p><b>2. Sharif Zahif,</b> Managing Director Ananta Group, Director BGMEA</p>
-											<p><b>3. Dr. Khondakar Golam Moazzem,</b> Research Director, Centre for Policy Dialogue (CPD)</p>
-											<p><b>4. Jenefa Jabbar,</b> Barrister-at-law, Advocate Supreme Court of Bangladesh, Director HRLS and Social Compliance, BRAC</p>
-											<p><b>5. Tania Taslima,</b> Managing Director 2Ts Creation</p>
-											<p><b>6. Tapan Shaha,</b> General Secretary Textile Garments Workers Federation</p>
-											<p><b>7. Mossamat Parvin,</b> RMG worker</p>
-
-											<p><b>Chair:</b></p>
-											<p><b>Prof. Dr. Rahim B. Talukdar,</b> Adviser, CED, Team Leader, Mapped in Bangladesh (MiB), CED-Brac University </p>
-
-											<p><b>Moderator:</b></p>
-											<p><b>Syed Hasibuddin Hussain,</b> Project Manager, Mapped in Bangladesh (MiB),  CED-Brac University</p>
-
-											
-
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="section-banner">
-											<img src="{{ asset('front/covid/assets/images/webinar/non-member-rmg.jpg') }}" alt="Webinar Banner Image">
-										</div>
-										<hr>
-
-										<p><b>Keynote Presenters:</b></p>
-										<p><b>Atonu Rabbani,</b> Phd, Associate Professor, Department of Economics, University of Dhaka, Associate Scientist, BRAC James P Grant School of Public Health</p>
-
-										<p><b>Webinar Video:</b>
-										<a class="mb-3" target="_blank" href="https://www.youtube.com/watch?v=-D8K-Bq2u40&feature=youtu.be">https://www.youtube.com/watch?v=-D8K-Bq2u40&feature=youtu.be</a></p>
-
-										<h5 class="mt-3"><a href="{{ asset('front/covid/assets/images/webinar/non-member-rmg.jpg') }}" target="_blank">Click here to see more</a></h5>
-
-										
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- 10th September -->
 
 					</ul>
 
@@ -944,7 +894,7 @@
 			<div class="row mt-4">
 				<div class="col-md-7">
 					<div class="research-center-part">
-						<h3>Current Ongoing Research (April - Present)</h3>
+						<h3>Current Ongoing Research (April 2020 - Present)</h3>
 
 
 						<div class="research-ongoing-part">
@@ -954,63 +904,76 @@
 
 						<!-- 22 October Added list start -->
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/BRAC’s Community-based Comprehensive.pdf') }}">A baseline survey of an evaluation study of BRAC’s Community-based Comprehensive COVID-19 Response Project</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Sex Workers in Bangladesh during covid.pdf') }}">The Impact of COVID-19 on the social, economic, and psychosocial wellbeing of Sex-Workers in Bangladesh</a></li>
 
-						<!-- 16th September Added list start -->
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Sex Workers in Bangladesh during covid.pdf') }}">The Impact of COVID-19 on the social, economic, and psychosocial wellbeing of Sex-Workers in Bangladesh</a></li>			
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/7. Evaluation and Implementation.pdf') }}">Evaluation and Implementation Research on BRAC Comprehensive COVID-19 Response</a></li>
+
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/1. Bridging Communities in Cox’s Bazar.pdf') }}">Bridging Communities in Cox’s Bazar: Mitigating Risks and Promoting Gender, Governance and Localization of Humanitarian Responses in COVID-19 Era</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/2. COVID-19 Response Process Documentation Research.pdf') }}">BRAC COVID-19 Response Process Documentation Research</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/BRAC-CDC.pdf') }}">Evaluation of BRAC-CDC Collaboration on Community Surveillance and Response in selected areas of Gazipur</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/10. Managing Impact of COVID-19 in Rohingya Refugee Camps.pdf') }}">Managing Impact of COVID-19 in Rohingya Refugee Camps and Host Communities with Culturally Appropriate Technological Solutions</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Skills-Demand-Analysis.pdf') }}">Skills Demand Analysis of Healthcare Services in Bangladesh, 2020</a></li>
 
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/3. Gender and COVID-19.pdf') }}">Gender and COVID-19</a></li>
 
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/4. Life in the Times.pdf') }}">Life in the Times of Coronavirus: A Gendered Perspective</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/5. COVID19 Knowledge, perceptions.pdf') }}">COVID-19: Knowledge, perceptions, and experience of lives and livelihood and mental health of Rohingya Refugees in Camps of Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/9. Effect and challenges of introducing.pdf') }}">Effect and challenges of introducing referral transportation system project on utilization of comprehensive SRHR health services during Covid-19 pandemic in Rohingya population: An implementation research on fidelity and coverage</a></li>
 
-						<li><a target="_blank" href="#">Pashe Achi Telecommunication model of BIED during COVID-19 Situation in Bangladesh: A process documentation study</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/6. Exploring the perception of caregivers.pdf') }}">Exploring the perception of caregivers’ engagement about Pashe Achi telecommunication model</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/7. Evaluation and Implementation.pdf') }}">Evaluation and Implementation Research on BRAC Comprehensive COVID-19 Response</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Perceptions-of.pdf') }}">Perceptions of Frontline Workers on Psychosocial Training</a></li>
 
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/8. A Process Documentation.pdf') }}">A Process Documentation of the National Approach to Preventing COVID-19 Infections in Bangladesh</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/9. Effect and challenges of introducing.pdf') }}">Effect and challenges of introducing referral transportation system project on utilization of comprehensive SRHR health services during Covid-19 pandemic in Rohingya population: An implementation research on fidelity and coverage</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/The Impact of COVID-19 .pdf') }}">The Impact of COVID-19 on the Psychosocial Wellbeing of the Sexually Marginalized Community in Bangladesh</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/10. Managing Impact of COVID-19 in Rohingya Refugee Camps.pdf') }}">Managing Impact of COVID-19 in Rohingya Refugee Camps and Host Communities with Culturally Appropriate Technological Solutions</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID 19 Shutdown.pdf') }}">COVID 19 shutdown: a new threat to the personal, social and economic wellbeing of Dalit community</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/6. Exploring the perception of caregivers.pdf') }}">Exploring the perception of caregivers’ engagement about Pashe Achi telecommunication model</a></li>
-						<!-- 16th September Added list end -->
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Exploring Opportuniti.pdf') }}">Exploring Opportunities to Improve Health Outcomes and Enable better Health Systems Delivery through Mobile Money: Impact of COVID-19</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Mitigatio.pdf') }}">COVID-19 mitigation Study among Migrant Workers in Singapore</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/What works to continue.pdf') }}">What works to continue maternal and neonatal healthcare services during COVID-19 pandemic by MANOSHI Programme in urban slums of Bangladesh?-a case study</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Telecounselling Interv.pdf') }}">Telecounselling Interventions during COVID-19 Situation in Bangladesh: A  Process Documentation</a></li>
+
+						<li><a target="_blank" href="#">Pashe Achi Telecommunication model of BIED during COVID-19 Situation in Bangladesh: A process documentation study</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/5. COVID19 Knowledge, perceptions.pdf') }}">COVID-19: Knowledge, perceptions, and experience of lives and livelihood and mental health of Rohingya Refugees in Camps of Bangladesh</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/2. COVID-19 Response Process Documentation Research.pdf') }}">BRAC COVID-19 Response Process Documentation Research</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Understanding kno.pdf') }}">Understanding knowledge and awareness on COVID-19 (Corona disease) and its impact on Livelihoods and life of Rohingya Refugee Camps in Cox’s Bazar, Bangladesh</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Mental and Emotional H.pdf') }}">Mental And Emotional Health and Well-Being of University Students</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Knowledge, Practices.pdf') }}">COVID 19: Knowledge, Practices and Impact in South-Asia (Bangladesh Component)</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/A Quick Assessm.pdf') }}">A Quick Assessment of Knowledge, Perceptions, Barriers and Enablers, and Experiences of the Frontline Health Workers (Flws) Vis-à-vis COVID-19 Epidemic Management in Bangladesh</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Adapting with the.pdf') }}">Adapting with the Context: ‘One BRAC’ Story in COVID-19 Response in Bangladesh</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Impact.pdf') }}">Covid-19 Impact on Urban Slums and Low Income Settlements: Education, Psychosocial Wellbeing and coping</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Impact in Bangladesh_22may2020.pdf') }}">COVID-19 Impact in Bangladesh: Transmission Dynamics, Health System, Preparedness and Financing by Districts</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Survey on Consumer.pdf') }}">Survey on consumer awareness of Nutrition, Food Safety and Hygiene</a></li>
+
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Media Surveillance.pdf') }}">Media Surveillance On Coronavirus</a></li>
 
 						<!-- <li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Advancing Inclusive.pdf') }}">Advancing inclusive and resilient urban development targeted at the urban poor in Bangladesh</a></li>
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/BRAC Health.pdf') }}">BRAC health, nutrition and population programme (HNPP): impact evaluation and social return on investment of selected programmes</a></li> -->
-
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Survey on Consumer.pdf') }}">Survey on consumer awareness of Nutrition, Food Safety and Hygiene</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Media Surveillance.pdf') }}">Media Surveillance On Coronavirus</a></li> 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/A Quick Assessm.pdf') }}">A Quick Assessment of Knowledge, Perceptions, Barriers and Enablers, and Experiences of the Frontline Health Workers (Flws) Vis-à-vis COVID-19 Epidemic Management in Bangladesh</a></li> 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Adapting with the.pdf') }}">Adapting with the Context: ‘One BRAC’ Story in COVID-19 Response in Bangladesh</a></li>
-
 						
+						<!-- <li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/A Process Docu.pdf') }}">A Process Documentation of the Radio Intervention during COVID-19 Situation in Bangladesh</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Impact.pdf') }}">Covid-19 Impact on Urban Slums and Low Income Settlements: Education, Psychosocial Wellbeing and coping</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Understanding kno.pdf') }}">Understanding knowledge and awareness on COVID-19 (Corona disease) and its impact on Livelihoods and life of Rohingya Refugee Camps in Cox’s Bazar, Bangladesh</a></li>
-						
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Mental and Emotional H.pdf') }}">Mental And Emotional Health and Well-Being of University Students</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Knowledge, Practices.pdf') }}">COVID 19: Knowledge, Practices and Impact in South-Asia (Bangladesh Component)</a></li>
-						
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Exploring Opportuniti.pdf') }}">Exploring Opportunities to Improve Health Outcomes and Enable better Health Systems Delivery through Mobile Money: Impact of COVID-19</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Mitigatio.pdf') }}">COVID-19 mitigation Study among Migrant Workers in Singapore</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/What works to continue.pdf') }}">What works to continue maternal and neonatal healthcare services during COVID-19 pandemic by MANOSHI Programme in urban slums of Bangladesh?-a case study</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/A Process Docu.pdf') }}">A Process Documentation of the Radio Intervention during COVID-19 Situation in Bangladesh</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Telecounselling Interv.pdf') }}">Telecounselling Interventions during COVID-19 Situation in Bangladesh: A  Process Documentation</a></li>
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Telecommunication model.pdf') }}">Telecommunication model towards Govt. Play Lab students:   A process documentation l during COVID-19 Situation in Bangladesh</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID-19 Impact in Bangladesh_22may2020.pdf') }}">COVID-19 Impact in Bangladesh: Transmission Dynamics, Health System, Preparedness and Financing by Districts</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/The Impact of COVID-19 .pdf') }}">The Impact of COVID-19 on the Psychosocial Wellbeing of the Sexually Marginalized Community in Bangladesh</a></li>
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/COVID 19 Shutdown.pdf') }}">COVID 19 shutdown: a new threat to the personal, social and economic wellbeing of Dalit community</a></li>
-
-						<li><a target="_blank" href="#">An integrated research on comprehensive response to COVID 19 in two rural subdistricts in Bangladesh led by BRAC</a></li>
+						
+						<li><a target="_blank" href="#">An integrated research on comprehensive response to COVID 19 in two rural subdistricts in Bangladesh led by BRAC</a></li> -->
 					</ul>
-
-								<h4><span class="black-color"></span> <a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/') }}"></a></h4>
-
 							</div>
 						</div>
 
@@ -1062,9 +1025,9 @@
 									<img src="{{ asset('front/covid/assets/images/research/director/Dr-Zahidul-Quayyum.jpg') }}" alt="Director Image">
 								</div>
 								<div class="director-info">
-									<p class="director-name">Led by <a target="_blank" href="#"><span>Professor Zahidul Quaiyyum</span></a> & <a target="_blank" href="{{ asset('front/covid/assets/images/research/director/CV_Tanvir-Hasan_September-24-2020.pdf') }}"><span>Associate Professor Tanvir Hassan</span></a></p>
-									<a target="_blank" href="#" class="cv-link">CV of Zahidul Quaiyyum</a> <br> <br>
-									<a target="_blank" href="{{ asset('front/covid/assets/images/research/director/CV_Tanvir-Hasan_September-24-2020.pdf') }}" class="cv-link">CV of Tanvir Hassan</a>
+									<p class="director-name">Led by <a target="_blank" href="{{ asset('front/covid/assets/files/cv/CV_Z.Quayyum_Nov20.pdf') }}"><span>Professor Zahidul Quaiyyum</span></a> & <a target="_blank" href="{{ asset('front/covid/assets/files/cv/CV_Tanvir-Hasan_September-24-2020.pdf') }}"><span>Associate Professor Tanvir Hassan</span></a></p>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/CV_Z.Quayyum_Nov20.pdf') }}" class="cv-link">CV of Zahidul Quaiyyum</a> <br> <br>
+									<a target="_blank" href="{{ asset('front/covid/assets/files/cv/CV_Tanvir-Hasan_September-24-2020.pdf') }}" class="cv-link">CV of Tanvir Hassan</a>
 								</div>
 							</div>
 						</div>
@@ -1242,22 +1205,6 @@
 			</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-heading">
@@ -1398,7 +1345,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
-						<h3 class="float-left">76 NEWS ARTICLES AND 21 NEW BLOGS HAVE BEEN POSTED SINCE APRIL</h3>
+						<h3 class="float-left">89 NEWS ARTICLES AND 21 NEW BLOGS HAVE BEEN POSTED SINCE APRIL</h3>
 						<a target="_blank" href="{{ route('advocacyPage') }}#exter" class="float-right">View All</a>
 					</div>
 				</div>

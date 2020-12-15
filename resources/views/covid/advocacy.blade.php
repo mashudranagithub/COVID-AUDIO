@@ -162,15 +162,15 @@
 					</li>
 
 
+<!-- this is for navigate directly here from home page -->
+<div id="exter"></div>
+
+
 					<li> <div class="single-blog">
 						<h5><a target="_blank" href="https://medium.com/@jpgsph.comms/%E0%A6%B2%E0%A6%95%E0%A6%A1%E0%A6%BE%E0%A6%89%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%AC%E0%A6%A4%E0%A6%BE-%E0%A6%B6%E0%A6%BF%E0%A6%A5%E0%A6%BF%E0%A6%B2%E0%A6%A4%E0%A6%BE-%E0%A6%93-%E0%A6%95%E0%A6%B0%E0%A6%A3%E0%A7%80%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A4-980c57bbbb48">লকডাউন, বাস্তবতা, শিথিলতা ও করণীয়: বাংলাদেশ প্রেক্ষিত</a></h5>
 						<p class="written-by">By আব্দুল জব্বার তপু</p>
 					</div> </li>
 					</li>
-
-
-<!-- this is for navigate directly here from home page -->
-<div id="exter"></div>
 
 
 					<li>
@@ -192,6 +192,100 @@
 				</div>
 				<div class="col-md-12">
 					<ul>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.deshrupantor.com/capital/2020/12/01/261857">তরুণদের যৌন ও প্রজনন স্বাস্থ্য অধিকার নিয়ে ওয়েবিনার</a></h5>
+								<p>Published: 1 December 2020 in Desh Rupantor</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.observerbd.com/news.php?id=287397">Thrust on sex edn for boys in school textbook</a></h5>
+								<p>Published: 2 December 2020 in The Daily Observer</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://bangla.dhakatribune.com/opinion/2020/10/05/28114/%E0%A6%AF%E0%A6%96%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%A4%E0%A6%96%E0%A6%A8-%E0%A6%97%E0%A7%83%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%BE%E0%A6%B0?-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0-%E0%A6%93-%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE/">যখন কর্মক্ষেত্রে নারী তখন গৃহস্থালীর কাজ কার? বাংলাদেশের কিশোর ও তরুণদের ভাবনা</a></h5>
+								<p>Published: 5 October 2020 in Dhaka Tribune</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.thedailystar.net/city/news/62pc-males-believe-women-deserve-be-beaten-times-1986629">62pc males believe women ‘deserve to be beaten at times’</a></h5>
+								<p>Published: 30 October 2020 in The Daily Star</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.thedailystar.net/country/news/63-men-agree-beating-their-wives-justified-if-denied-sex-study-1986329">63% men agree beating their wives is justified if denied sex: Study</a></h5>
+								<p>Published: 29 October 2020 in The Daily Star</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.thedailystar.net/book-reviews/news/how-build-world-persons-disability-1993445">How To Build A World For Persons With Disability</a></h5>
+								<p>Authors: Selima Sara Kabir and Adeepto Intisar Ahmed <br>
+								Published: 12 November 2020 in The Daily Star</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://epaper.observerbd.com/2020/11/25/index.php?fbclid=IwAR1cBtqUoWR3cg0do4vcc_4tnoxpqZDXVyfi-J_u9vldRgnqJnMdHVk-zUg">SDGs cannot be achieved without bringing disable persons</a></h5>
+								<p>Published: 25 November 2020 in The Daily Observer</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://newsflash24bd.com/en/country/item/16642-leave-no-one-behind-bangladesh-gives-equal-rights-and-dignity-to-each-and-every-citize.html">“Leave no one behind” Bangladesh gives equal rights and dignity to each and every citizen'</a></h5>
+								<p>Published: 24 November 2020 in News Flash</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.prothomalo.com/bangladesh/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%80-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%9A%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%82%E0%A6%B6-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%95-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0">প্রতিবন্ধী নারীদের তিন-চতুর্থাংশ মানসিক নির্যাতনের শিকার</a></h5>
+								<p>Published: 23 November 2020 in Prothom Alo</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://newsflash24bd.com/bn/desh/national/item/16653-2020-11-24-05-24-41.html">বাংলাদেশে প্রতিবন্ধীদের যৌন স্বাস্থ্য ও প্রজনন অধিকার বিষয়ক ব্র্যাক বিশ্ববিদ্যালয়ের কর্মশালা</a></h5>
+								<p>Author: Siddiqur Rahman <br>
+								Published: 24 November 2020 in News Flash</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://en.samakal.com/bangladesh/article/2011405/workshop-on-promoting-srhr-of-persons-with-disabilities-held">Workshop on promoting SRHR of persons with disabilities held</a></h5>
+								<p>Published: 23 November 2020 in Samakal</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.thefinancialexpress.com.bd/views/opinions/brac-university-sets-an-example-of-successful-online-education-for-midwifery-students-1606584572">BRAC University sets an example of successful online education for midwifery students</a></h5>
+								<p>Authors: Dr. Selina Amin and Dr Sharmina Rahman <br>
+								Published: 28 November 2020 in The Financial Express</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.thedailystar.net/city/news/caught-uncertainty-1892332">Caught up in uncertainty</a></h5>
+								<p>Published: 13 April 2020 in The Daily Star</p>
+							</div>
+						</li>
 					    
 						<li>
 							<div class="single-blog">
