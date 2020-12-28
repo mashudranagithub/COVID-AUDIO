@@ -927,7 +927,7 @@
 
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Perceptions-of.pdf') }}">Perceptions of Frontline Workers on Psychosocial Training</a></li>
 
-						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/8. A Process Documentation.pdf') }}">A Process Documentation of the National Approach to Preventing COVID-19 Infections in Bangladesh</a></li>
+						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/ongoing/Pashe-Achi.pdf') }}">A Process Documentation of the National Approach to Preventing COVID-19 Infections in Bangladesh</a></li>
 
 						<li><a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/The Impact of COVID-19 .pdf') }}">The Impact of COVID-19 on the Psychosocial Wellbeing of the Sexually Marginalized Community in Bangladesh</a></li>
 
@@ -1095,7 +1095,7 @@
 
 									<li>
 										<h4>
-											<a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/Disabilities .pdf') }}">Livelihood, food security and well-being of persons with disabilities in Bangladesh during the COVID-19 Pandemic.</a>
+											<a target="_blank" href="{{ asset('front/covid/assets/files/research/pdf/V2_Final_COVID Research Brief-Revised Version_15.12 (2).pdf') }}">Livelihood, food security and well-being of persons with disabilities in Bangladesh during the COVID-19 Pandemic.</a>
 										</h4>
 									</li>
 
