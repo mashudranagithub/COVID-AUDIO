@@ -1345,7 +1345,7 @@
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
-						<h3 class="float-left">89 NEWS ARTICLES AND 21 NEW BLOGS HAVE BEEN POSTED SINCE APRIL</h3>
+						<h3 class="float-left">95 NEWS ARTICLES AND 21 NEW BLOGS HAVE BEEN POSTED SINCE APRIL</h3>
 						<a target="_blank" href="{{ route('advocacyPage') }}#exter" class="float-right">View All</a>
 					</div>
 				</div>

@@ -195,6 +195,54 @@
 					    
 						<li>
 							<div class="single-blog">
+								<h5><a target="_blank" href="https://bonikbarta.net/megazine_details/3252">তুমি রবে সরবে!</a></h5>
+								<p>Author: Dr Mushtaque Chowdhury</p>
+								<p>Published: 20 december 2020 in Bonik Barta</p>
+							</div>
+						</li>
+					     
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://epaper.prothomalo.com//printtextviews.php?id=65591&boxid=815787208&type=img">জনস্বাস্থ্য উন্নয়েনের ধারা বদলে দিয়েছিলেন যিনি</a></h5>
+								<p>Author: Dr Mushtaque Chowdhury</p>
+								<p>Published: 20 December 2020 in Prothom Alo</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.thedailystar.net/opinion/news/remembrance-sir-fazle-hasan-abed-2014081">In remembrance of Sir Fazle Hasan Abed</a></h5>
+								<p>Author: Dr Mushtaque Chowdhury</p>
+								<p>Published: 20 december 2020 in The Daily Star</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.dhakatribune.com/opinion/op-ed/2020/12/20/op-ed-sir-abed-an-inspirational-and-determined-visionary-2">Sir Abed: An inspirational and determined visionary</a></h5>
+								<p>Author: Sabina Faiz Rashid</p>
+								<p>Published: 20 december 2020 in Dhaka Tribune</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="https://www.dhakatribune.com/opinion/op-ed/2020/12/20/op-ed-memories-with-abed-bhai">Memories with Abed Bhai</a></h5>
+								<p>Author: Malabika Sarker</p>
+								<p>Published: 20 december 2020 in Dhaka Tribune</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="single-blog">
+								<h5><a target="_blank" href="http://blog.brac.net/a-study-on-accessible-healthcare-in-bangladesh-challenges-to-overcome/">A study on accessible healthcare in Bangladesh: Challenges to overcome</a></h5>
+								<p>Authors: Adrita Kaiser and Nigar Sultana Zoha</p>
+								<p>Published: 11 December 2020 in BRAC Blog</p>
+							</div>
+						</li>
+					    
+						<li>
+							<div class="single-blog">
 								<h5><a target="_blank" href="https://www.deshrupantor.com/capital/2020/12/01/261857">তরুণদের যৌন ও প্রজনন স্বাস্থ্য অধিকার নিয়ে ওয়েবিনার</a></h5>
 								<p>Published: 1 December 2020 in Desh Rupantor</p>
 							</div>
