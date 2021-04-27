@@ -685,7 +685,7 @@
 				<div class="col-md-12 text-center">
 					<div class="section-heading">
 						<h2>Research</h2>
-						<h5 class="mt-3"><a href="{{ asset('front/covid/assets/files/research/Organisation Capacity Statement.pdf') }}" target="_blank">Click for Organisational statement</a></h5>
+						<h5 class="mt-3"><a href="{{ asset('front/covid/assets/files/research/Organisation_Capacity_Dec2020.pdf') }}" target="_blank">Click for Organisational statement</a></h5>
 					</div>
 				</div>
 			</div>			

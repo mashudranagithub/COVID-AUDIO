@@ -46,21 +46,15 @@ Route::group(['middleware' => ['auth']], function() {
 	Route::put('/question/update/{id}', 'QuestionController@update')->name('questionUpdate');
 	Route::delete('/question/delete/{id}', 'QuestionController@destroy')->name('questionDelete');
 
-
 	Route::get('/voice/users', 'VuserController@index')->name('vUsers');
 	Route::get('/vuser/{id}', 'VuserController@show')->name('vuserShow');
 	Route::delete('/vuser/delete/{id}', 'VuserController@destroy')->name('vuserDelete');
-
-
 
 	Route::get('/allvoices', 'VoiceController@index')->name('allVoices');
 	Route::get('/lockdown/voices', 'VoiceController@lockdown_voices')->name('lockdownVoices');
 	Route::get('/pandemic/voices', 'VoiceController@pandemic_voices')->name('pandemicVoices');
 
-
-
 	Route::get('/question-wise-answers', 'VoiceController@questions_answers')->name('questionsAnswers');
 
 	
-
 });
